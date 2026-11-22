@@ -37,3 +37,7 @@ def test_no_fracciona_por_frases_hechas():
     al = analizar([c("El contrato tiene por objeto la ejecución de la obra de urbanización de la C/Las Eras.", "U SL", 28900, "2022-12-14"),
                    c("El contrato tiene por objeto la ejecución de la obra de derribo parcial del edificio Gaseosas", "U SL", 13500, "2022-12-29")])
     assert "FRACCIONAMIENTO" not in tipos(al)
+
+
+def test_subtipo_obras():
+    assert analizar([c("Sustitución baños colegio", "Z SL", 21351.84, "2020-06-11", tipo="32")]) == []

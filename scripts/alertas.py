@@ -22,7 +22,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LIMITE = {"obras": 40000.0, "otros": 15000.0}
 VENTANA_DIAS = 90
-TIPO_OBRAS = {"3"}  # TypeCode CODICE: 1 suministros, 2 servicios, 3 obras
 VACIAS = set("""de del la las el los en y a para con por al un una sito sita c calle n o
 contrato tiene objeto ejecucion obra obras servicio servicios suministro suministros prestacion
 venta banos palencia municipio municipal ayuntamiento definida memoria tecnica elaborada""".split())
@@ -57,7 +56,7 @@ def fecha(c):
 
 
 def limite(c):
-    return LIMITE["obras"] if c.get("tipo") in TIPO_OBRAS else LIMITE["otros"]
+    return LIMITE["obras"] if str(c.get("tipo") or "").startswith("3") else LIMITE["otros"]  # 3, 31, 32...: obras
 
 
 def alerta(tipo, titulo, detalle, contratos, gravedad):
