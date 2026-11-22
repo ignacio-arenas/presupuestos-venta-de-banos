@@ -4,10 +4,13 @@ Convierte los PDFs de presupuestos que publica el [Ayuntamiento de Venta de Bañ
 
 ## Cómo funciona
 
-1. **`scripts/download.py`** descarga los PDFs listados en `sources.json` a `data/raw/<año>/`.
-2. **`scripts/parse.py`** extrae las partidas con `pdfplumber` y comprueba que cuadran con los totales que imprime el propio PDF (por capítulo y por grupo de programa). Si algo no cuadra, lo anota en `avisos` y la web lo enseña.
-3. **`site/index.html`** es una página estática (Chart.js) que lee `site/data/presupuestos.json`.
-4. **GitHub Actions** (`.github/workflows/publicar.yml`) hace todo lo anterior en cada push, el día 1 de cada mes y a mano, y lo publica en GitHub Pages.
+**Fuente principal: [CONPREL](https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL) (Ministerio de Hacienda)**, con presupuestos y liquidaciones de todos los municipios desde 2002.
+
+1. **`scripts/conprel.py`** descarga la base de datos Access nacional de cada año y guarda solo las filas de Venta de Baños en `data/conprel/` (workflow *Datos de Hacienda*, el día 2 de cada mes).
+2. **`scripts/hacienda.py`** lo resume en `site/data/hacienda.json`: presupuesto inicial, definitivo y gasto real por capítulo, área, programa y partida.
+3. **`site/index.html`** es la web estática (Chart.js).
+
+**Control de calidad:** `scripts/download.py` + `scripts/parse.py` leen los PDFs del Ayuntamiento y `hacienda.py` compara sus totales con los de Hacienda (ver el log de *Descargar, procesar y publicar*).
 
 ## Puesta en marcha
 
@@ -27,7 +30,8 @@ Añade sus URLs en `sources.json`. Ojo: el formato de los PDFs de 2022 (BOP) es 
 
 ## Estado
 
-- [x] 2025: gastos (clasificación por programas y económica) e ingresos
-- [ ] Validar el parser contra los PDFs reales (revisar los avisos en el log de Actions)
-- [ ] 2022 y años anteriores
-- [ ] Comparativa entre años
+- [x] Presupuestos 2015–2026 y liquidaciones 2015–2025 (Hacienda)
+- [x] Presupuestado vs. gastado por capítulo, área, programa y partida
+- [x] Control cruzado con el PDF de 2025 (cuadra al céntimo)
+- [ ] Deuda viva y remanente de tesorería
+- [ ] Comparación con municipios similares
