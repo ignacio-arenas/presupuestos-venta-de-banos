@@ -1,0 +1,49 @@
+name: Contratos (Plataforma de Contratación)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 4 3 * *" # día 3 de cada mes
+
+permissions:
+  contents: write
+
+jobs:
+  extraer:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        anio: [2022, 2023]
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests lxml pdfplumber
+      - run: python scripts/contratos.py ${{ matrix.anio }}
+      - name: Anexo de inversiones 2022 (texto para revisar)
+        if: matrix.anio == 2022
+        run: |
+          mkdir -p data/inversiones
+          python tools/anexo_inversiones.py "https://ventadebanos.es/wp-content/uploads/2022/04/4-ANEXO-DE-INVERSIONES-PRESPUESTO-2022.pdf" data/inversiones/anexo_2022.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: contratos-${{ matrix.anio }}
+          path: data/
+          if-no-files-found: ignore
+
+  guardar:
+    needs: extraer
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: data
+          pattern: contratos-*
+          merge-multiple: true
+      - name: Commit de los datos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/contratos data/inversiones 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Actualiza contratos e inversiones" && git pull --rebase origin main && git push origin HEAD:main)
