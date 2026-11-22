@@ -22,10 +22,15 @@ jobs:
       - run: sudo apt-get install -y -qq mdbtools > /dev/null
       - run: pip install requests
       - run: python scripts/conprel.py ${{ matrix.tipo }} ${{ matrix.anio }}
+      - name: Separar el fichero de este año
+        run: |
+          mkdir -p _salida
+          f="data/conprel/$(echo '${{ matrix.tipo }}' | tr A-Z a-z)_${{ matrix.anio }}.json"
+          [ -f "$f" ] && git status --porcelain "$f" | grep -q . && cp "$f" _salida/ || true
       - uses: actions/upload-artifact@v4
         with:
           name: conprel-${{ matrix.tipo }}-${{ matrix.anio }}
-          path: data/conprel/
+          path: _salida/
           if-no-files-found: ignore
 
   guardar:

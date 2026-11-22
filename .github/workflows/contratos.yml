@@ -24,12 +24,15 @@ jobs:
         run: |
           mkdir -p data/inversiones
           python tools/anexo_inversiones.py "https://ventadebanos.es/wp-content/uploads/2022/04/4-ANEXO-DE-INVERSIONES-PRESPUESTO-2022.pdf" data/inversiones/anexo_2022.txt
+      - name: Separar los ficheros de este año
+        run: |
+          mkdir -p _salida/contratos _salida/inversiones
+          cp data/contratos/${{ matrix.anio }}.json _salida/contratos/ 2>/dev/null || true
+          cp data/inversiones/anexo_${{ matrix.anio }}.txt _salida/inversiones/ 2>/dev/null || true
       - uses: actions/upload-artifact@v4
         with:
           name: contratos-${{ matrix.anio }}
-          path: |
-            data/contratos/
-            data/inversiones/
+          path: _salida/
           if-no-files-found: ignore
 
   guardar:
