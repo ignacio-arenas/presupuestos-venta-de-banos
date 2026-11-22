@@ -14,6 +14,7 @@ import subprocess
 import sys
 import tempfile
 import zipfile
+from collections import defaultdict
 from pathlib import Path
 
 import requests
@@ -26,6 +27,65 @@ CODBDGEL = "34023AA000"  # Venta de Baños (INE 34023)
 def tabla(mdb: Path, nombre: str) -> list[dict]:
     out = subprocess.run(["mdb-export", str(mdb), nombre], capture_output=True, text=True, check=True).stdout
     return [{k.strip(): (v.strip() if isinstance(v, str) else v) for k, v in row.items()} for row in csv.DictReader(io.StringIO(out))]
+
+CYL = {"05", "09", "24", "34", "37", "40", "42", "47", "49"}  # provincias de Castilla y León
+RANGO = (5000, 10000)            # municipios "parecidos" por población
+RANGO_PROVINCIA = (2000, 20000)  # municipios de la provincia que se listan uno a uno
+
+
+def indicadores(datos: dict, tipo: str) -> dict[str, dict]:
+    """Indicadores por ayuntamiento (importes absolutos) a partir de las tablas nacionales."""
+    campo = "importe" if tipo == "Presupuestos" else "importer"
+    ind: dict[str, dict] = defaultdict(lambda: defaultdict(float))
+    for r in datos.get("tb_economica", []):
+        c = r["cdcta"]
+        if len(c) == 1:
+            pre = "g" if r["tipreig"] == "G" else "i"
+            ind[r["id"]][f"{pre}{c}"] += float(r[campo] or 0)
+            ind[r["id"]][f"{pre}_total"] += float(r[campo] or 0)
+    for r in datos.get("tb_funcional", []):
+        if len(r["cdfgr"]) == 1:
+            ind[r["id"]][f"a{r['cdfgr']}"] += float(r["importe"] or 0)
+    rem = defaultdict(dict)
+    for r in datos.get("tb_remanente", []):
+        rem[r["id"]][r["cdrmte"]] = float(r["importe"] or 0)
+    for i, v in rem.items():
+        ind[i]["remanente"] = v.get("1", v.get("0", 0.0))
+    return ind
+
+
+def mediana(xs: list[float]) -> float | None:
+    xs = sorted(xs)
+    if not xs:
+        return None
+    m = len(xs) // 2
+    return xs[m] if len(xs) % 2 else (xs[m - 1] + xs[m]) / 2
+
+
+def comparativa(datos: dict, tipo: str, codbdgel: str) -> dict:
+    ind = indicadores(datos, tipo)
+    aytos = [e for e in datos["tb_inventario"]
+             if e.get("codbdgel", "")[5:7] == "AA" and int(e.get("poblacion") or 0) > 0 and ind.get(e["id"], {}).get("g_total")]
+    per = lambda e: {k: round(v / int(e["poblacion"]), 2) for k, v in ind[e["id"]].items()}  # noqa: E731
+    prov = codbdgel[:2]
+
+    def grupo(filtro):
+        sel = [per(e) for e in aytos if RANGO[0] <= int(e["poblacion"]) <= RANGO[1] and filtro(e)]
+        claves = {k for x in sel for k in x}
+        return {"n": len(sel), "mediana": {k: round(mediana([x[k] for x in sel if k in x]), 2) for k in sorted(claves)}}
+
+    return {
+        "unidad": "euros por habitante",
+        "rango": RANGO,
+        "grupos": {
+            "espana": grupo(lambda e: True),
+            "cyl": grupo(lambda e: e["codbdgel"][:2] in CYL),
+        },
+        "provincia": sorted(
+            ({"codigo": e["codbdgel"], "nombre": e["nombreente"].strip(), "poblacion": int(e["poblacion"]), **per(e)}
+             for e in aytos if e["codbdgel"][:2] == prov and (RANGO_PROVINCIA[0] <= int(e["poblacion"]) <= RANGO_PROVINCIA[1] or e["codbdgel"] == codbdgel)),
+            key=lambda x: -x["poblacion"]),
+    }
 
 
 def main(tipo: str, anio: str, codbdgel: str = CODBDGEL) -> int:
@@ -54,8 +114,10 @@ def main(tipo: str, anio: str, codbdgel: str = CODBDGEL) -> int:
         ident = ente["id"]
 
         salida = {"fuente": f"CONPREL {tipo} {anio}", "fichero": nombre, "ente": ente, "tablas": {}, "codigos": {}}
+        datos = {t.lower(): tabla(mdb, t) for t in tablas}
+        salida["comparativa"] = comparativa(datos, tipo, codbdgel)
         for t in tablas:
-            filas = tabla(mdb, t)
+            filas = datos[t.lower()]
             if not filas:
                 continue
             if "id" in filas[0]:
@@ -67,7 +129,9 @@ def main(tipo: str, anio: str, codbdgel: str = CODBDGEL) -> int:
             elif len(filas) < 5000:  # tablas de códigos y nombres
                 salida["codigos"][t] = filas
         n = {t: len(v) for t, v in salida["tablas"].items()}
-        print(f"[+] {tipo} {anio}: id {ident}, {n}")
+        c = salida["comparativa"]
+        print(f"[+] {tipo} {anio}: id {ident}, {n}; comparativa: {len(c['provincia'])} municipios de la provincia, "
+              f"{c['grupos']['espana']['n']} en España y {c['grupos']['cyl']['n']} en CyL de {c['rango'][0]}-{c['rango'][1]} hab.")
 
     destino = ROOT / "data" / "conprel"
     destino.mkdir(parents=True, exist_ok=True)
