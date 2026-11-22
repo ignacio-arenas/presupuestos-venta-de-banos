@@ -1,4 +1,4 @@
-"""Exploración: imprime la estructura de la web de CONPREL para localizar las descargas."""
+"""Exploración: localiza el código JS que construye las URLs de descarga de CONPREL."""
 import re
 import requests
 from urllib.parse import urljoin
@@ -6,23 +6,23 @@ from urllib.parse import urljoin
 BASE = "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL"
 s = requests.Session()
 s.headers["User-Agent"] = "Mozilla/5.0 (presupuestos-venta-de-banos)"
+r = s.get(BASE, timeout=60)
+html = r.text
 
-def dump(url):
-    r = s.get(url, timeout=60)
-    print(f"\n===== {r.status_code} {r.url} ({len(r.text)} chars)")
-    for m in re.finditer(r'<(a|form|iframe|input|select|option|button)\b[^>]*>', r.text, re.I):
-        tag = m.group(0)
-        if re.search(r'href|action|src|name|value|onclick', tag, re.I):
-            print(tag[:300])
-    for m in re.finditer(r'(?:url)\s*[:=]\s*["\']([^"\']+)', r.text, re.I):
-        print("URL:", urljoin(r.url, m.group(1)))
-    return r
+# Scripts en línea
+for m in re.finditer(r"<script\b[^>]*>(.*?)</script>", html, re.S | re.I):
+    body = m.group(1)
+    if re.search(r"Descargar|Fichero|Access|ajax|location|window\.open|\.zip", body, re.I):
+        print("===== INLINE SCRIPT\n", body[:6000])
 
-r = dump(BASE)
-links = set(urljoin(r.url, h) for h in re.findall(r'href=["\']([^"\'#]+)', r.text))
-for l in sorted(links):
-    if "CONPREL" in l and l != r.url and not l.endswith((".png", ".css", ".js", ".ico")):
-        try:
-            dump(l)
-        except Exception as e:
-            print("ERR", l, e)
+# Scripts externos propios
+for src in re.findall(r'<script[^>]+src=["\']([^"\']+)', html, re.I):
+    url = urljoin(r.url, src)
+    if "hacienda" not in url:
+        continue
+    js = s.get(url, timeout=60).text
+    for fn in re.finditer(r"function\s+(Descargar\w*|Seleccionar\w*)\s*\([^)]*\)\s*\{", js):
+        start = fn.start()
+        print(f"===== {url} :: {fn.group(1)}\n", js[start:start + 2500])
+    for u in set(re.findall(r"['\"]([^'\"]*(?:Descarg|Fichero|\.zip|\.mdb)[^'\"]*)['\"]", js)):
+        print("STR:", u)
