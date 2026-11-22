@@ -112,7 +112,7 @@ def analizar(contratos: list[dict]) -> list[dict]:
     for emp, cs in unicos.items():
         suma = sum(c["importe_adjudicado_sin_iva"] for c in cs)
         if len(cs) >= 3 and total_menores and suma / total_menores >= 0.15:
-            out.append(alerta("CONCENTRACION", f"{cs[0]['adjudicatario']}: {len(cs)} contratos menores, {suma / total_menores:.0%} del total".replace(".", ","),
+            out.append(alerta("CONCENTRACION", f"{cs[0]['adjudicatario'].strip(' ,')}: {len(cs)} contratos menores, {round(suma / total_menores * 100)} % del total",
                               f"Suma {suma:,.0f} € de {total_menores:,.0f} € adjudicados por contrato menor en el año.".replace(",", "."), cs, "media"))
 
     for c in contratos:

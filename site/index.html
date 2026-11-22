@@ -49,6 +49,14 @@ td code{color:var(--muted);font-size:12px}
 table.comp tr.vdb td{font-weight:700;background:color-mix(in srgb,var(--ingreso) 12%,transparent)}
 table.comp td:first-child{white-space:nowrap}
 table.comp tr.med td{color:var(--muted);font-style:italic}
+.alerta{border:1px solid var(--line);border-left:4px solid var(--plan);border-radius:10px;padding:12px 14px;margin-top:10px}
+.alerta.alta{border-left-color:var(--gasto)}
+.alerta.media{border-left-color:#d49a2a}
+.alerta h3{font-size:15px;margin:0 0 4px}
+.alerta p{margin:0 0 8px;color:var(--muted);font-size:14px}
+.etq{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-right:6px;background:var(--line);color:var(--ink);vertical-align:2px}
+.alerta table{font-size:13px}
+.alerta td:first-child{white-space:nowrap}
 footer{color:var(--muted);font-size:13px;margin-top:24px}
 a{color:var(--ingreso)}
 </style>
@@ -68,6 +76,13 @@ a{color:var(--ingreso)}
   <div class="kpi"><span>Gasto por habitante</span><b id="k-hab">–</b><small id="k-hab-sub"></small></div>
 </section>
 <p class="resumen" id="resumen"></p>
+
+<h2 class="seccion">Contratación: puntos a revisar</h2>
+<p class="intro">Revisamos automáticamente los contratos que el Ayuntamiento publica en la <a href="https://contrataciondelestado.es">Plataforma de Contratación del Sector Público</a> buscando patrones que conviene comprobar: contratos menores que juntos superan el límite legal, registros duplicados, importes al borde del límite, empresas que concentran muchos contratos o licitaciones con una sola oferta. <b>Son indicios, no pruebas de irregularidad</b>: cada caso enlaza al expediente original para comprobarlo.</p>
+<section class="card">
+  <div class="filtros"><select id="alertas-anio" aria-label="Año"></select><span class="nota" id="alertas-resumen" style="margin:auto 0"></span></div>
+  <div id="alertas-lista"></div>
+</section>
 
 <section class="grid">
   <div class="card"><h2>Gastos por área</h2><div class="chart"><canvas id="c-areas"></canvas></div></div>
@@ -291,6 +306,25 @@ function comparar() {
     fila({nombre: `Mediana CyL (${C.n})`, ...C.mediana}, "med") + fila({nombre: `Mediana España (${E.n})`, ...E.mediana}, "med");
 }
 
+const TIPOS_ALERTA = {FRACCIONAMIENTO: "Posible fraccionamiento", DUPLICADO: "Posible duplicado", SOBRE_LIMITE: "Supera el límite", UMBRAL: "Al borde del límite", CONCENTRACION: "Concentración", OFERTA_UNICA: "Una sola oferta"};
+let ALERTAS = null;
+const esc = t => String(t ?? "").replace(/[&<>"]/g, ch => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[ch]));
+
+function alertas() {
+  if (!ALERTAS) return;
+  const sel = document.getElementById("alertas-anio").value;
+  const anios = ALERTAS.anios.filter(a => sel === "todos" || a.anio == sel);
+  const lista = anios.flatMap(a => a.alertas.map(x => ({...x, anio: a.anio})));
+  const nC = anios.reduce((t, a) => t + a.n_contratos, 0);
+  document.getElementById("alertas-resumen").textContent = `${nC} contratos revisados · ${lista.length} puntos a revisar`;
+  document.getElementById("alertas-lista").innerHTML = lista.length ? lista.map(a => `
+    <div class="alerta ${a.gravedad}">
+      <h3><span class="etq">${TIPOS_ALERTA[a.tipo] || a.tipo}</span>${esc(a.titulo)} <span class="nota">(${a.anio})</span></h3>
+      <p>${esc(a.detalle)}</p>
+      <div class="tabla"><table><tbody>${a.contratos.map(c => `<tr><td>${esc(c.fecha_adjudicacion || "")}</td><td>${esc((c.titulo || "").slice(0, 140))}</td><td>${esc(c.adjudicatario || "")}</td><td class="n">${eur(c.importe_adjudicado_sin_iva)}</td><td>${c.enlace ? `<a href="${esc(c.enlace)}" target="_blank" rel="noopener">Expediente ${esc(c.expediente || "")}</a>` : ""}</td></tr>`).join("")}</tbody></table></div>
+    </div>`).join("") : `<p class="nota">No se han detectado patrones a revisar en este periodo.</p>`;
+}
+
 function remanente() {
   const liqs = HAC.anios.filter(a => a.remanente);
   if (!liqs.length) return;
@@ -331,6 +365,14 @@ function remanente() {
     + `Cálculo propio: el remanente ajustado equivale a unos ${meses.toLocaleString("es-ES", {maximumFractionDigits: 1})} meses del gasto real de ese año.`;
 }
 
+fetch("data/alertas.json").then(r => r.ok ? r.json() : null).catch(() => null).then(d => {
+  if (!d || !d.anios.length) return;
+  ALERTAS = d;
+  const sel = document.getElementById("alertas-anio");
+  sel.innerHTML = `<option value="todos">Todos los años</option>` + d.anios.map(a => `<option>${a.anio}</option>`).reverse().join("");
+  sel.onchange = alertas;
+  alertas();
+});
 fetch("data/hacienda.json").then(r => r.json()).then(d => {
   HAC = d;
   anio.innerHTML = d.anios.map(a => `<option>${a.anio}</option>`).reverse().join("");
