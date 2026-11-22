@@ -1,0 +1,49 @@
+name: Datos de Hacienda (CONPREL)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [conprel]
+  schedule:
+    - cron: "41 5 2 * *" # día 2 de cada mes
+
+permissions:
+  contents: write
+
+jobs:
+  extraer:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        anio: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+        tipo: [Presupuestos, Liquidaciones]
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get install -y -qq mdbtools > /dev/null
+      - run: pip install requests
+      - run: python scripts/conprel.py ${{ matrix.tipo }} ${{ matrix.anio }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: conprel-${{ matrix.tipo }}-${{ matrix.anio }}
+          path: data/conprel/
+          if-no-files-found: ignore
+
+  guardar:
+    needs: extraer
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: data/conprel
+          pattern: conprel-*
+          merge-multiple: true
+      - name: Commit de los datos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/conprel
+          git diff --cached --quiet || git commit -m "Actualiza datos CONPREL" && git push
