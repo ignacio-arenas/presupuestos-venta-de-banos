@@ -77,6 +77,10 @@ def contrato(entry, tipo_feed):
         "importe_adjudicado_sin_iva": importe(res, "AwardedTenderedProject", "LegalMonetaryTotal", "TaxExclusiveAmount") if res is not None else None,
         "importe_adjudicado_con_iva": importe(res, "AwardedTenderedProject", "LegalMonetaryTotal", "PayableAmount") if res is not None else None,
         "fecha_adjudicacion": texto(res, "AwardDate") if res is not None else None,
+        "ofertas_recibidas": importe(res, "ReceivedTenderQuantity") if res is not None else None,
+        "urgencia": texto(cfs, "TenderingProcess", "UrgencyCode"),
+        "fin_plazo_ofertas": texto(cfs, "TenderingProcess", "TenderSubmissionDeadlinePeriod", "EndDate"),
+        "fondos_ue": texto(cfs, "TenderingTerms", "FundingProgramCode") or texto(cfs, "FundingProgramCode"),
         "organo": texto(cfs, "LocatedContractingParty", "Party", "PartyName", "Name"),
         "enlace": link,
     }
