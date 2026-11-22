@@ -2,8 +2,6 @@ name: Datos de Hacienda (CONPREL)
 
 on:
   workflow_dispatch:
-  push:
-    branches: [conprel]
   schedule:
     - cron: "41 5 2 * *" # día 2 de cada mes
 

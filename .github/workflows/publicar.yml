@@ -3,6 +3,9 @@ name: Descargar, procesar y publicar
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: ["Datos de Hacienda (CONPREL)"]
+    types: [completed]
   workflow_dispatch:
   schedule:
     - cron: "17 6 1 * *" # día 1 de cada mes, por si el Ayuntamiento sube PDFs nuevos
@@ -32,6 +35,8 @@ jobs:
         run: python scripts/download.py
       - name: Extraer datos
         run: python scripts/parse.py
+      - name: Resumir datos de Hacienda
+        run: python scripts/hacienda.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

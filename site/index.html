@@ -34,6 +34,13 @@ th{color:var(--muted);font-weight:500;cursor:pointer;white-space:nowrap}
 td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td code{color:var(--muted);font-size:12px}
 footer{color:var(--muted);font-size:13px;margin-top:24px}
+.seccion{font-size:22px;margin:36px 0 6px}
+.intro{color:var(--muted);margin:0 0 12px;max-width:760px}
+.ancho{margin-bottom:12px}
+.chart.alto{height:380px}
+.cab{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.nota{color:var(--muted);font-size:14px;margin:8px 0 0}
+#resumen-liq{margin:0 0 8px;color:var(--ink)}
 a{color:var(--ingreso)}
 </style>
 </head>
@@ -61,6 +68,19 @@ a{color:var(--ingreso)}
   <div class="card"><h2>Ingresos por tipo (capítulo)</h2><div class="chart"><canvas id="c-icap"></canvas></div></div>
 </section>
 
+<h2 class="seccion">Lo presupuestado y lo que se gastó de verdad</h2>
+<p class="intro">Datos del Ministerio de Hacienda. El <b>presupuesto inicial</b> es lo que se aprueba a principios de año; a lo largo del año se modifica (presupuesto definitivo) y al cerrar se sabe cuánto se <b>gastó realmente</b> (obligaciones reconocidas).</p>
+<section class="card ancho">
+  <h2>Evolución 2015–2026</h2>
+  <div class="chart alto"><canvas id="c-evol"></canvas></div>
+  <p class="nota" id="nota-prorroga"></p>
+</section>
+<section class="card ancho">
+  <div class="cab"><h2>¿Cuánto se ejecutó de cada partida?</h2><select id="anio-liq" aria-label="Año de la liquidación"></select></div>
+  <p class="nota" id="resumen-liq"></p>
+  <div class="chart alto"><canvas id="c-ejec"></canvas></div>
+</section>
+
 <section class="card">
   <h2>Todas las partidas</h2>
   <div class="filtros">
@@ -74,13 +94,16 @@ a{color:var(--ingreso)}
 </section>
 
 <footer>
-  Datos extraídos automáticamente de los <a href="https://ventadebanos.es/ayuntamiento/presupuestos-generales/">PDFs oficiales del Ayuntamiento</a>. Pueden contener errores de lectura; ante la duda manda el PDF.
-  <br>* Población aproximada: 6.300 habitantes (ajústala en <code>POBLACION</code>).
+  Fuentes: <a href="https://ventadebanos.es/ayuntamiento/presupuestos-generales/">PDFs oficiales del Ayuntamiento</a> (detalle de partidas) y <a href="https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL">CONPREL, Ministerio de Hacienda</a> (evolución y ejecución). Pueden contener errores de lectura; ante la duda mandan los documentos originales.
+  <br>* Población oficial del año según Hacienda. La liquidación del último año y el presupuesto del año en curso son datos provisionales (avance) hasta que Hacienda los publique como definitivos.
 </footer>
 </main>
 
 <script>
-const POBLACION = 6300;
+const CAPS_G = {"1": "Personal", "2": "Bienes y servicios", "3": "Gastos financieros", "4": "Transferencias corrientes", "5": "Fondo de contingencia", "6": "Inversiones", "7": "Transferencias de capital", "8": "Activos financieros", "9": "Pasivos financieros"};
+let HAC = null;
+const suma = o => Object.values(o || {}).reduce((a, b) => a + b, 0);
+const habitantes = a => HAC?.anios.find(x => x.anio == a)?.poblacion;
 const eur = n => n == null ? "–" : n.toLocaleString("es-ES", {style: "currency", currency: "EUR", maximumFractionDigits: 0});
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 let DATA, charts = {}, orden = {k: "importe", asc: false};
@@ -116,7 +139,8 @@ function pintar() {
   const g = ej.gastos, i = ej.ingresos;
   document.getElementById("k-gastos").textContent = eur(g?.total);
   document.getElementById("k-ingresos").textContent = eur(i?.total_pdf ?? i?.total);
-  document.getElementById("k-hab").textContent = g ? eur(g.total / POBLACION) : "–";
+  const hab = habitantes(anio.value);
+  document.getElementById("k-hab").textContent = g && hab ? eur(g.total / hab) : "–";
   const av = [...(g?.avisos || []), ...(i?.avisos || [])];
   const box = document.getElementById("avisos");
   box.hidden = !av.length;
@@ -130,10 +154,83 @@ function pintar() {
   tabla();
 }
 
-fetch("data/presupuestos.json").then(r => r.json()).then(d => {
-  DATA = d;
+function evolucion() {
+  const A = HAC.anios;
+  const ejes = {
+    x: {ticks: {color: css("--muted")}, grid: {display: false}},
+    y: {ticks: {color: css("--muted"), callback: v => (v / 1e6).toLocaleString("es-ES") + " M€"}, grid: {color: css("--line")}, beginAtZero: true}
+  };
+  charts.evol?.destroy();
+  charts.evol = new Chart(document.getElementById("c-evol"), {
+    data: {
+      labels: A.map(a => a.anio),
+      datasets: [
+        {type: "bar", label: "Presupuesto inicial", data: A.map(a => a.presupuesto ? suma(a.presupuesto.gastos) : null), backgroundColor: css("--line"), borderRadius: 4},
+        {type: "bar", label: "Gasto real", data: A.map(a => a.liquidacion ? suma(a.liquidacion.gastos_ejecutado) : null), backgroundColor: css("--gasto"), borderRadius: 4},
+        {type: "line", label: "Ingresos reales", data: A.map(a => a.liquidacion ? suma(a.liquidacion.ingresos_reconocido) : null), borderColor: css("--ingreso"), backgroundColor: css("--ingreso"), tension: .25, pointRadius: 3}
+      ]
+    },
+    options: {
+      maintainAspectRatio: false, interaction: {mode: "index", intersect: false},
+      plugins: {legend: {labels: {color: css("--ink"), boxWidth: 12}}, tooltip: {callbacks: {label: c => `${c.dataset.label}: ${eur(c.raw)}`}}},
+      scales: ejes
+    }
+  });
+  // Presupuestos prorrogados: mismo presupuesto inicial que el año anterior
+  const prorr = A.filter((a, i) => i && a.presupuesto && A[i - 1].presupuesto && Math.abs(suma(a.presupuesto.gastos) - suma(A[i - 1].presupuesto.gastos)) < 1).map(a => a.anio);
+  document.getElementById("nota-prorroga").textContent = prorr.length
+    ? `En ${prorr.join(" y ")} el presupuesto inicial es idéntico al del año anterior: probablemente se prorrogó el presupuesto por no aprobarse uno nuevo.`
+    : "";
+}
+
+function ejecucion() {
+  const a = HAC.anios.find(x => x.anio == document.getElementById("anio-liq").value);
+  const L = a.liquidacion;
+  const caps = Object.keys(L.gastos_definitivo).filter(c => L.gastos_definitivo[c] > 0).sort();
+  const pct = c => L.gastos_ejecutado[c] / L.gastos_definitivo[c] * 100;
+  const tDef = suma(L.gastos_definitivo), tEje = suma(L.gastos_ejecutado);
+  document.getElementById("resumen-liq").innerHTML =
+    `En ${a.anio} el Ayuntamiento disponía de <b>${eur(tDef)}</b> para gastar y gastó <b>${eur(tEje)}</b>: un <b>${(tEje / tDef * 100).toLocaleString("es-ES", {maximumFractionDigits: 0})} %</b>.` +
+    (L.gastos_definitivo["6"] ? ` En inversiones ejecutó el ${pct("6").toLocaleString("es-ES", {maximumFractionDigits: 0})} %.` : "");
+  charts.ejec?.destroy();
+  charts.ejec = new Chart(document.getElementById("c-ejec"), {
+    type: "bar",
+    data: {
+      labels: caps.map(c => CAPS_G[c] || c),
+      datasets: [
+        {label: "Presupuesto definitivo", data: caps.map(c => L.gastos_definitivo[c]), backgroundColor: css("--line"), borderRadius: 4},
+        {label: "Gastado", data: caps.map(c => L.gastos_ejecutado[c] || 0), backgroundColor: css("--gasto"), borderRadius: 4}
+      ]
+    },
+    options: {
+      indexAxis: "y", maintainAspectRatio: false,
+      plugins: {
+        legend: {labels: {color: css("--ink"), boxWidth: 12}},
+        tooltip: {callbacks: {label: c => `${c.dataset.label}: ${eur(c.raw)}`, afterBody: it => `Ejecutado: ${pct(caps[it[0].dataIndex]).toLocaleString("es-ES", {maximumFractionDigits: 0})} %`}}
+      },
+      scales: {
+        x: {ticks: {color: css("--muted"), callback: v => (v / 1e6).toLocaleString("es-ES") + " M€"}, grid: {color: css("--line")}},
+        y: {ticks: {color: css("--ink")}, grid: {display: false}}
+      }
+    }
+  });
+}
+
+Promise.all([
+  fetch("data/presupuestos.json").then(r => r.json()),
+  fetch("data/hacienda.json").then(r => r.ok ? r.json() : null).catch(() => null)
+]).then(([d, h]) => {
+  DATA = d; HAC = h;
   anio.innerHTML = d.ejercicios.map(e => `<option>${e.anio}</option>`).reverse().join("");
   pintar();
+  if (HAC) {
+    const liq = HAC.anios.filter(a => a.liquidacion).map(a => a.anio).reverse();
+    const sel = document.getElementById("anio-liq");
+    sel.innerHTML = liq.map(a => `<option>${a}</option>`).join("");
+    sel.onchange = ejecucion;
+    evolucion();
+    ejecucion();
+  }
 });
 anio.onchange = pintar;
 buscar.oninput = tabla;
