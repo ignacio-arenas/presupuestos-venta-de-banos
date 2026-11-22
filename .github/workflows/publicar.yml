@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   workflow_run:
-    workflows: ["Datos de Hacienda (CONPREL)"]
+    workflows: ["Datos de Hacienda (CONPREL)", "Contratos (Plataforma de Contratación)"]
     types: [completed]
   workflow_dispatch:
   schedule:
@@ -37,6 +37,8 @@ jobs:
         run: python scripts/parse.py
       - name: Resumir datos de Hacienda
         run: python scripts/hacienda.py
+      - name: Alertas de contratación
+        run: python scripts/alertas.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

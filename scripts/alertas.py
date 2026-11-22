@@ -23,7 +23,9 @@ ROOT = Path(__file__).resolve().parent.parent
 LIMITE = {"obras": 40000.0, "otros": 15000.0}
 VENTANA_DIAS = 90
 TIPO_OBRAS = {"3"}  # TypeCode CODICE: 1 suministros, 2 servicios, 3 obras
-VACIAS = set("de del la las el los en y a para con por al un una sito sita c calle n o".split())
+VACIAS = set("""de del la las el los en y a para con por al un una sito sita c calle n o
+contrato tiene objeto ejecucion obra obras servicio servicios suministro suministros prestacion
+venta banos palencia municipio municipal ayuntamiento definida memoria tecnica elaborada""".split())
 
 
 def norm(t: str) -> str:
@@ -72,7 +74,7 @@ def analizar(contratos: list[dict]) -> list[dict]:
     por_emp = defaultdict(list)
     for c in menores:
         por_emp[nombre_empresa(c["adjudicatario"])].append(c)
-    vistos = set()
+    vistos, duplicados = set(), set()
     for emp, cs in por_emp.items():
         cs.sort(key=lambda c: fecha(c) or date.min)
         for i, a in enumerate(cs):
@@ -83,6 +85,7 @@ def analizar(contratos: list[dict]) -> list[dict]:
                                       "Mismo adjudicatario, misma fecha, mismo objeto e importe casi igual. Puede ser una publicación duplicada; si fueran dos contratos reales, juntos superarían el límite del contrato menor.",
                                       [a, b], "media"))
                     vistos |= {id(a), id(b)}
+                    duplicados.add(id(b))
         # Fraccionamiento: grupos de objeto parecido en una ventana de tiempo
         for i, a in enumerate(cs):
             grupo = [a] + [b for b in cs[i + 1:] if id(b) not in vistos and b.get("tipo") == a.get("tipo")
@@ -103,8 +106,10 @@ def analizar(contratos: list[dict]) -> list[dict]:
             out.append(alerta("UMBRAL", f"Contrato menor justo por debajo del límite ({imp:,.0f} €)".replace(",", "."),
                               f"Está por encima del 90 % del límite ({lim:,.0f} € sin IVA).".replace(",", "."), [c], "baja"))
 
-    total_menores = sum(c["importe_adjudicado_sin_iva"] for c in menores)
-    for emp, cs in por_emp.items():
+    # Concentración: sin contar dos veces los posibles duplicados
+    unicos = {emp: [c for c in cs if id(c) not in duplicados] for emp, cs in por_emp.items()}
+    total_menores = sum(c["importe_adjudicado_sin_iva"] for cs in unicos.values() for c in cs)
+    for emp, cs in unicos.items():
         suma = sum(c["importe_adjudicado_sin_iva"] for c in cs)
         if len(cs) >= 3 and total_menores and suma / total_menores >= 0.15:
             out.append(alerta("CONCENTRACION", f"{cs[0]['adjudicatario']}: {len(cs)} contratos menores, {suma / total_menores:.0%} del total".replace(".", ","),

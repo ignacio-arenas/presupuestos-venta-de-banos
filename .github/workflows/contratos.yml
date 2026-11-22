@@ -14,10 +14,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        anio: [2022, 2023]
+        anio: [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
     steps:
       - uses: actions/checkout@v4
       - run: pip install requests lxml pdfplumber
+      - if: matrix.anio == 2022
+        run: sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-spa poppler-utils > /dev/null
       - run: python scripts/contratos.py ${{ matrix.anio }}
       - name: Anexo de inversiones 2022 (texto para revisar)
         if: matrix.anio == 2022
