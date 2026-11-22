@@ -1,0 +1,10135 @@
+{
+"fuente": "CONPREL Liquidaciones 2017",
+"fichero": "Liquidaciones2017.mdb",
+"ente": {
+"id": "8855",
+"codbdgel": "34023AA000",
+"nombreppal": "Venta de Baños",
+"idente": "8855",
+"codente": "34023AA000",
+"nombreente": "Venta de Baños",
+"nsec": "1",
+"poblacion": "6429",
+"estado": "C"
+},
+"tablas": {
+"tb_economica": [
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "120.06",
+"imported": "31707.42",
+"importer": "29964.34",
+"importel": "29964.34",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "130",
+"imported": "567724.00",
+"importer": "506659.31",
+"importel": "506659.31",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "160.08",
+"imported": "12000.00",
+"importer": "8226.76",
+"importel": "8226.76",
+"importec": "903.24"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "162.09",
+"imported": "15000.00",
+"importer": "19748.48",
+"importel": "19748.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "213",
+"imported": "17250.00",
+"importer": "12811.18",
+"importel": "11506.80",
+"importec": "1242.20"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.11",
+"imported": "4500.00",
+"importer": "8624.89",
+"importel": "8624.89",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "222.01",
+"imported": "10500.00",
+"importer": "12571.05",
+"importel": "12571.05",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "227",
+"imported": "841300.00",
+"importer": "803589.37",
+"importel": "803589.37",
+"importec": "128915.35"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "48",
+"imported": "132396.00",
+"importer": "82147.87",
+"importel": "82134.67",
+"importec": "17445.86"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "113",
+"imported": "1880000.00",
+"importer": "1844834.07",
+"importel": "1668698.34",
+"importec": "58012.87"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "130",
+"imported": "450000.00",
+"importer": "413383.99",
+"importel": "406977.47",
+"importec": "7785.63"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "3",
+"imported": "1657900.00",
+"importer": "1578135.08",
+"importel": "1531272.20",
+"importec": "31560.10"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "391.90",
+"imported": "1000.00",
+"importer": "450.00",
+"importel": "150.00",
+"importec": "375.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "47",
+"imported": "15000.00",
+"importer": "13825.00",
+"importel": "13825.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "831",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "0.00",
+"importec": "5149.85"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "130.01",
+"imported": "27061.80",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "48",
+"imported": "12000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "100.00",
+"imported": "16650.00",
+"importer": "16160.48",
+"importel": "16160.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "120.05",
+"imported": "13428.00",
+"importer": "9208.54",
+"importel": "9208.54",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "120.09",
+"imported": "75082.65",
+"importer": "66810.94",
+"importel": "66810.94",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "121.01",
+"imported": "202280.69",
+"importer": "176191.97",
+"importel": "176191.97",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "15",
+"imported": "91595.21",
+"importer": "96426.74",
+"importel": "96426.74",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "162",
+"imported": "19000.00",
+"importer": "19748.48",
+"importel": "19748.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "21",
+"imported": "195900.00",
+"importer": "182625.66",
+"importel": "174165.98",
+"importec": "22492.38"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "216",
+"imported": "9450.00",
+"importer": "4361.79",
+"importel": "4361.79",
+"importec": "3293.62"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.05",
+"imported": "1900.00",
+"importer": "1287.95",
+"importel": "1211.00",
+"importec": "95.44"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "222.03",
+"imported": "5000.00",
+"importer": "1379.40",
+"importel": "1379.40",
+"importec": "326.70"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "60",
+"imported": "74756.33",
+"importer": "33575.50",
+"importel": "33575.50",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "626",
+"imported": "10000.00",
+"importer": "5704.46",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "913",
+"imported": "502735.51",
+"importer": "577189.98",
+"importel": "577189.98",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "39",
+"imported": "39350.00",
+"importer": "30907.21",
+"importel": "19752.92",
+"importec": "7928.44"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "399",
+"imported": "13350.00",
+"importer": "14180.03",
+"importel": "14180.03",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "420.00",
+"imported": "1120000.00",
+"importer": "1151478.44",
+"importel": "1151478.44",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "5",
+"imported": "10955.00",
+"importer": "7032.29",
+"importel": "1403.83",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "52",
+"imported": "500.00",
+"importer": "919.83",
+"importel": "919.83",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "120.00",
+"imported": "52962.40",
+"importer": "44739.68",
+"importel": "44739.68",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "121.00",
+"imported": "94808.85",
+"importer": "85008.98",
+"importel": "85008.98",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "160.00",
+"imported": "568557.20",
+"importer": "501850.20",
+"importel": "463446.18",
+"importec": "27858.30"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "225",
+"imported": "77000.00",
+"importer": "80236.42",
+"importel": "80236.42",
+"importec": "4928.04"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "227.06",
+"imported": "65000.00",
+"importer": "32726.02",
+"importel": "32726.02",
+"importec": "2532.04"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "231",
+"imported": "79200.00",
+"importer": "65455.53",
+"importel": "65077.29",
+"importec": "2358.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "619",
+"imported": "577780.10",
+"importer": "212825.39",
+"importel": "205050.19",
+"importec": "33068.74"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "11",
+"imported": "2335000.00",
+"importer": "2291550.17",
+"importel": "2066910.04",
+"importec": "90381.27"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "116",
+"imported": "115000.00",
+"importer": "101908.42",
+"importel": "81276.27",
+"importec": "11377.32"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "290",
+"imported": "120000.00",
+"importer": "53154.75",
+"importel": "48992.24",
+"importec": "4959.84"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "313",
+"imported": "27000.00",
+"importer": "67707.01",
+"importel": "67707.01",
+"importec": "900.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "321",
+"imported": "44000.00",
+"importer": "17881.55",
+"importel": "16039.34",
+"importec": "1678.53"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "335",
+"imported": "3700.00",
+"importer": "3427.32",
+"importel": "2912.28",
+"importec": "866.84"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "462",
+"imported": "15000.00",
+"importer": "10488.96",
+"importel": "10488.96",
+"importec": "10463.69"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "230.20",
+"imported": "650.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "358",
+"imported": "8702.61",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "151",
+"imported": "54500.00",
+"importer": "57239.32",
+"importel": "57239.32",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "208",
+"imported": "2700.00",
+"importer": "3408.81",
+"importel": "3408.81",
+"importec": "263.78"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "22",
+"imported": "2186500.00",
+"importer": "2031882.77",
+"importel": "1976876.04",
+"importec": "241777.02"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.00",
+"imported": "265500.00",
+"importer": "184558.22",
+"importel": "183595.06",
+"importec": "19130.70"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "226",
+"imported": "666000.00",
+"importer": "631700.68",
+"importel": "585442.83",
+"importec": "71946.99"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "226.99",
+"imported": "304400.00",
+"importer": "307240.27",
+"importel": "299553.29",
+"importec": "10324.16"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "233",
+"imported": "40000.00",
+"importer": "37837.04",
+"importel": "37837.04",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "4",
+"imported": "482396.00",
+"importer": "385448.77",
+"importel": "385435.57",
+"importec": "20450.33"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "461",
+"imported": "130000.00",
+"importer": "93542.75",
+"importel": "93542.75",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "463",
+"imported": "220000.00",
+"importer": "209758.15",
+"importel": "209758.15",
+"importec": "3004.47"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "632",
+"imported": "187090.87",
+"importer": "34538.56",
+"importel": "23267.08",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "29",
+"imported": "120000.00",
+"importer": "53154.75",
+"importel": "48992.24",
+"importec": "4959.84"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "300",
+"imported": "405000.00",
+"importer": "413959.17",
+"importel": "404972.03",
+"importec": "6595.30"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "325",
+"imported": "2000.00",
+"importer": "945.80",
+"importel": "637.20",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "339",
+"imported": "25250.00",
+"importer": "13905.81",
+"importel": "10539.19",
+"importec": "2517.39"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "450.80",
+"imported": "154500.00",
+"importer": "159348.79",
+"importel": "159348.79",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "610",
+"imported": "286359.97",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.02",
+"imported": "96000.00",
+"importer": "84210.03",
+"importel": "82121.93",
+"importec": "3418.63"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "222",
+"imported": "50500.00",
+"importer": "49427.55",
+"importel": "48701.11",
+"importec": "2643.88"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "227.99",
+"imported": "548000.00",
+"importer": "522878.60",
+"importel": "522878.60",
+"importec": "126292.91"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "230",
+"imported": "2650.00",
+"importer": "404.54",
+"importel": "404.54",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "310",
+"imported": "26171.33",
+"importer": "15577.52",
+"importel": "15577.52",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "600",
+"imported": "55884.33",
+"importer": "33575.50",
+"importel": "33575.50",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "301",
+"imported": "170000.00",
+"importer": "171180.52",
+"importel": "167339.98",
+"importec": "2843.57"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "341",
+"imported": "68000.00",
+"importer": "64596.08",
+"importel": "59968.37",
+"importec": "130.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "42",
+"imported": "1124000.00",
+"importer": "1151478.44",
+"importel": "1151478.44",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "91",
+"imported": "448122.45",
+"importer": "448122.45",
+"importel": "448122.45",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "35",
+"imported": "8702.61",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "623",
+"imported": "22800.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "9817.94"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "629",
+"imported": "27000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "636",
+"imported": "6000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "870.00",
+"imported": "320157.40",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "100",
+"imported": "16650.00",
+"importer": "16160.48",
+"importel": "16160.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "120",
+"imported": "261582.39",
+"importer": "237357.59",
+"importel": "237357.59",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "210",
+"imported": "102000.00",
+"importer": "88276.23",
+"importel": "84698.26",
+"importec": "12124.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "220.02",
+"imported": "8150.00",
+"importer": "1989.13",
+"importel": "1924.35",
+"importec": "388.56"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "225.00",
+"imported": "77000.00",
+"importer": "80236.42",
+"importel": "80236.42",
+"importec": "4928.04"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "226.09",
+"imported": "310700.00",
+"importer": "287193.45",
+"importel": "249515.56",
+"importec": "59666.07"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "31",
+"imported": "29171.33",
+"importer": "16579.42",
+"importel": "16579.42",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "46",
+"imported": "350000.00",
+"importer": "303300.90",
+"importel": "303300.90",
+"importec": "3004.47"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "61",
+"imported": "864140.07",
+"importer": "212825.39",
+"importel": "205050.19",
+"importec": "33068.74"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "63",
+"imported": "230332.94",
+"importer": "56891.19",
+"importel": "45619.71",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "8",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "6590.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "9",
+"imported": "651347.06",
+"importer": "625557.63",
+"importel": "625557.63",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "13",
+"imported": "450000.00",
+"importer": "413383.99",
+"importel": "406977.47",
+"importec": "7785.63"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "303",
+"imported": "169000.00",
+"importer": "169337.26",
+"importel": "165024.14",
+"importec": "3563.33"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "31",
+"imported": "201900.00",
+"importer": "212137.78",
+"importel": "212137.78",
+"importec": "900.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "392.11",
+"imported": "25000.00",
+"importer": "16277.18",
+"importel": "5422.89",
+"importec": "7553.44"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "609",
+"imported": "18872.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "420.90",
+"imported": "4000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "870",
+"imported": "768156.87",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "10",
+"imported": "16650.00",
+"importer": "16160.48",
+"importel": "16160.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "12",
+"imported": "558671.93",
+"importer": "499892.33",
+"importel": "499892.33",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "120.04",
+"imported": "7335.72",
+"importer": "6688.81",
+"importel": "6688.81",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "130.02",
+"imported": "264393.42",
+"importer": "271193.30",
+"importel": "271193.30",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "16",
+"imported": "599557.20",
+"importer": "529825.44",
+"importel": "491421.42",
+"importec": "28761.54"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "220",
+"imported": "37200.00",
+"importer": "35675.09",
+"importel": "32064.33",
+"importec": "1174.77"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.06",
+"imported": "400.00",
+"importer": "282.48",
+"importel": "282.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.99",
+"imported": "35200.00",
+"importer": "60154.58",
+"importel": "60104.58",
+"importec": "1307.56"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "226.06",
+"imported": "10000.00",
+"importer": "230.00",
+"importel": "230.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "831",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "6590.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "112",
+"imported": "35000.00",
+"importer": "29941.65",
+"importel": "28738.54",
+"importec": "9531.53"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "115",
+"imported": "305000.00",
+"importer": "314866.03",
+"importel": "288196.89",
+"importec": "11459.55"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "332",
+"imported": "320000.00",
+"importer": "260432.95",
+"importel": "260432.95",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "34",
+"imported": "68000.00",
+"importer": "64596.08",
+"importel": "59968.37",
+"importec": "130.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "4",
+"imported": "1463858.28",
+"importer": "1496383.81",
+"importel": "1496383.81",
+"importec": "10463.69"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "450.50",
+"imported": "58208.28",
+"importer": "56209.21",
+"importel": "56209.21",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "46",
+"imported": "100150.00",
+"importer": "115522.37",
+"importel": "115522.37",
+"importec": "10463.69"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "76",
+"imported": "210317.05",
+"importer": "81960.12",
+"importel": "81960.12",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "631",
+"imported": "5000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "87",
+"imported": "768156.87",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "160",
+"imported": "580557.20",
+"importer": "510076.96",
+"importel": "471672.94",
+"importec": "28761.54"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "215",
+"imported": "4700.00",
+"importer": "4717.18",
+"importel": "4717.18",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.10",
+"imported": "13100.00",
+"importer": "8205.56",
+"importel": "8205.56",
+"importec": "778.90"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "230.00",
+"imported": "2000.00",
+"importer": "404.54",
+"importel": "404.54",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "3",
+"imported": "37873.94",
+"importer": "16579.42",
+"importel": "16579.42",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "91",
+"imported": "651347.06",
+"importer": "625557.63",
+"importel": "625557.63",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "1",
+"imported": "2785000.00",
+"importer": "2704934.16",
+"importel": "2473887.51",
+"importec": "98166.90"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "319",
+"imported": "174900.00",
+"importer": "144430.77",
+"importel": "144430.77",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "38",
+"imported": "500.00",
+"importer": "5739.40",
+"importel": "5739.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "420",
+"imported": "1124000.00",
+"importer": "1151478.44",
+"importel": "1151478.44",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "55",
+"imported": "10455.00",
+"importer": "6112.46",
+"importel": "484.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "83",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "0.00",
+"importec": "5149.85"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "9",
+"imported": "448122.45",
+"importer": "448122.45",
+"importel": "448122.45",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "162.00",
+"imported": "4000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "219",
+"imported": "2700.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "1",
+"imported": "2467809.56",
+"importer": "2248047.56",
+"importel": "2209643.54",
+"importec": "28761.54"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "2",
+"imported": "2530950.00",
+"importer": "2344253.20",
+"importel": "2272906.55",
+"importec": "267892.96"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "212",
+"imported": "45800.00",
+"importer": "60981.31",
+"importel": "57403.98",
+"importec": "4442.88"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "220.01",
+"imported": "13800.00",
+"importer": "16614.89",
+"importel": "13502.06",
+"importec": "140.20"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "222.00",
+"imported": "35000.00",
+"importer": "35477.10",
+"importel": "34750.66",
+"importec": "2317.18"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "227.00",
+"imported": "8300.00",
+"importer": "9916.64",
+"importel": "9916.64",
+"importec": "90.40"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "23",
+"imported": "121850.00",
+"importer": "103697.11",
+"importel": "103318.87",
+"importec": "2358.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "231.20",
+"imported": "79200.00",
+"importer": "65455.53",
+"importel": "65077.29",
+"importec": "2358.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "6",
+"imported": "1293933.09",
+"importer": "318434.54",
+"importel": "284245.40",
+"importec": "42886.68"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "622",
+"imported": "10000.00",
+"importer": "9438.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "635",
+"imported": "25722.77",
+"importer": "15833.33",
+"importel": "15833.33",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "83",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "6590.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "302",
+"imported": "138000.00",
+"importer": "138011.40",
+"importel": "134516.96",
+"importec": "3305.55"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "33",
+"imported": "405150.00",
+"importer": "327780.90",
+"importel": "323063.91",
+"importec": "3773.31"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "461",
+"imported": "85150.00",
+"importer": "105033.41",
+"importel": "105033.41",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "550",
+"imported": "10455.00",
+"importer": "6112.46",
+"importel": "484.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "7",
+"imported": "210317.05",
+"importer": "81960.12",
+"importel": "81960.12",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "761",
+"imported": "210317.05",
+"importer": "81960.12",
+"importel": "81960.12",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "8",
+"imported": "780156.87",
+"importer": "6590.40",
+"importel": "0.00",
+"importec": "5149.85"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "913",
+"imported": "448122.45",
+"importer": "448122.45",
+"importel": "448122.45",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "120.01",
+"imported": "11739.12",
+"importer": "15414.47",
+"importel": "15414.47",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "121",
+"imported": "297089.54",
+"importer": "262534.74",
+"importel": "262534.74",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "13",
+"imported": "1201335.22",
+"importer": "1105742.57",
+"importel": "1105742.57",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "130.00",
+"imported": "276268.78",
+"importer": "235466.01",
+"importel": "235466.01",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "131",
+"imported": "633611.22",
+"importer": "599083.26",
+"importel": "599083.26",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "150",
+"imported": "37095.21",
+"importer": "39187.42",
+"importel": "39187.42",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "202",
+"imported": "10000.00",
+"importer": "9906.84",
+"importel": "9906.84",
+"importec": "825.57"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "203",
+"imported": "14000.00",
+"importer": "12732.01",
+"importel": "5230.01",
+"importec": "176.21"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "214",
+"imported": "14000.00",
+"importer": "11477.97",
+"importel": "11477.97",
+"importec": "1389.68"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221",
+"imported": "462600.00",
+"importer": "384706.47",
+"importel": "380673.03",
+"importec": "28867.51"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.12",
+"imported": "8300.00",
+"importer": "1563.03",
+"importel": "1563.03",
+"importec": "1944.37"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "224",
+"imported": "51900.00",
+"importer": "46547.19",
+"importel": "46168.95",
+"importec": "3300.48"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "226.01",
+"imported": "3600.00",
+"importer": "1269.69",
+"importel": "1269.69",
+"importec": "490.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "226.03",
+"imported": "1500.00",
+"importer": "4597.05",
+"importel": "4597.05",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "226.04",
+"imported": "10000.00",
+"importer": "3260.27",
+"importel": "3260.27",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "311",
+"imported": "3000.00",
+"importer": "1001.90",
+"importel": "1001.90",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "633",
+"imported": "6519.30",
+"importer": "6519.30",
+"importel": "6519.30",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "2",
+"imported": "120000.00",
+"importer": "53154.75",
+"importel": "48992.24",
+"importec": "4959.84"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "331",
+"imported": "26200.00",
+"importer": "26072.26",
+"importel": "25236.93",
+"importec": "389.08"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "338",
+"imported": "30000.00",
+"importer": "23942.56",
+"importel": "23942.56",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "392",
+"imported": "25000.00",
+"importer": "16277.18",
+"importel": "5422.89",
+"importec": "7553.44"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "120.03",
+"imported": "69327.08",
+"importer": "64530.81",
+"importel": "64530.81",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "121.03",
+"imported": "0.00",
+"importer": "1333.79",
+"importel": "1333.79",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "20",
+"imported": "26700.00",
+"importer": "26047.66",
+"importel": "18545.66",
+"importec": "1265.56"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "220.00",
+"imported": "15250.00",
+"importer": "17071.07",
+"importel": "16637.92",
+"importec": "646.01"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.03",
+"imported": "18700.00",
+"importer": "14722.01",
+"importel": "14722.01",
+"importec": "1394.59"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "221.04",
+"imported": "19000.00",
+"importer": "21097.72",
+"importel": "20242.49",
+"importec": "797.32"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "226.02",
+"imported": "25800.00",
+"importer": "27909.95",
+"importel": "27016.97",
+"importec": "1466.76"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "227.08",
+"imported": "220000.00",
+"importer": "238068.11",
+"importel": "238068.11",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "62",
+"imported": "69800.00",
+"importer": "15142.46",
+"importel": "0.00",
+"importec": "9817.94"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "911",
+"imported": "148611.55",
+"importer": "48367.65",
+"importel": "48367.65",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "30",
+"imported": "897000.00",
+"importer": "918146.36",
+"importel": "893933.28",
+"importec": "17149.82"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "309",
+"imported": "15000.00",
+"importer": "25658.01",
+"importel": "22080.17",
+"importec": "842.07"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "32",
+"imported": "46000.00",
+"importer": "18827.35",
+"importel": "16676.54",
+"importec": "1678.53"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "389",
+"imported": "500.00",
+"importer": "5739.40",
+"importel": "5739.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "391",
+"imported": "1000.00",
+"importer": "450.00",
+"importel": "150.00",
+"importec": "375.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "45",
+"imported": "212708.28",
+"importer": "215558.00",
+"importel": "215558.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "450",
+"imported": "212708.28",
+"importer": "215558.00",
+"importel": "215558.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "64",
+"imported": "54903.75",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "G",
+"cdcta": "648",
+"imported": "54903.75",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"tipreig": "I",
+"cdcta": "870.10",
+"imported": "447999.47",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+}
+],
+"tb_economica_cons": [
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "226.01",
+"imported": "3600.00",
+"importer": "1269.69",
+"importel": "1269.69",
+"importec": "490.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "226.02",
+"imported": "25800.00",
+"importer": "27909.95",
+"importel": "27016.97",
+"importec": "1466.76"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "162.09",
+"imported": "15000.00",
+"importer": "19748.48",
+"importel": "19748.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "22",
+"imported": "2186500.00",
+"importer": "2031882.77",
+"importel": "1976876.04",
+"importec": "241777.02"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "220.02",
+"imported": "8150.00",
+"importer": "1989.13",
+"importel": "1924.35",
+"importec": "388.56"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "29",
+"imported": "120000.00",
+"importer": "53154.75",
+"importel": "48992.24",
+"importec": "4959.84"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "76",
+"imported": "210317.05",
+"importer": "81960.12",
+"importel": "81960.12",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "116",
+"imported": "115000.00",
+"importer": "101908.42",
+"importel": "81276.27",
+"importec": "11377.32"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "341",
+"imported": "68000.00",
+"importer": "64596.08",
+"importel": "59968.37",
+"importec": "130.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "420.00",
+"imported": "1120000.00",
+"importer": "1151478.44",
+"importel": "1151478.44",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "461",
+"imported": "130000.00",
+"importer": "93542.75",
+"importel": "93542.75",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "389",
+"imported": "500.00",
+"importer": "5739.40",
+"importel": "5739.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "120.00",
+"imported": "52962.40",
+"importer": "44739.68",
+"importel": "44739.68",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "121.03",
+"imported": "0.00",
+"importer": "1333.79",
+"importel": "1333.79",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "33",
+"imported": "405150.00",
+"importer": "327780.90",
+"importel": "323063.91",
+"importec": "3773.31"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "34",
+"imported": "68000.00",
+"importer": "64596.08",
+"importel": "59968.37",
+"importec": "130.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "231.20",
+"imported": "79200.00",
+"importer": "65455.53",
+"importel": "65077.29",
+"importec": "2358.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "913",
+"imported": "502735.51",
+"importer": "577189.98",
+"importel": "577189.98",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "629",
+"imported": "27000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "870.10",
+"imported": "447999.47",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "623",
+"imported": "22800.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "9817.94"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "219",
+"imported": "2700.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "231",
+"imported": "79200.00",
+"importer": "65455.53",
+"importel": "65077.29",
+"importec": "2358.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "46",
+"imported": "350000.00",
+"importer": "303300.90",
+"importel": "303300.90",
+"importec": "3004.47"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "130",
+"imported": "567724.00",
+"importer": "506659.31",
+"importel": "506659.31",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "216",
+"imported": "9450.00",
+"importer": "4361.79",
+"importel": "4361.79",
+"importec": "3293.62"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "16",
+"imported": "599557.20",
+"importer": "529825.44",
+"importel": "491421.42",
+"importec": "28761.54"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "91",
+"imported": "651347.06",
+"importer": "625557.63",
+"importel": "625557.63",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "13",
+"imported": "450000.00",
+"importer": "413383.99",
+"importel": "406977.47",
+"importec": "7785.63"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.06",
+"imported": "400.00",
+"importer": "282.48",
+"importel": "282.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "222.01",
+"imported": "10500.00",
+"importer": "12571.05",
+"importel": "12571.05",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "225",
+"imported": "77000.00",
+"importer": "80236.42",
+"importel": "80236.42",
+"importec": "4928.04"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "635",
+"imported": "25722.77",
+"importer": "15833.33",
+"importel": "15833.33",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "301",
+"imported": "170000.00",
+"importer": "171180.52",
+"importel": "167339.98",
+"importec": "2843.57"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "335",
+"imported": "3700.00",
+"importer": "3427.32",
+"importel": "2912.28",
+"importec": "866.84"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "160",
+"imported": "580557.20",
+"importer": "510076.96",
+"importel": "471672.94",
+"importec": "28761.54"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "160.00",
+"imported": "568557.20",
+"importer": "501850.20",
+"importel": "463446.18",
+"importec": "27858.30"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "61",
+"imported": "864140.07",
+"importer": "212825.39",
+"importel": "205050.19",
+"importec": "33068.74"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "121.00",
+"imported": "94808.85",
+"importer": "85008.98",
+"importel": "85008.98",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "45",
+"imported": "212708.28",
+"importer": "215558.00",
+"importel": "215558.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "6",
+"imported": "1293933.09",
+"importer": "318434.54",
+"importel": "284245.40",
+"importec": "42886.68"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "420.90",
+"imported": "4000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "609",
+"imported": "18872.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "48",
+"imported": "12000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "870",
+"imported": "768156.87",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "226",
+"imported": "666000.00",
+"importer": "631700.68",
+"importel": "585442.83",
+"importec": "71946.99"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "120.01",
+"imported": "11739.12",
+"importer": "15414.47",
+"importel": "15414.47",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.04",
+"imported": "19000.00",
+"importer": "21097.72",
+"importel": "20242.49",
+"importec": "797.32"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "619",
+"imported": "577780.10",
+"importer": "212825.39",
+"importel": "205050.19",
+"importec": "33068.74"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "32",
+"imported": "46000.00",
+"importer": "18827.35",
+"importel": "16676.54",
+"importec": "1678.53"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "332",
+"imported": "320000.00",
+"importer": "260432.95",
+"importel": "260432.95",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "220.00",
+"imported": "15250.00",
+"importer": "17071.07",
+"importel": "16637.92",
+"importec": "646.01"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "227.06",
+"imported": "65000.00",
+"importer": "32726.02",
+"importel": "32726.02",
+"importec": "2532.04"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "831",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "6590.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "31",
+"imported": "29171.33",
+"importer": "16579.42",
+"importel": "16579.42",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "62",
+"imported": "69800.00",
+"importer": "15142.46",
+"importel": "0.00",
+"importec": "9817.94"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "202",
+"imported": "10000.00",
+"importer": "9906.84",
+"importel": "9906.84",
+"importec": "825.57"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "220",
+"imported": "37200.00",
+"importer": "35675.09",
+"importel": "32064.33",
+"importec": "1174.77"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "52",
+"imported": "500.00",
+"importer": "919.83",
+"importel": "919.83",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "215",
+"imported": "4700.00",
+"importer": "4717.18",
+"importel": "4717.18",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "911",
+"imported": "148611.55",
+"importer": "48367.65",
+"importel": "48367.65",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "2",
+"imported": "2530950.00",
+"importer": "2344253.20",
+"importel": "2272906.55",
+"importec": "267892.96"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "8",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "6590.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "9",
+"imported": "651347.06",
+"importer": "625557.63",
+"importel": "625557.63",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "7",
+"imported": "210317.05",
+"importer": "81960.12",
+"importel": "81960.12",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "130.01",
+"imported": "27061.80",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "64",
+"imported": "54903.75",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "13",
+"imported": "1201335.22",
+"importer": "1105742.57",
+"importel": "1105742.57",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.10",
+"imported": "13100.00",
+"importer": "8205.56",
+"importel": "8205.56",
+"importec": "778.90"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "632",
+"imported": "187090.87",
+"importer": "34538.56",
+"importel": "23267.08",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "60",
+"imported": "74756.33",
+"importer": "33575.50",
+"importel": "33575.50",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "112",
+"imported": "35000.00",
+"importer": "29941.65",
+"importel": "28738.54",
+"importec": "9531.53"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "391",
+"imported": "1000.00",
+"importer": "450.00",
+"importel": "150.00",
+"importec": "375.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "38",
+"imported": "500.00",
+"importer": "5739.40",
+"importel": "5739.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "450",
+"imported": "212708.28",
+"importer": "215558.00",
+"importel": "215558.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "462",
+"imported": "15000.00",
+"importer": "10488.96",
+"importel": "10488.96",
+"importec": "10463.69"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "319",
+"imported": "174900.00",
+"importer": "144430.77",
+"importel": "144430.77",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "463",
+"imported": "220000.00",
+"importer": "209758.15",
+"importel": "209758.15",
+"importec": "3004.47"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "213",
+"imported": "17250.00",
+"importer": "12811.18",
+"importel": "11506.80",
+"importec": "1242.20"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.12",
+"imported": "8300.00",
+"importer": "1563.03",
+"importel": "1563.03",
+"importec": "1944.37"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "226.03",
+"imported": "1500.00",
+"importer": "4597.05",
+"importel": "4597.05",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "1",
+"imported": "2467809.56",
+"importer": "2248047.56",
+"importel": "2209643.54",
+"importec": "28761.54"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "870.00",
+"imported": "320157.40",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "631",
+"imported": "5000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "210",
+"imported": "102000.00",
+"importer": "88276.23",
+"importel": "84698.26",
+"importec": "12124.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "338",
+"imported": "30000.00",
+"importer": "23942.56",
+"importel": "23942.56",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "222.00",
+"imported": "35000.00",
+"importer": "35477.10",
+"importel": "34750.66",
+"importec": "2317.18"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "226.04",
+"imported": "10000.00",
+"importer": "3260.27",
+"importel": "3260.27",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.03",
+"imported": "18700.00",
+"importer": "14722.01",
+"importel": "14722.01",
+"importec": "1394.59"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "48",
+"imported": "132396.00",
+"importer": "82147.87",
+"importel": "82134.67",
+"importec": "17445.86"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "130.00",
+"imported": "276268.78",
+"importer": "235466.01",
+"importel": "235466.01",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "311",
+"imported": "3000.00",
+"importer": "1001.90",
+"importel": "1001.90",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "83",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "0.00",
+"importec": "5149.85"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "11",
+"imported": "2335000.00",
+"importer": "2291550.17",
+"importel": "2066910.04",
+"importec": "90381.27"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "203",
+"imported": "14000.00",
+"importer": "12732.01",
+"importel": "5230.01",
+"importec": "176.21"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "224",
+"imported": "51900.00",
+"importer": "46547.19",
+"importel": "46168.95",
+"importec": "3300.48"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "20",
+"imported": "26700.00",
+"importer": "26047.66",
+"importel": "18545.66",
+"importec": "1265.56"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "230.20",
+"imported": "650.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "35",
+"imported": "8702.61",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "633",
+"imported": "6519.30",
+"importer": "6519.30",
+"importel": "6519.30",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.99",
+"imported": "35200.00",
+"importer": "60154.58",
+"importel": "60104.58",
+"importec": "1307.56"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "600",
+"imported": "55884.33",
+"importer": "33575.50",
+"importel": "33575.50",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "30",
+"imported": "897000.00",
+"importer": "918146.36",
+"importel": "893933.28",
+"importec": "17149.82"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "913",
+"imported": "448122.45",
+"importer": "448122.45",
+"importel": "448122.45",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "208",
+"imported": "2700.00",
+"importer": "3408.81",
+"importel": "3408.81",
+"importec": "263.78"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "121",
+"imported": "297089.54",
+"importer": "262534.74",
+"importel": "262534.74",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "227.00",
+"imported": "8300.00",
+"importer": "9916.64",
+"importel": "9916.64",
+"importec": "90.40"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "290",
+"imported": "120000.00",
+"importer": "53154.75",
+"importel": "48992.24",
+"importec": "4959.84"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "325",
+"imported": "2000.00",
+"importer": "945.80",
+"importel": "637.20",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "461",
+"imported": "85150.00",
+"importer": "105033.41",
+"importel": "105033.41",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "233",
+"imported": "40000.00",
+"importer": "37837.04",
+"importel": "37837.04",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "162.00",
+"imported": "4000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "358",
+"imported": "8702.61",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "151",
+"imported": "54500.00",
+"importer": "57239.32",
+"importel": "57239.32",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "113",
+"imported": "1880000.00",
+"importer": "1844834.07",
+"importel": "1668698.34",
+"importec": "58012.87"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "230",
+"imported": "2650.00",
+"importer": "404.54",
+"importel": "404.54",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "120.09",
+"imported": "75082.65",
+"importer": "66810.94",
+"importel": "66810.94",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "392.11",
+"imported": "25000.00",
+"importer": "16277.18",
+"importel": "5422.89",
+"importec": "7553.44"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "225.00",
+"imported": "77000.00",
+"importer": "80236.42",
+"importel": "80236.42",
+"importec": "4928.04"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "21",
+"imported": "195900.00",
+"importer": "182625.66",
+"importel": "174165.98",
+"importec": "22492.38"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "121.01",
+"imported": "202280.69",
+"importer": "176191.97",
+"importel": "176191.97",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "300",
+"imported": "405000.00",
+"importer": "413959.17",
+"importel": "404972.03",
+"importec": "6595.30"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "120.04",
+"imported": "7335.72",
+"importer": "6688.81",
+"importel": "6688.81",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "120",
+"imported": "261582.39",
+"importer": "237357.59",
+"importel": "237357.59",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "309",
+"imported": "15000.00",
+"importer": "25658.01",
+"importel": "22080.17",
+"importec": "842.07"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "3",
+"imported": "1657900.00",
+"importer": "1578135.08",
+"importel": "1531272.20",
+"importec": "31560.10"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "87",
+"imported": "768156.87",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "220.01",
+"imported": "13800.00",
+"importer": "16614.89",
+"importel": "13502.06",
+"importec": "140.20"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "227",
+"imported": "841300.00",
+"importer": "803589.37",
+"importel": "803589.37",
+"importec": "128915.35"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "222.03",
+"imported": "5000.00",
+"importer": "1379.40",
+"importel": "1379.40",
+"importec": "326.70"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "222",
+"imported": "50500.00",
+"importer": "49427.55",
+"importel": "48701.11",
+"importec": "2643.88"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "227.08",
+"imported": "220000.00",
+"importer": "238068.11",
+"importel": "238068.11",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "31",
+"imported": "201900.00",
+"importer": "212137.78",
+"importel": "212137.78",
+"importec": "900.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "10",
+"imported": "16650.00",
+"importer": "16160.48",
+"importel": "16160.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "303",
+"imported": "169000.00",
+"importer": "169337.26",
+"importel": "165024.14",
+"importec": "3563.33"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "15",
+"imported": "91595.21",
+"importer": "96426.74",
+"importel": "96426.74",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "831",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "0.00",
+"importec": "5149.85"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "4",
+"imported": "1463858.28",
+"importer": "1496383.81",
+"importel": "1496383.81",
+"importec": "10463.69"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "8",
+"imported": "780156.87",
+"importer": "6590.40",
+"importel": "0.00",
+"importec": "5149.85"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "636",
+"imported": "6000.00",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "160.08",
+"imported": "12000.00",
+"importer": "8226.76",
+"importel": "8226.76",
+"importec": "903.24"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "100.00",
+"imported": "16650.00",
+"importer": "16160.48",
+"importel": "16160.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "331",
+"imported": "26200.00",
+"importer": "26072.26",
+"importel": "25236.93",
+"importec": "389.08"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.05",
+"imported": "1900.00",
+"importer": "1287.95",
+"importel": "1211.00",
+"importec": "95.44"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "321",
+"imported": "44000.00",
+"importer": "17881.55",
+"importel": "16039.34",
+"importec": "1678.53"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "450.80",
+"imported": "154500.00",
+"importer": "159348.79",
+"importel": "159348.79",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "131",
+"imported": "633611.22",
+"importer": "599083.26",
+"importel": "599083.26",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "39",
+"imported": "39350.00",
+"importer": "30907.21",
+"importel": "19752.92",
+"importec": "7928.44"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "42",
+"imported": "1124000.00",
+"importer": "1151478.44",
+"importel": "1151478.44",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "227.99",
+"imported": "548000.00",
+"importer": "522878.60",
+"importel": "522878.60",
+"importec": "126292.91"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "55",
+"imported": "10455.00",
+"importer": "6112.46",
+"importel": "484.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "100",
+"imported": "16650.00",
+"importer": "16160.48",
+"importel": "16160.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "130.02",
+"imported": "264393.42",
+"importer": "271193.30",
+"importel": "271193.30",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221",
+"imported": "462600.00",
+"importer": "384706.47",
+"importel": "380673.03",
+"importec": "28867.51"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "3",
+"imported": "37873.94",
+"importer": "16579.42",
+"importel": "16579.42",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "1",
+"imported": "2785000.00",
+"importer": "2704934.16",
+"importel": "2473887.51",
+"importec": "98166.90"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "610",
+"imported": "286359.97",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "648",
+"imported": "54903.75",
+"importer": "0.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "214",
+"imported": "14000.00",
+"importer": "11477.97",
+"importel": "11477.97",
+"importec": "1389.68"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "391.90",
+"imported": "1000.00",
+"importer": "450.00",
+"importel": "150.00",
+"importec": "375.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "399",
+"imported": "13350.00",
+"importer": "14180.03",
+"importel": "14180.03",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "761",
+"imported": "210317.05",
+"importer": "81960.12",
+"importel": "81960.12",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.02",
+"imported": "96000.00",
+"importer": "84210.03",
+"importel": "82121.93",
+"importec": "3418.63"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "420",
+"imported": "1124000.00",
+"importer": "1151478.44",
+"importel": "1151478.44",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "226.06",
+"imported": "10000.00",
+"importer": "230.00",
+"importel": "230.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "626",
+"imported": "10000.00",
+"importer": "5704.46",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "230.00",
+"imported": "2000.00",
+"importer": "404.54",
+"importel": "404.54",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "46",
+"imported": "100150.00",
+"importer": "115522.37",
+"importel": "115522.37",
+"importec": "10463.69"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "47",
+"imported": "15000.00",
+"importer": "13825.00",
+"importel": "13825.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "162",
+"imported": "19000.00",
+"importer": "19748.48",
+"importel": "19748.48",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "23",
+"imported": "121850.00",
+"importer": "103697.11",
+"importel": "103318.87",
+"importec": "2358.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.00",
+"imported": "265500.00",
+"importer": "184558.22",
+"importel": "183595.06",
+"importec": "19130.70"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "302",
+"imported": "138000.00",
+"importer": "138011.40",
+"importel": "134516.96",
+"importec": "3305.55"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "450.50",
+"imported": "58208.28",
+"importer": "56209.21",
+"importel": "56209.21",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "4",
+"imported": "482396.00",
+"importer": "385448.77",
+"importel": "385435.57",
+"importec": "20450.33"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "150",
+"imported": "37095.21",
+"importer": "39187.42",
+"importel": "39187.42",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "622",
+"imported": "10000.00",
+"importer": "9438.00",
+"importel": "0.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "550",
+"imported": "10455.00",
+"importer": "6112.46",
+"importel": "484.00",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "91",
+"imported": "448122.45",
+"importer": "448122.45",
+"importel": "448122.45",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "310",
+"imported": "26171.33",
+"importer": "15577.52",
+"importel": "15577.52",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "313",
+"imported": "27000.00",
+"importer": "67707.01",
+"importel": "67707.01",
+"importec": "900.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "392",
+"imported": "25000.00",
+"importer": "16277.18",
+"importel": "5422.89",
+"importec": "7553.44"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "12",
+"imported": "558671.93",
+"importer": "499892.33",
+"importel": "499892.33",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "120.06",
+"imported": "31707.42",
+"importer": "29964.34",
+"importel": "29964.34",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "83",
+"imported": "12000.00",
+"importer": "6590.40",
+"importel": "6590.40",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "120.03",
+"imported": "69327.08",
+"importer": "64530.81",
+"importel": "64530.81",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "115",
+"imported": "305000.00",
+"importer": "314866.03",
+"importel": "288196.89",
+"importec": "11459.55"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "120.05",
+"imported": "13428.00",
+"importer": "9208.54",
+"importel": "9208.54",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "226.99",
+"imported": "304400.00",
+"importer": "307240.27",
+"importel": "299553.29",
+"importec": "10324.16"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "63",
+"imported": "230332.94",
+"importer": "56891.19",
+"importel": "45619.71",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "221.11",
+"imported": "4500.00",
+"importer": "8624.89",
+"importel": "8624.89",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "339",
+"imported": "25250.00",
+"importer": "13905.81",
+"importel": "10539.19",
+"importec": "2517.39"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "212",
+"imported": "45800.00",
+"importer": "60981.31",
+"importel": "57403.98",
+"importec": "4442.88"
+},
+{
+"id": "8855",
+"tipreig": "G",
+"cdcta": "226.09",
+"imported": "310700.00",
+"importer": "287193.45",
+"importel": "249515.56",
+"importec": "59666.07"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "130",
+"imported": "450000.00",
+"importer": "413383.99",
+"importel": "406977.47",
+"importec": "7785.63"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "2",
+"imported": "120000.00",
+"importer": "53154.75",
+"importel": "48992.24",
+"importec": "4959.84"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "5",
+"imported": "10955.00",
+"importer": "7032.29",
+"importel": "1403.83",
+"importec": "0.00"
+},
+{
+"id": "8855",
+"tipreig": "I",
+"cdcta": "9",
+"imported": "448122.45",
+"importer": "448122.45",
+"importel": "448122.45",
+"importec": "0.00"
+}
+],
+"tb_funcional": [
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "920",
+"importe": "5704.46"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "32",
+"importe": "22812.12"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "153",
+"importe": "208859.01"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "9",
+"cdfgr": "0",
+"importe": "625557.63"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "931",
+"importe": "151704.65"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "164",
+"importe": "35776.47"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "136",
+"importe": "241.61"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "23",
+"importe": "49818.11"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "340",
+"importe": "43330.59"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "91",
+"importe": "38960.05"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "160",
+"importe": "33575.50"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "8",
+"cdfgr": "2",
+"importe": "6590.40"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "341",
+"importe": "107535.82"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "3",
+"importe": "882003.48"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "15",
+"importe": "266490.54"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "231",
+"importe": "49341.55"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "33",
+"importe": "215043.19"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "3321",
+"importe": "7497.65"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "1621",
+"importe": "27243.59"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "171",
+"importe": "20141.01"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "9",
+"importe": "431175.49"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "161",
+"importe": "6519.30"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "323",
+"importe": "22812.12"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "92",
+"importe": "5704.46"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "151",
+"importe": "67429.15"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "340",
+"importe": "132246.55"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "3321",
+"importe": "19157.03"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "17",
+"importe": "57510.20"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "32",
+"importe": "109034.81"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "160",
+"importe": "146106.87"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "161",
+"importe": "410274.26"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "132",
+"importe": "7870.44"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "2",
+"importe": "49818.11"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "163",
+"importe": "3021.78"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "93",
+"importe": "238447.24"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "92",
+"importe": "625.24"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "1532",
+"importe": "193888.16"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "3",
+"importe": "43976.56"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "9",
+"cdfgr": "011",
+"importe": "625557.63"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "912",
+"importe": "21427.04"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "1532",
+"importe": "199061.39"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "3",
+"importe": "845309.93"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "164",
+"importe": "940.96"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "337",
+"importe": "75972.91"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "1532",
+"importe": "100078.07"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "9",
+"importe": "304684.96"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "2",
+"importe": "2868.21"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "333",
+"importe": "9438.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "171",
+"importe": "19799.71"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "33",
+"importe": "21164.44"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "24",
+"importe": "64423.69"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "920",
+"importe": "268668.05"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "2",
+"importe": "141316.98"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "924",
+"importe": "1101.12"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "3",
+"cdfgr": "011",
+"importe": "16579.42"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "3",
+"importe": "77895.60"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "332",
+"importe": "19157.03"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "163",
+"importe": "157706.79"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "23",
+"importe": "49341.55"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "9",
+"importe": "499502.30"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "13",
+"importe": "207740.80"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "93",
+"importe": "209407.21"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "337",
+"importe": "80829.17"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "323",
+"importe": "264006.77"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "341",
+"importe": "216037.11"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "34",
+"importe": "357230.71"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "931",
+"importe": "379.13"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "165",
+"importe": "166027.83"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "16",
+"importe": "753615.29"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "323",
+"importe": "109034.81"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "3",
+"cdfgr": "01",
+"importe": "16579.42"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "23",
+"importe": "2868.21"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "341",
+"importe": "63750.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "34",
+"importe": "63750.00"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "1531",
+"importe": "14970.85"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "16",
+"importe": "40094.80"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "342",
+"importe": "163171.15"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "91",
+"importe": "21427.04"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "153",
+"importe": "199061.39"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "13",
+"importe": "63011.84"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "151",
+"importe": "39773.75"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "336",
+"importe": "1950.37"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "934",
+"importe": "238068.11"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "920",
+"importe": "152667.08"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "942",
+"importe": "303300.90"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "1",
+"importe": "725224.80"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "221",
+"importe": "27551.74"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "22",
+"importe": "27551.74"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "92",
+"importe": "268668.05"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "1",
+"importe": "976619.96"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "333",
+"importe": "2632.07"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "330",
+"importe": "32705.25"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "431",
+"importe": "31734.76"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "4311",
+"importe": "31734.76"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "912",
+"importe": "38960.05"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "92",
+"importe": "153768.20"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "332",
+"importe": "7497.65"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "432",
+"importe": "9594.95"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "3",
+"cdfgr": "0",
+"importe": "16579.42"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "912",
+"importe": "758.82"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "33",
+"importe": "14145.60"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "330",
+"importe": "11726.44"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "8",
+"cdfgr": "23",
+"importe": "6590.40"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "9",
+"cdfgr": "01",
+"importe": "625557.63"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "241",
+"importe": "64423.69"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "32",
+"importe": "264006.77"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "334",
+"importe": "72124.05"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "162",
+"importe": "27243.59"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "342",
+"importe": "97863.01"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "43",
+"importe": "41329.71"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "91",
+"importe": "758.82"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "920",
+"importe": "625.24"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "9",
+"importe": "5704.46"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "15",
+"importe": "208859.01"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "17",
+"importe": "19799.71"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "6",
+"cdfgr": "1",
+"importe": "268753.52"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "330",
+"importe": "26662.01"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "34",
+"importe": "402953.52"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "15",
+"importe": "139851.82"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "338",
+"importe": "175946.05"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "4",
+"importe": "41329.71"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "33",
+"importe": "379044.41"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "17",
+"importe": "20141.01"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "231",
+"importe": "2868.21"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "94",
+"importe": "303300.90"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "8",
+"cdfgr": "231",
+"importe": "6590.40"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "132",
+"importe": "207740.80"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "171",
+"importe": "57510.20"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "336",
+"importe": "16270.93"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "16",
+"importe": "193483.26"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "1",
+"cdfgr": "934",
+"importe": "57702.56"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "135",
+"importe": "54899.79"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "153",
+"importe": "100078.07"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "231",
+"importe": "49818.11"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "2",
+"cdfgr": "334",
+"importe": "82340.11"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdcta": "4",
+"cdfgr": "334",
+"importe": "14145.60"
+}
+],
+"tb_funcional_cons": [
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "1532",
+"importe": "193888.16"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "1",
+"importe": "268753.52"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "342",
+"importe": "163171.15"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "132",
+"importe": "207740.80"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "164",
+"importe": "35776.47"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "153",
+"importe": "199061.39"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "323",
+"importe": "264006.77"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "32",
+"importe": "109034.81"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "340",
+"importe": "43330.59"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "34",
+"importe": "63750.00"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "32",
+"importe": "22812.12"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "17",
+"importe": "19799.71"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "3",
+"importe": "43976.56"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "92",
+"importe": "5704.46"
+},
+{
+"id": "8855",
+"cdcta": "9",
+"cdfgr": "01",
+"importe": "625557.63"
+},
+{
+"id": "8855",
+"cdcta": "9",
+"cdfgr": "011",
+"importe": "625557.63"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "241",
+"importe": "64423.69"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "330",
+"importe": "26662.01"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "2",
+"importe": "141316.98"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "17",
+"importe": "57510.20"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "32",
+"importe": "264006.77"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "33",
+"importe": "215043.19"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "15",
+"importe": "139851.82"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "33",
+"importe": "379044.41"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "164",
+"importe": "940.96"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "323",
+"importe": "109034.81"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "332",
+"importe": "7497.65"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "94",
+"importe": "303300.90"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "15",
+"importe": "208859.01"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "161",
+"importe": "6519.30"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "341",
+"importe": "107535.82"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "338",
+"importe": "175946.05"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "136",
+"importe": "241.61"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "151",
+"importe": "39773.75"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "161",
+"importe": "410274.26"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "920",
+"importe": "152667.08"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "330",
+"importe": "11726.44"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "153",
+"importe": "208859.01"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "16",
+"importe": "40094.80"
+},
+{
+"id": "8855",
+"cdcta": "8",
+"cdfgr": "23",
+"importe": "6590.40"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "221",
+"importe": "27551.74"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "13",
+"importe": "207740.80"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "3",
+"importe": "882003.48"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "336",
+"importe": "16270.93"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "337",
+"importe": "80829.17"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "23",
+"importe": "49818.11"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "231",
+"importe": "49818.11"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "333",
+"importe": "2632.07"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "336",
+"importe": "1950.37"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "2",
+"importe": "49818.11"
+},
+{
+"id": "8855",
+"cdcta": "3",
+"cdfgr": "011",
+"importe": "16579.42"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "912",
+"importe": "758.82"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "2",
+"importe": "2868.21"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "334",
+"importe": "14145.60"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "341",
+"importe": "63750.00"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "1531",
+"importe": "14970.85"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "333",
+"importe": "9438.00"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "323",
+"importe": "22812.12"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "23",
+"importe": "49341.55"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "1532",
+"importe": "199061.39"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "334",
+"importe": "72124.05"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "13",
+"importe": "63011.84"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "1621",
+"importe": "27243.59"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "165",
+"importe": "166027.83"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "91",
+"importe": "38960.05"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "91",
+"importe": "758.82"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "3",
+"importe": "77895.60"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "171",
+"importe": "19799.71"
+},
+{
+"id": "8855",
+"cdcta": "8",
+"cdfgr": "231",
+"importe": "6590.40"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "1",
+"importe": "725224.80"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "24",
+"importe": "64423.69"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "16",
+"importe": "193483.26"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "34",
+"importe": "402953.52"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "3321",
+"importe": "7497.65"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "334",
+"importe": "82340.11"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "34",
+"importe": "357230.71"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "9",
+"importe": "431175.49"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "912",
+"importe": "38960.05"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "231",
+"importe": "2868.21"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "920",
+"importe": "268668.05"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "22",
+"importe": "27551.74"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "1",
+"importe": "976619.96"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "171",
+"importe": "20141.01"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "432",
+"importe": "9594.95"
+},
+{
+"id": "8855",
+"cdcta": "3",
+"cdfgr": "0",
+"importe": "16579.42"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "33",
+"importe": "14145.60"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "9",
+"importe": "5704.46"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "163",
+"importe": "157706.79"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "15",
+"importe": "266490.54"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "171",
+"importe": "57510.20"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "93",
+"importe": "209407.21"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "3321",
+"importe": "19157.03"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "934",
+"importe": "57702.56"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "341",
+"importe": "216037.11"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "16",
+"importe": "753615.29"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "17",
+"importe": "20141.01"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "43",
+"importe": "41329.71"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "4311",
+"importe": "31734.76"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "1532",
+"importe": "100078.07"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "163",
+"importe": "3021.78"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "92",
+"importe": "625.24"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "33",
+"importe": "21164.44"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "332",
+"importe": "19157.03"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "91",
+"importe": "21427.04"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "231",
+"importe": "49341.55"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "92",
+"importe": "268668.05"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "160",
+"importe": "146106.87"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "924",
+"importe": "1101.12"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "3",
+"importe": "845309.93"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "132",
+"importe": "7870.44"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "330",
+"importe": "32705.25"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "431",
+"importe": "31734.76"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "93",
+"importe": "238447.24"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "23",
+"importe": "2868.21"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "942",
+"importe": "303300.90"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "920",
+"importe": "625.24"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "912",
+"importe": "21427.04"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "931",
+"importe": "151704.65"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "4",
+"importe": "41329.71"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "337",
+"importe": "75972.91"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "92",
+"importe": "153768.20"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "920",
+"importe": "5704.46"
+},
+{
+"id": "8855",
+"cdcta": "6",
+"cdfgr": "160",
+"importe": "33575.50"
+},
+{
+"id": "8855",
+"cdcta": "8",
+"cdfgr": "2",
+"importe": "6590.40"
+},
+{
+"id": "8855",
+"cdcta": "9",
+"cdfgr": "0",
+"importe": "625557.63"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "151",
+"importe": "67429.15"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "9",
+"importe": "499502.30"
+},
+{
+"id": "8855",
+"cdcta": "1",
+"cdfgr": "340",
+"importe": "132246.55"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "135",
+"importe": "54899.79"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "153",
+"importe": "100078.07"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "162",
+"importe": "27243.59"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "931",
+"importe": "379.13"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "342",
+"importe": "97863.01"
+},
+{
+"id": "8855",
+"cdcta": "2",
+"cdfgr": "934",
+"importe": "238068.11"
+},
+{
+"id": "8855",
+"cdcta": "3",
+"cdfgr": "01",
+"importe": "16579.42"
+},
+{
+"id": "8855",
+"cdcta": "4",
+"cdfgr": "9",
+"importe": "304684.96"
+}
+],
+"tb_remanente": [
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "012.02",
+"importe": "1668816.65"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "02",
+"importe": "1379589.40"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "2",
+"importe": "30858.83"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "012.03",
+"importe": "41452.96"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "013.01",
+"importe": "143953.01"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "013.04",
+"importe": "32819.72"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "03",
+"importe": "723109.20"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "013.02",
+"importe": "19824.47"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "013.03",
+"importe": "472052.51"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "0",
+"importe": "1344926.45"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "012",
+"importe": "2004560.51"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "012.01",
+"importe": "294290.90"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "013",
+"importe": "635829.99"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "012.04",
+"importe": "1960.89"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "04",
+"importe": "176507.93"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "01",
+"importe": "3447625.05"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "011",
+"importe": "2048035.70"
+},
+{
+"id": "8855",
+"idente": "8855",
+"cdrmte": "1",
+"importe": "1168418.52"
+}
+]
+},
+"codigos": {
+"tb_CCAA": [
+{
+"CCAA": "01",
+"Nombre": "Andalucía"
+},
+{
+"CCAA": "02",
+"Nombre": "Aragón"
+},
+{
+"CCAA": "03",
+"Nombre": "Principado de Asturias"
+},
+{
+"CCAA": "04",
+"Nombre": "Illes Balears"
+},
+{
+"CCAA": "05",
+"Nombre": "Canarias"
+},
+{
+"CCAA": "06",
+"Nombre": "Cantabria"
+},
+{
+"CCAA": "07",
+"Nombre": "Castilla y León"
+},
+{
+"CCAA": "08",
+"Nombre": "Castilla-La Mancha"
+},
+{
+"CCAA": "09",
+"Nombre": "Cataluña"
+},
+{
+"CCAA": "10",
+"Nombre": "Extremadura"
+},
+{
+"CCAA": "11",
+"Nombre": "Galicia"
+},
+{
+"CCAA": "12",
+"Nombre": "Comunidad de Madrid"
+},
+{
+"CCAA": "13",
+"Nombre": "Región de Murcia"
+},
+{
+"CCAA": "14",
+"Nombre": "Cdad. Foral de Navarra"
+},
+{
+"CCAA": "15",
+"Nombre": "País Vasco"
+},
+{
+"CCAA": "16",
+"Nombre": "La Rioja"
+},
+{
+"CCAA": "17",
+"Nombre": "Comunitat Valenciana"
+},
+{
+"CCAA": "18",
+"Nombre": "Ceuta"
+},
+{
+"CCAA": "19",
+"Nombre": "Melilla"
+}
+],
+"tb_cuentasEconomica": [
+{
+"tipreig": "G",
+"cdcta": "1",
+"nombre": "CAP. I GASTOS DE PERSONAL"
+},
+{
+"tipreig": "G",
+"cdcta": "10",
+"nombre": "Órganos de gobierno y personal directivo"
+},
+{
+"tipreig": "G",
+"cdcta": "100",
+"nombre": "Retribuciones básicas y otras remuneraciones de los miembros de los órganos de gobierno"
+},
+{
+"tipreig": "G",
+"cdcta": "100.00",
+"nombre": "Retribuciones básicas"
+},
+{
+"tipreig": "G",
+"cdcta": "100.01",
+"nombre": "Otras remuneraciones"
+},
+{
+"tipreig": "G",
+"cdcta": "101",
+"nombre": "Retribuciones básicas y otras remuneraciones del personal directivo"
+},
+{
+"tipreig": "G",
+"cdcta": "101.00",
+"nombre": "Retribuciones básicas"
+},
+{
+"tipreig": "G",
+"cdcta": "101.01",
+"nombre": "Otras remuneraciones"
+},
+{
+"tipreig": "G",
+"cdcta": "107",
+"nombre": "Contribuciones a planes y fondos de pensiones"
+},
+{
+"tipreig": "G",
+"cdcta": "107.00",
+"nombre": "De los miembros de los órganos de gobierno"
+},
+{
+"tipreig": "G",
+"cdcta": "107.01",
+"nombre": "Del personal directivo"
+},
+{
+"tipreig": "G",
+"cdcta": "11",
+"nombre": "Personal eventual"
+},
+{
+"tipreig": "G",
+"cdcta": "110",
+"nombre": "Retribuciones básicas y otras remuneraciones de personal eventual"
+},
+{
+"tipreig": "G",
+"cdcta": "110.00",
+"nombre": "Retribuciones básicas"
+},
+{
+"tipreig": "G",
+"cdcta": "110.01",
+"nombre": "Retribuciones complementarias"
+},
+{
+"tipreig": "G",
+"cdcta": "110.02",
+"nombre": "Otras remuneraciones"
+},
+{
+"tipreig": "G",
+"cdcta": "117",
+"nombre": "Contribuciones a planes y fondos de pensiones"
+},
+{
+"tipreig": "G",
+"cdcta": "12",
+"nombre": "Personal Funcionario"
+},
+{
+"tipreig": "G",
+"cdcta": "120",
+"nombre": "Retribuciones básicas"
+},
+{
+"tipreig": "G",
+"cdcta": "120.00",
+"nombre": "Sueldos del Grupo A1"
+},
+{
+"tipreig": "G",
+"cdcta": "120.01",
+"nombre": "Sueldos del Grupo A2"
+},
+{
+"tipreig": "G",
+"cdcta": "120.02",
+"nombre": "Sueldos del Grupo B"
+},
+{
+"tipreig": "G",
+"cdcta": "120.03",
+"nombre": "Sueldos del Grupo C1"
+},
+{
+"tipreig": "G",
+"cdcta": "120.04",
+"nombre": "Sueldos del Grupo C2"
+},
+{
+"tipreig": "G",
+"cdcta": "120.05",
+"nombre": "Sueldos del Grupo E"
+},
+{
+"tipreig": "G",
+"cdcta": "120.06",
+"nombre": "Trienios"
+},
+{
+"tipreig": "G",
+"cdcta": "120.09",
+"nombre": "Otras retribuciones básicas"
+},
+{
+"tipreig": "G",
+"cdcta": "121",
+"nombre": "Retribuciones complementarias"
+},
+{
+"tipreig": "G",
+"cdcta": "121.00",
+"nombre": "Complemento de destino"
+},
+{
+"tipreig": "G",
+"cdcta": "121.01",
+"nombre": "Complemento específico"
+},
+{
+"tipreig": "G",
+"cdcta": "121.03",
+"nombre": "Otros complementos"
+},
+{
+"tipreig": "G",
+"cdcta": "122",
+"nombre": "Retribuciones en especie"
+},
+{
+"tipreig": "G",
+"cdcta": "124",
+"nombre": "Retribuciones de funcionarios en prácticas"
+},
+{
+"tipreig": "G",
+"cdcta": "124.00",
+"nombre": "Sueldos del Grupo A1"
+},
+{
+"tipreig": "G",
+"cdcta": "124.01",
+"nombre": "Sueldos del Grupo A2"
+},
+{
+"tipreig": "G",
+"cdcta": "124.02",
+"nombre": "Sueldos del Grupo B"
+},
+{
+"tipreig": "G",
+"cdcta": "124.03",
+"nombre": "Sueldos del Grupo C1"
+},
+{
+"tipreig": "G",
+"cdcta": "124.04",
+"nombre": "Sueldos del Grupo C2"
+},
+{
+"tipreig": "G",
+"cdcta": "124.05",
+"nombre": "Sueldos del Grupo E"
+},
+{
+"tipreig": "G",
+"cdcta": "124.06",
+"nombre": "Trienios"
+},
+{
+"tipreig": "G",
+"cdcta": "124.09",
+"nombre": "Otras retribuciones básicas"
+},
+{
+"tipreig": "G",
+"cdcta": "127",
+"nombre": "Contribuciones a planes y fondos de pensiones"
+},
+{
+"tipreig": "G",
+"cdcta": "13",
+"nombre": "Personal Laboral"
+},
+{
+"tipreig": "G",
+"cdcta": "130",
+"nombre": "Laboral Fijo"
+},
+{
+"tipreig": "G",
+"cdcta": "130.00",
+"nombre": "Retribuciones básicas"
+},
+{
+"tipreig": "G",
+"cdcta": "130.01",
+"nombre": "Horas extraordinarias"
+},
+{
+"tipreig": "G",
+"cdcta": "130.02",
+"nombre": "Otras remuneraciones"
+},
+{
+"tipreig": "G",
+"cdcta": "131",
+"nombre": "Laboral temporal"
+},
+{
+"tipreig": "G",
+"cdcta": "132",
+"nombre": "Retribuciones en especie"
+},
+{
+"tipreig": "G",
+"cdcta": "137",
+"nombre": "Contribuciones a planes y fondos de pensiones"
+},
+{
+"tipreig": "G",
+"cdcta": "14",
+"nombre": "Otro personal"
+},
+{
+"tipreig": "G",
+"cdcta": "143",
+"nombre": "Otro personal"
+},
+{
+"tipreig": "G",
+"cdcta": "147",
+"nombre": "Contribuciones a planes y fondos de pensiones"
+},
+{
+"tipreig": "G",
+"cdcta": "15",
+"nombre": "Incentivos al rendimiento"
+},
+{
+"tipreig": "G",
+"cdcta": "150",
+"nombre": "Productividad"
+},
+{
+"tipreig": "G",
+"cdcta": "151",
+"nombre": "Gratificaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "152",
+"nombre": "Otros incentivos al rendimiento"
+},
+{
+"tipreig": "G",
+"cdcta": "153",
+"nombre": "Complemento de dedicación especial"
+},
+{
+"tipreig": "G",
+"cdcta": "16",
+"nombre": "Cuotas, prestaciones y gastos sociales a cargo del empleador"
+},
+{
+"tipreig": "G",
+"cdcta": "160",
+"nombre": "Cuotas sociales"
+},
+{
+"tipreig": "G",
+"cdcta": "160.00",
+"nombre": "Seguridad Social"
+},
+{
+"tipreig": "G",
+"cdcta": "160.08",
+"nombre": "Asistencia médico-farmacéutica"
+},
+{
+"tipreig": "G",
+"cdcta": "160.09",
+"nombre": "Otras cuotas"
+},
+{
+"tipreig": "G",
+"cdcta": "161",
+"nombre": "Prestaciones sociales"
+},
+{
+"tipreig": "G",
+"cdcta": "161.03",
+"nombre": "Pensiones excepcionales"
+},
+{
+"tipreig": "G",
+"cdcta": "161.04",
+"nombre": "Indemnizaciones al personal laboral por jubilaciones anticipadas"
+},
+{
+"tipreig": "G",
+"cdcta": "161.05",
+"nombre": "Pensiones a cargo de la Entidad local"
+},
+{
+"tipreig": "G",
+"cdcta": "161.07",
+"nombre": "Asistencia médico-farmaceútica a pensionistas"
+},
+{
+"tipreig": "G",
+"cdcta": "162",
+"nombre": "Gastos sociales del personal"
+},
+{
+"tipreig": "G",
+"cdcta": "162.00",
+"nombre": "Formación y perfeccionamiento del personal"
+},
+{
+"tipreig": "G",
+"cdcta": "162.01",
+"nombre": "Economatos y comedores"
+},
+{
+"tipreig": "G",
+"cdcta": "162.02",
+"nombre": "Transporte de personal"
+},
+{
+"tipreig": "G",
+"cdcta": "162.04",
+"nombre": "Acción social"
+},
+{
+"tipreig": "G",
+"cdcta": "162.05",
+"nombre": "Seguros"
+},
+{
+"tipreig": "G",
+"cdcta": "162.09",
+"nombre": "Otros gastos sociales"
+},
+{
+"tipreig": "G",
+"cdcta": "164",
+"nombre": "Complemento familiar"
+},
+{
+"tipreig": "G",
+"cdcta": "2",
+"nombre": "CAP. II  GASTOS EN BIENES CORRIENTES Y SERVICIOS"
+},
+{
+"tipreig": "G",
+"cdcta": "20",
+"nombre": "Arrendamientos y cánones"
+},
+{
+"tipreig": "G",
+"cdcta": "200",
+"nombre": "Arrendamientos de terrenos y bienes naturales"
+},
+{
+"tipreig": "G",
+"cdcta": "202",
+"nombre": "Arrendamientos de edificios y otras construcciones"
+},
+{
+"tipreig": "G",
+"cdcta": "203",
+"nombre": "Arrendamientos de maquinaria, instalaciones y utillaje"
+},
+{
+"tipreig": "G",
+"cdcta": "204",
+"nombre": "Arrendamientos de material de transporte"
+},
+{
+"tipreig": "G",
+"cdcta": "205",
+"nombre": "Arrendamientos de mobiliario y enseres"
+},
+{
+"tipreig": "G",
+"cdcta": "206",
+"nombre": "Arrendamientos de equipos para procesos de información"
+},
+{
+"tipreig": "G",
+"cdcta": "208",
+"nombre": "Arrendamientos de otro inmovilizado material"
+},
+{
+"tipreig": "G",
+"cdcta": "209",
+"nombre": "Cánones"
+},
+{
+"tipreig": "G",
+"cdcta": "21",
+"nombre": "Reparaciones, mantenimiento y conservación"
+},
+{
+"tipreig": "G",
+"cdcta": "210",
+"nombre": "Infraestructuras y bienes naturales"
+},
+{
+"tipreig": "G",
+"cdcta": "212",
+"nombre": "Edificios y otras construcciones"
+},
+{
+"tipreig": "G",
+"cdcta": "213",
+"nombre": "Maquinaria, instalaciones técnicas y utillaje"
+},
+{
+"tipreig": "G",
+"cdcta": "214",
+"nombre": "Elementos de transporte"
+},
+{
+"tipreig": "G",
+"cdcta": "215",
+"nombre": "Mobiliario"
+},
+{
+"tipreig": "G",
+"cdcta": "216",
+"nombre": "Equipos para procesos de información"
+},
+{
+"tipreig": "G",
+"cdcta": "219",
+"nombre": "Otro inmovilizado material"
+},
+{
+"tipreig": "G",
+"cdcta": "22",
+"nombre": "Material, suministros y otros"
+},
+{
+"tipreig": "G",
+"cdcta": "220",
+"nombre": "Material de oficina"
+},
+{
+"tipreig": "G",
+"cdcta": "220.00",
+"nombre": "Ordinario no inventariable"
+},
+{
+"tipreig": "G",
+"cdcta": "220.01",
+"nombre": "Prensa, revistas, libros y otras publicaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "220.02",
+"nombre": "Material informático no inventariable"
+},
+{
+"tipreig": "G",
+"cdcta": "221",
+"nombre": "Suministros"
+},
+{
+"tipreig": "G",
+"cdcta": "221.00",
+"nombre": "Energía eléctrica"
+},
+{
+"tipreig": "G",
+"cdcta": "221.01",
+"nombre": "Agua"
+},
+{
+"tipreig": "G",
+"cdcta": "221.02",
+"nombre": "Gas"
+},
+{
+"tipreig": "G",
+"cdcta": "221.03",
+"nombre": "Combustibles y carburantes"
+},
+{
+"tipreig": "G",
+"cdcta": "221.04",
+"nombre": "Vestuario"
+},
+{
+"tipreig": "G",
+"cdcta": "221.05",
+"nombre": "Productos alimenticios"
+},
+{
+"tipreig": "G",
+"cdcta": "221.06",
+"nombre": "Productos farmacéuticos y material sanitario"
+},
+{
+"tipreig": "G",
+"cdcta": "221.10",
+"nombre": "Productos de limpieza y aseo"
+},
+{
+"tipreig": "G",
+"cdcta": "221.11",
+"nombre": "Suministros de repuestos de maquinaria, utillaje y elementos de transporte"
+},
+{
+"tipreig": "G",
+"cdcta": "221.12",
+"nombre": "Suministros de material electrónico, eléctrico y de telecomunicaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "221.13",
+"nombre": "Manutención de animales"
+},
+{
+"tipreig": "G",
+"cdcta": "221.99",
+"nombre": "Otros suministros"
+},
+{
+"tipreig": "G",
+"cdcta": "222",
+"nombre": "Comunicaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "222.00",
+"nombre": "Servicios de Telecomunicaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "222.01",
+"nombre": "Postales"
+},
+{
+"tipreig": "G",
+"cdcta": "222.02",
+"nombre": "Telegráficas"
+},
+{
+"tipreig": "G",
+"cdcta": "222.03",
+"nombre": "Informáticas"
+},
+{
+"tipreig": "G",
+"cdcta": "222.99",
+"nombre": "Otros gastos en comunicaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "223",
+"nombre": "Transportes"
+},
+{
+"tipreig": "G",
+"cdcta": "224",
+"nombre": "Primas de seguros"
+},
+{
+"tipreig": "G",
+"cdcta": "225",
+"nombre": "Tributos"
+},
+{
+"tipreig": "G",
+"cdcta": "225.00",
+"nombre": "Tributos estatales"
+},
+{
+"tipreig": "G",
+"cdcta": "225.01",
+"nombre": "Tributos de las Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "225.02",
+"nombre": "Tributos de las Entidades locales"
+},
+{
+"tipreig": "G",
+"cdcta": "226",
+"nombre": "Gastos diversos"
+},
+{
+"tipreig": "G",
+"cdcta": "226.01",
+"nombre": "Atenciones protocolarias y representativas"
+},
+{
+"tipreig": "G",
+"cdcta": "226.02",
+"nombre": "Publicidad y propaganda"
+},
+{
+"tipreig": "G",
+"cdcta": "226.03",
+"nombre": "Publicación en Diarios Oficiales"
+},
+{
+"tipreig": "G",
+"cdcta": "226.04",
+"nombre": "Jurídicos, contenciosos"
+},
+{
+"tipreig": "G",
+"cdcta": "226.06",
+"nombre": "Reuniones, conferencias y cursos"
+},
+{
+"tipreig": "G",
+"cdcta": "226.07",
+"nombre": "Oposiciones y pruebas selectivas"
+},
+{
+"tipreig": "G",
+"cdcta": "226.09",
+"nombre": "Actividades culturales y deportivas"
+},
+{
+"tipreig": "G",
+"cdcta": "226.99",
+"nombre": "Otros gastos diversos"
+},
+{
+"tipreig": "G",
+"cdcta": "227",
+"nombre": "Trabajos realizados por otras empresas y profesionales"
+},
+{
+"tipreig": "G",
+"cdcta": "227.00",
+"nombre": "Limpieza y aseo"
+},
+{
+"tipreig": "G",
+"cdcta": "227.01",
+"nombre": "Seguridad"
+},
+{
+"tipreig": "G",
+"cdcta": "227.02",
+"nombre": "Valoraciones y peritajes"
+},
+{
+"tipreig": "G",
+"cdcta": "227.04",
+"nombre": "Custodia, depósito y almacenaje"
+},
+{
+"tipreig": "G",
+"cdcta": "227.05",
+"nombre": "Procesos electorales"
+},
+{
+"tipreig": "G",
+"cdcta": "227.06",
+"nombre": "Estudios y trabajos técnicos"
+},
+{
+"tipreig": "G",
+"cdcta": "227.08",
+"nombre": "Servicios de recaudación a favor de la entidad"
+},
+{
+"tipreig": "G",
+"cdcta": "227.99",
+"nombre": "Otros trabajos realizados por otras empresas y profesionales"
+},
+{
+"tipreig": "G",
+"cdcta": "23",
+"nombre": "Indemnizaciones por razón del servicio"
+},
+{
+"tipreig": "G",
+"cdcta": "230",
+"nombre": "Dietas"
+},
+{
+"tipreig": "G",
+"cdcta": "230.00",
+"nombre": "De los miembros de los órganos de gobierno"
+},
+{
+"tipreig": "G",
+"cdcta": "230.10",
+"nombre": "Del personal directivo"
+},
+{
+"tipreig": "G",
+"cdcta": "230.20",
+"nombre": "Del personal no directivo"
+},
+{
+"tipreig": "G",
+"cdcta": "231",
+"nombre": "Locomoción"
+},
+{
+"tipreig": "G",
+"cdcta": "231.00",
+"nombre": "De los miembros de los órganos de gobierno"
+},
+{
+"tipreig": "G",
+"cdcta": "231.10",
+"nombre": "Del personal directivo"
+},
+{
+"tipreig": "G",
+"cdcta": "231.20",
+"nombre": "Del personal no directivo"
+},
+{
+"tipreig": "G",
+"cdcta": "233",
+"nombre": "Otras indemnizaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "24",
+"nombre": "Gastos de publicaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "240",
+"nombre": "Gastos de edición y distribución"
+},
+{
+"tipreig": "G",
+"cdcta": "25",
+"nombre": "Trabajos realizados por administraciones públicas y otras entidades públicas"
+},
+{
+"tipreig": "G",
+"cdcta": "26",
+"nombre": "Trabajos realizados por Instituciones sin fines de lucro"
+},
+{
+"tipreig": "G",
+"cdcta": "3",
+"nombre": "CAP. III  GASTOS FINANCIEROS"
+},
+{
+"tipreig": "G",
+"cdcta": "30",
+"nombre": "De Deuda Pública en euros"
+},
+{
+"tipreig": "G",
+"cdcta": "300",
+"nombre": "Intereses"
+},
+{
+"tipreig": "G",
+"cdcta": "301",
+"nombre": "Gastos de emisión, modificación y cancelación"
+},
+{
+"tipreig": "G",
+"cdcta": "309",
+"nombre": "Otros gastos financieros de Deuda Pública en euros"
+},
+{
+"tipreig": "G",
+"cdcta": "31",
+"nombre": "De préstamos y otras operaciones financieras en euros"
+},
+{
+"tipreig": "G",
+"cdcta": "310",
+"nombre": "Intereses"
+},
+{
+"tipreig": "G",
+"cdcta": "311",
+"nombre": "Gastos de formalización, modificación y cancelación"
+},
+{
+"tipreig": "G",
+"cdcta": "319",
+"nombre": "Otros gastos financieros de préstamos y otras operaciones financieras en euros"
+},
+{
+"tipreig": "G",
+"cdcta": "32",
+"nombre": "De Deuda Pública en moneda distinta del euro"
+},
+{
+"tipreig": "G",
+"cdcta": "320",
+"nombre": "Intereses"
+},
+{
+"tipreig": "G",
+"cdcta": "501",
+"nombre": "Otros imprevistos"
+},
+{
+"tipreig": "G",
+"cdcta": "321",
+"nombre": "Gastos de emisión, modificación y cancelación"
+},
+{
+"tipreig": "G",
+"cdcta": "322",
+"nombre": "Diferencias de cambio"
+},
+{
+"tipreig": "G",
+"cdcta": "329",
+"nombre": "Otros gastos financieros de Deuda Pública en moneda distinta del euro"
+},
+{
+"tipreig": "G",
+"cdcta": "33",
+"nombre": "De préstamos y otras operaciones financieras en moneda distinta del euro"
+},
+{
+"tipreig": "G",
+"cdcta": "330",
+"nombre": "Intereses"
+},
+{
+"tipreig": "G",
+"cdcta": "331",
+"nombre": "Gastos de formalización, modificación y cancelación"
+},
+{
+"tipreig": "G",
+"cdcta": "332",
+"nombre": "Diferencias de cambio"
+},
+{
+"tipreig": "G",
+"cdcta": "339",
+"nombre": "Otros gastos financieros de préstamos y otras operaciones financieras en moneda distinta del euro"
+},
+{
+"tipreig": "G",
+"cdcta": "34",
+"nombre": "De depósitos, fianzas y otros"
+},
+{
+"tipreig": "G",
+"cdcta": "340",
+"nombre": "Intereses de depósitos"
+},
+{
+"tipreig": "G",
+"cdcta": "341",
+"nombre": "Intereses de fianzas"
+},
+{
+"tipreig": "G",
+"cdcta": "35",
+"nombre": "Intereses de demora y otros gastos financieros"
+},
+{
+"tipreig": "G",
+"cdcta": "352",
+"nombre": "Intereses de demora"
+},
+{
+"tipreig": "G",
+"cdcta": "353",
+"nombre": "Operaciones de intercambio financiero"
+},
+{
+"tipreig": "G",
+"cdcta": "357",
+"nombre": "Ejecución de avales"
+},
+{
+"tipreig": "G",
+"cdcta": "358",
+"nombre": "Intereses por operaciones de arrendamiento financiero (leasing)"
+},
+{
+"tipreig": "G",
+"cdcta": "359",
+"nombre": "Otros gastos financieros"
+},
+{
+"tipreig": "G",
+"cdcta": "4",
+"nombre": "CAP. IV  TRANSFERENCIAS CORRIENTES"
+},
+{
+"tipreig": "G",
+"cdcta": "40",
+"nombre": "A la Admistración General de la Entidad Local"
+},
+{
+"tipreig": "G",
+"cdcta": "41",
+"nombre": "A Organismos Autónomos de la Entidad Local"
+},
+{
+"tipreig": "G",
+"cdcta": "42",
+"nombre": "A la Administración del Estado"
+},
+{
+"tipreig": "G",
+"cdcta": "420",
+"nombre": "A la Administración General del Estado"
+},
+{
+"tipreig": "G",
+"cdcta": "421",
+"nombre": "A Organismos Autónomos y agencias del Estado"
+},
+{
+"tipreig": "G",
+"cdcta": "421.00",
+"nombre": "Al Servicio Público de Empleo Estatal"
+},
+{
+"tipreig": "G",
+"cdcta": "421.10",
+"nombre": "A otros organismos autónomos"
+},
+{
+"tipreig": "G",
+"cdcta": "422",
+"nombre": "A Fundaciones estatales"
+},
+{
+"tipreig": "G",
+"cdcta": "423",
+"nombre": "A sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos"
+},
+{
+"tipreig": "G",
+"cdcta": "423.00",
+"nombre": "Subvenciones para fomento del empleo"
+},
+{
+"tipreig": "G",
+"cdcta": "423.10",
+"nombre": "Subvenciones para bonificación de intereses y primas de seguros"
+},
+{
+"tipreig": "G",
+"cdcta": "423.20",
+"nombre": "Subvenciones para reducir el precio a pagar por los consumidores"
+},
+{
+"tipreig": "G",
+"cdcta": "423.90",
+"nombre": "Otras subvenciones a sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos"
+},
+{
+"tipreig": "G",
+"cdcta": "43",
+"nombre": "A la Seguridad Social"
+},
+{
+"tipreig": "G",
+"cdcta": "44",
+"nombre": "A entes públicos y sociedades mercantiles de la Entidad Local"
+},
+{
+"tipreig": "G",
+"cdcta": "440",
+"nombre": "Subvenciones para fomento del empleo"
+},
+{
+"tipreig": "G",
+"cdcta": "441",
+"nombre": "Subvenciones para bonificación de intereses y primas de seguros"
+},
+{
+"tipreig": "G",
+"cdcta": "442",
+"nombre": "Subvenciones para reducir el precio a pagar por los consumidores"
+},
+{
+"tipreig": "G",
+"cdcta": "449",
+"nombre": "Otras subvenciones a entes públicos y sociedades mercantiles de la Entidad Local"
+},
+{
+"tipreig": "G",
+"cdcta": "45",
+"nombre": "A Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "450",
+"nombre": "A la Administración General de las Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "451",
+"nombre": "A Organismos Autónomos y agencias de las Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "452",
+"nombre": "A fundaciones de las Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "453",
+"nombre": "A sociedades mercantiles, entidades públicas empresariales y otros organismos públicos dependientes de las Comunidades Autóno"
+},
+{
+"tipreig": "G",
+"cdcta": "453.00",
+"nombre": "Subvenciones para fomento del empleo"
+},
+{
+"tipreig": "G",
+"cdcta": "453.10",
+"nombre": "Subvenciones para bonificación de intereses y primas de seguros"
+},
+{
+"tipreig": "G",
+"cdcta": "453.20",
+"nombre": "Subvenciones para reducir el precio a pagar por los consumidores"
+},
+{
+"tipreig": "G",
+"cdcta": "453.90",
+"nombre": "Otras subvenciones a sociedades mercantiles, entidades públicas empresariales y otros organismos públicos dependientes de las"
+},
+{
+"tipreig": "G",
+"cdcta": "46",
+"nombre": "A Entidades Locales"
+},
+{
+"tipreig": "G",
+"cdcta": "461",
+"nombre": "A Diputaciones, Consejos o Cabildos insulares"
+},
+{
+"tipreig": "G",
+"cdcta": "462",
+"nombre": "A Ayuntamientos"
+},
+{
+"tipreig": "G",
+"cdcta": "463",
+"nombre": "A Mancomunidades"
+},
+{
+"tipreig": "G",
+"cdcta": "464",
+"nombre": "A Áreas Metropolitanas"
+},
+{
+"tipreig": "G",
+"cdcta": "465",
+"nombre": "A Comarcas"
+},
+{
+"tipreig": "G",
+"cdcta": "466",
+"nombre": "A otras Entidades que agrupen municipios"
+},
+{
+"tipreig": "G",
+"cdcta": "467",
+"nombre": "A Consorcios"
+},
+{
+"tipreig": "G",
+"cdcta": "468",
+"nombre": "A Entidades Locales Menores"
+},
+{
+"tipreig": "G",
+"cdcta": "47",
+"nombre": "A Empresas privadas"
+},
+{
+"tipreig": "G",
+"cdcta": "470",
+"nombre": "Subvenciones para fomento del empleo"
+},
+{
+"tipreig": "G",
+"cdcta": "471",
+"nombre": "Subvenciones para bonificación de intereses y primas de seguros"
+},
+{
+"tipreig": "G",
+"cdcta": "472",
+"nombre": "Subvenciones para reducir el precio a pagar por los consumidores"
+},
+{
+"tipreig": "G",
+"cdcta": "479",
+"nombre": "Otras subvenciones a Empresas privadas"
+},
+{
+"tipreig": "G",
+"cdcta": "48",
+"nombre": "A Familias e Instituciones sin fines de lucro"
+},
+{
+"tipreig": "G",
+"cdcta": "49",
+"nombre": "Al Exterior"
+},
+{
+"tipreig": "G",
+"cdcta": "6",
+"nombre": "CAP. VI  INVERSIONES REALES"
+},
+{
+"tipreig": "G",
+"cdcta": "60",
+"nombre": "Inversión nueva en infraestructura y bienes destinados al uso general"
+},
+{
+"tipreig": "G",
+"cdcta": "600",
+"nombre": "Inversiones en terrenos"
+},
+{
+"tipreig": "G",
+"cdcta": "609",
+"nombre": "Otras inversiones nuevas en infraestructuras y bienes destinados al uso general"
+},
+{
+"tipreig": "G",
+"cdcta": "61",
+"nombre": "Inversiones de reposición en infraestructura y bienes destinados al uso general"
+},
+{
+"tipreig": "G",
+"cdcta": "610",
+"nombre": "Inversiones en terrenos"
+},
+{
+"tipreig": "G",
+"cdcta": "619",
+"nombre": "Otras inversiones de reposición en infraestructuras y bienes destinados al uso general"
+},
+{
+"tipreig": "G",
+"cdcta": "62",
+"nombre": "Inversión nueva asociada al funcionamiento operativo de los servicios"
+},
+{
+"tipreig": "G",
+"cdcta": "621",
+"nombre": "Terrenos y bienes naturales"
+},
+{
+"tipreig": "G",
+"cdcta": "622",
+"nombre": "Edificios y otras construcciones"
+},
+{
+"tipreig": "G",
+"cdcta": "623",
+"nombre": "Maquinaria, instalaciones técnicas y utillaje"
+},
+{
+"tipreig": "G",
+"cdcta": "624",
+"nombre": "Elementos de transporte"
+},
+{
+"tipreig": "G",
+"cdcta": "625",
+"nombre": "Mobiliario"
+},
+{
+"tipreig": "G",
+"cdcta": "626",
+"nombre": "Equipos para procesos de información"
+},
+{
+"tipreig": "G",
+"cdcta": "627",
+"nombre": "Proyectos complejos"
+},
+{
+"tipreig": "G",
+"cdcta": "629",
+"nombre": "Otras inversiones nuevas asociadas al funcionamiento operativo de los servicios"
+},
+{
+"tipreig": "G",
+"cdcta": "63",
+"nombre": "Inversión de reposición asociada al funcionamiento operativo de los servicios"
+},
+{
+"tipreig": "G",
+"cdcta": "631",
+"nombre": "Terrenos y bienes naturales"
+},
+{
+"tipreig": "G",
+"cdcta": "632",
+"nombre": "Edificios y otras construcciones"
+},
+{
+"tipreig": "G",
+"cdcta": "633",
+"nombre": "Maquinaria, instalaciones técnicas y utillaje"
+},
+{
+"tipreig": "G",
+"cdcta": "634",
+"nombre": "Elementos de transporte"
+},
+{
+"tipreig": "G",
+"cdcta": "635",
+"nombre": "Mobiliario"
+},
+{
+"tipreig": "G",
+"cdcta": "636",
+"nombre": "Equipos para procesos de información"
+},
+{
+"tipreig": "G",
+"cdcta": "637",
+"nombre": "Proyectos complejos"
+},
+{
+"tipreig": "G",
+"cdcta": "639",
+"nombre": "Otras inversiones de reposición asociadas al funcionamiento operativo de los servicios"
+},
+{
+"tipreig": "G",
+"cdcta": "64",
+"nombre": "Gastos en inversiones de carácter inmaterial"
+},
+{
+"tipreig": "G",
+"cdcta": "640",
+"nombre": "Gastos en inversiones de carácter inmaterial"
+},
+{
+"tipreig": "G",
+"cdcta": "641",
+"nombre": "Gastos en aplicaciones informáticas"
+},
+{
+"tipreig": "G",
+"cdcta": "648",
+"nombre": "Cuotas netas de intereses por operaciones de arrendamiento financiero (leasing)"
+},
+{
+"tipreig": "G",
+"cdcta": "65",
+"nombre": "Inversiones gestionadas para otros entes públicos"
+},
+{
+"tipreig": "G",
+"cdcta": "650",
+"nombre": "Gastos en inversiones gestionadas para otros entes públicos"
+},
+{
+"tipreig": "G",
+"cdcta": "68",
+"nombre": "Gastos en inversiones de bienes patrimoniales"
+},
+{
+"tipreig": "G",
+"cdcta": "681",
+"nombre": "Terrenos y bienes naturales"
+},
+{
+"tipreig": "G",
+"cdcta": "682",
+"nombre": "Edificios y otras construcciones"
+},
+{
+"tipreig": "G",
+"cdcta": "689",
+"nombre": "Otros gastos en inversiones de bienes patrimoniales"
+},
+{
+"tipreig": "G",
+"cdcta": "69",
+"nombre": "Inversiones en bienes comunales"
+},
+{
+"tipreig": "G",
+"cdcta": "690",
+"nombre": "Terrenos y bienes naturales"
+},
+{
+"tipreig": "G",
+"cdcta": "692",
+"nombre": "Inversión en infraestructuras"
+},
+{
+"tipreig": "G",
+"cdcta": "7",
+"nombre": "CAP. VII  TRANSFERENCIAS DE CAPITAL"
+},
+{
+"tipreig": "G",
+"cdcta": "70",
+"nombre": "A la Administración General de la Entidad Local"
+},
+{
+"tipreig": "G",
+"cdcta": "71",
+"nombre": "A Organismos Autónomos de la Entidad Local"
+},
+{
+"tipreig": "G",
+"cdcta": "72",
+"nombre": "A la Administración del Estado"
+},
+{
+"tipreig": "G",
+"cdcta": "720",
+"nombre": "A la Administración General del Estado"
+},
+{
+"tipreig": "G",
+"cdcta": "721",
+"nombre": "A Organismos Autónomos y agencias"
+},
+{
+"tipreig": "G",
+"cdcta": "721.00",
+"nombre": "Al Servicio Público de Empleo Estatal"
+},
+{
+"tipreig": "G",
+"cdcta": "721.09",
+"nombre": "A otros organismos autónomos"
+},
+{
+"tipreig": "G",
+"cdcta": "722",
+"nombre": "A fundaciones estatales"
+},
+{
+"tipreig": "G",
+"cdcta": "723",
+"nombre": "A sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos"
+},
+{
+"tipreig": "G",
+"cdcta": "73",
+"nombre": "A la Seguridad Social"
+},
+{
+"tipreig": "G",
+"cdcta": "74",
+"nombre": "A entes públicos y sociedades mercantiles de la Entidad local"
+},
+{
+"tipreig": "G",
+"cdcta": "75",
+"nombre": "A Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "750",
+"nombre": "A la Administración General de las Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "751",
+"nombre": "A Organismos Autónomos y agencias de las Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "752",
+"nombre": "A fundaciones de las Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "753",
+"nombre": "A sociedades mercantiles, entidades públicas empresariales y otros organismos públicos dependientes de las Comunidades Autóno"
+},
+{
+"tipreig": "G",
+"cdcta": "76",
+"nombre": "A Entidades Locales"
+},
+{
+"tipreig": "G",
+"cdcta": "761",
+"nombre": "A Diputaciones, Consejos o Cabildos"
+},
+{
+"tipreig": "G",
+"cdcta": "762",
+"nombre": "A Ayuntamientos"
+},
+{
+"tipreig": "G",
+"cdcta": "763",
+"nombre": "A Mancomunidades"
+},
+{
+"tipreig": "G",
+"cdcta": "764",
+"nombre": "A Áreas Metropolitanas"
+},
+{
+"tipreig": "G",
+"cdcta": "765",
+"nombre": "A Comarcas"
+},
+{
+"tipreig": "G",
+"cdcta": "766",
+"nombre": "A Entidades que agrupen Municipios"
+},
+{
+"tipreig": "G",
+"cdcta": "767",
+"nombre": "A Consorcios"
+},
+{
+"tipreig": "G",
+"cdcta": "768",
+"nombre": "A Entidades Locales Menores"
+},
+{
+"tipreig": "G",
+"cdcta": "77",
+"nombre": "A Empresas privadas"
+},
+{
+"tipreig": "G",
+"cdcta": "78",
+"nombre": "A Familias e Instituciones  sin fines de lucro"
+},
+{
+"tipreig": "G",
+"cdcta": "79",
+"nombre": "Al Exterior"
+},
+{
+"tipreig": "G",
+"cdcta": "8",
+"nombre": "CAP. VIII  ACTIVOS FINANCIEROS"
+},
+{
+"tipreig": "G",
+"cdcta": "80",
+"nombre": "Adquisición de Deuda del Sector Público"
+},
+{
+"tipreig": "G",
+"cdcta": "800",
+"nombre": "Adquisición de deuda del sector público a corto plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "800.00",
+"nombre": "Al Estado"
+},
+{
+"tipreig": "G",
+"cdcta": "800.10",
+"nombre": "A Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "800.20",
+"nombre": "A Entidades locales"
+},
+{
+"tipreig": "G",
+"cdcta": "800.90",
+"nombre": "A otros subsectores"
+},
+{
+"tipreig": "G",
+"cdcta": "801",
+"nombre": "Adquisición de deuda del sector público a largo plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "801.00",
+"nombre": "Al Estado"
+},
+{
+"tipreig": "G",
+"cdcta": "801.10",
+"nombre": "A Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "801.20",
+"nombre": "A Entidades locales"
+},
+{
+"tipreig": "G",
+"cdcta": "801.90",
+"nombre": "A otros subsectores"
+},
+{
+"tipreig": "G",
+"cdcta": "81",
+"nombre": "Adquisición de Obligaciones y Bonos fuera del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "810",
+"nombre": "Adquisición de obligaciones y bonos fuera del sector público a corto plazo. Desarrollo por sectores."
+},
+{
+"tipreig": "G",
+"cdcta": "811",
+"nombre": "Adquisición de obligaciones y bonos fuera del sector público a largo plazo. Desarrollo por sectores."
+},
+{
+"tipreig": "G",
+"cdcta": "82",
+"nombre": "Concesión préstamos al sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "820",
+"nombre": "Préstamos a corto plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "820.00",
+"nombre": "Al Estado"
+},
+{
+"tipreig": "G",
+"cdcta": "820.10",
+"nombre": "A Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "820.20",
+"nombre": "A Entidades locales"
+},
+{
+"tipreig": "G",
+"cdcta": "820.90",
+"nombre": "A otros subsectores"
+},
+{
+"tipreig": "G",
+"cdcta": "821",
+"nombre": "Préstamos a largo plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "821.00",
+"nombre": "Al Estado"
+},
+{
+"tipreig": "G",
+"cdcta": "821.10",
+"nombre": "A Comunidades Autónomas"
+},
+{
+"tipreig": "G",
+"cdcta": "821.20",
+"nombre": "A Entidades locales"
+},
+{
+"tipreig": "G",
+"cdcta": "821.90",
+"nombre": "A otros subsectores"
+},
+{
+"tipreig": "G",
+"cdcta": "83",
+"nombre": "Concesión de préstamos fuera del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "830",
+"nombre": "Préstamos a corto plazo. Desarrollo por sectores."
+},
+{
+"tipreig": "G",
+"cdcta": "831",
+"nombre": "Préstamos a largo plazo. Desarrollo por sectores."
+},
+{
+"tipreig": "G",
+"cdcta": "84",
+"nombre": "Constitución de depósitos y fianzas"
+},
+{
+"tipreig": "G",
+"cdcta": "840",
+"nombre": "Depósitos"
+},
+{
+"tipreig": "G",
+"cdcta": "840.00",
+"nombre": "A corto plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "840.10",
+"nombre": "A largo plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "841",
+"nombre": "Fianzas"
+},
+{
+"tipreig": "G",
+"cdcta": "841.00",
+"nombre": "A corto plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "841.10",
+"nombre": "A largo plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "85",
+"nombre": "Adquisición de acciones y participaciones del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "850",
+"nombre": "Adquisición de acciones y participaciones del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "850.10",
+"nombre": "Adquisición de acciones y participaciones para compensar pérdidas"
+},
+{
+"tipreig": "G",
+"cdcta": "850.20",
+"nombre": "Adquisición de acciones y participaciones para financiar inversiones no rentables"
+},
+{
+"tipreig": "G",
+"cdcta": "850.90",
+"nombre": "Resto de adquisiciones de acciones dentro del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "86",
+"nombre": "Adquisición de acciones y participaciones fuera del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "860",
+"nombre": "Adquisición de acciones y participaciones fuera del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "860.10",
+"nombre": "De empresas nacionales"
+},
+{
+"tipreig": "G",
+"cdcta": "860.20",
+"nombre": "De empresas de la Unión Europea"
+},
+{
+"tipreig": "G",
+"cdcta": "860.90",
+"nombre": "De otras empresas"
+},
+{
+"tipreig": "G",
+"cdcta": "87",
+"nombre": "Aportaciones patrimoniales"
+},
+{
+"tipreig": "G",
+"cdcta": "870",
+"nombre": "Aportaciones a fundaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "871",
+"nombre": "Aportaciones a consorcios"
+},
+{
+"tipreig": "G",
+"cdcta": "872",
+"nombre": "Aportaciones a otros entes"
+},
+{
+"tipreig": "G",
+"cdcta": "872.10",
+"nombre": "Aportaciones para compensar pérdidas"
+},
+{
+"tipreig": "G",
+"cdcta": "872.20",
+"nombre": "Aportaciones para financiar inversiones no rentables"
+},
+{
+"tipreig": "G",
+"cdcta": "872.90",
+"nombre": "Resto de aportaciones"
+},
+{
+"tipreig": "G",
+"cdcta": "9",
+"nombre": "CAP. IX  PASIVOS FINANCIEROS"
+},
+{
+"tipreig": "G",
+"cdcta": "90",
+"nombre": "Amortización de Deuda Pública en euros"
+},
+{
+"tipreig": "G",
+"cdcta": "900",
+"nombre": "Amortización de Deuda Pública en euros a corto plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "901",
+"nombre": "Amortización de Deuda Pública en euros a largo plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "91",
+"nombre": "Amortización de préstamos y de operaciones en euros"
+},
+{
+"tipreig": "G",
+"cdcta": "910",
+"nombre": "Amortización de préstamos a corto plazo de entes del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "911",
+"nombre": "Amortización de préstamos a largo plazo de entes del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "912",
+"nombre": "Amortización de préstamos a corto plazo de entes de fuera del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "913",
+"nombre": "Amortización de préstamos a largo plazo de entes de fuera del sector público"
+},
+{
+"tipreig": "G",
+"cdcta": "92",
+"nombre": "Amortización de Deuda Pública en moneda distinta del euro"
+},
+{
+"tipreig": "G",
+"cdcta": "920",
+"nombre": "Amortización de Deuda Pública en moneda distinta del euro a corto plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "921",
+"nombre": "Amortización de Deuda Pública en moneda distinta del euro a largo plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "93",
+"nombre": "Amortización de préstamos en moneda distinta del euro"
+},
+{
+"tipreig": "G",
+"cdcta": "930",
+"nombre": "Amortización de préstamos en moneda distinta del euro a corto plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "931",
+"nombre": "Amortización de préstamos en moneda distinta del euro a largo plazo"
+},
+{
+"tipreig": "G",
+"cdcta": "94",
+"nombre": "Devolución de depósitos y fianzas"
+},
+{
+"tipreig": "G",
+"cdcta": "940",
+"nombre": "Devolución de depósitos"
+},
+{
+"tipreig": "G",
+"cdcta": "941",
+"nombre": "Devolución de fianzas"
+},
+{
+"tipreig": "I",
+"cdcta": "1",
+"nombre": "CAP. I IMPUESTOS DIRECTOS"
+},
+{
+"tipreig": "I",
+"cdcta": "10",
+"nombre": "Impuesto sobre la Renta"
+},
+{
+"tipreig": "I",
+"cdcta": "100",
+"nombre": "Impuestos sobre la Renta de las Personas Físicas"
+},
+{
+"tipreig": "I",
+"cdcta": "101",
+"nombre": "Impuesto sobre Sociedades"
+},
+{
+"tipreig": "I",
+"cdcta": "102",
+"nombre": "Impuesto sobre la Renta de No Residentes"
+},
+{
+"tipreig": "I",
+"cdcta": "11",
+"nombre": "Impuestos sobre el capital"
+},
+{
+"tipreig": "I",
+"cdcta": "110",
+"nombre": "Impuesto sobre Sucesiones y Donaciones"
+},
+{
+"tipreig": "I",
+"cdcta": "111",
+"nombre": "Impuesto sobre Patrimonio"
+},
+{
+"tipreig": "I",
+"cdcta": "112",
+"nombre": "Impuesto sobre Bienes Inmuebles. Bienes Inmubles de Naturaleza Rústica."
+},
+{
+"tipreig": "I",
+"cdcta": "113",
+"nombre": "Impuesto sobre Bienes Inmuebles. Bienes inmuebles de Naturaleza Urbana."
+},
+{
+"tipreig": "I",
+"cdcta": "114",
+"nombre": "Impuesto sobre Bienes Inmuebles. Bienes Inmuebles de características especiales."
+},
+{
+"tipreig": "I",
+"cdcta": "115",
+"nombre": "Impuesto sobre Vehículos de Tracción Mecánica"
+},
+{
+"tipreig": "I",
+"cdcta": "116",
+"nombre": "Impuesto sobre Incremento del Valor de los Terrenos de Naturaleza Urbana"
+},
+{
+"tipreig": "I",
+"cdcta": "117",
+"nombre": "Impuesto sobre viviendas desocupadas"
+},
+{
+"tipreig": "I",
+"cdcta": "13",
+"nombre": "Impuesto sobre las Actividades Económicas"
+},
+{
+"tipreig": "I",
+"cdcta": "130",
+"nombre": "Impuesto sobre Actividades Económicas"
+},
+{
+"tipreig": "I",
+"cdcta": "16",
+"nombre": "Recargos sobre impuestos directos del Estado y de la Comunidad Autónoma"
+},
+{
+"tipreig": "I",
+"cdcta": "160",
+"nombre": "Sobre impuestos del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "161",
+"nombre": "Sobre impuestos de la Comunidad Autónoma"
+},
+{
+"tipreig": "I",
+"cdcta": "17",
+"nombre": "Recargos sobre impuestos directos de otros entes locales"
+},
+{
+"tipreig": "I",
+"cdcta": "170",
+"nombre": "En el Impuesto sobre Bienes Inmuebles"
+},
+{
+"tipreig": "I",
+"cdcta": "171",
+"nombre": "Recargo provincial en el Impuesto sobre Actividades Económicas"
+},
+{
+"tipreig": "I",
+"cdcta": "179",
+"nombre": "Otros recargos sobre impuestos directos de otros entes locales"
+},
+{
+"tipreig": "I",
+"cdcta": "18",
+"nombre": "Impuestos directos extinguidos"
+},
+{
+"tipreig": "I",
+"cdcta": "19",
+"nombre": "Otros impuestos directos"
+},
+{
+"tipreig": "I",
+"cdcta": "2",
+"nombre": "CAP. II IMPUESTOS INDIRECTOS"
+},
+{
+"tipreig": "I",
+"cdcta": "21",
+"nombre": "Impuestos sobre el Valor Añadido"
+},
+{
+"tipreig": "I",
+"cdcta": "210",
+"nombre": "Impuesto sobre el Valor Añadido"
+},
+{
+"tipreig": "I",
+"cdcta": "22",
+"nombre": "Sobre consumos específicos"
+},
+{
+"tipreig": "I",
+"cdcta": "220",
+"nombre": "Impuestos Especiales"
+},
+{
+"tipreig": "I",
+"cdcta": "220.00",
+"nombre": "Impuesto sobre el alcohol y bebidas derivadas"
+},
+{
+"tipreig": "I",
+"cdcta": "220.01",
+"nombre": "Impuesto sobre la cerveza"
+},
+{
+"tipreig": "I",
+"cdcta": "220.02",
+"nombre": "Impuesto sobre el vino y bebidas fermentadas"
+},
+{
+"tipreig": "I",
+"cdcta": "220.03",
+"nombre": "Impuesto sobre las labores del tabaco"
+},
+{
+"tipreig": "I",
+"cdcta": "220.04",
+"nombre": "Impuesto sobre hidrocarburos"
+},
+{
+"tipreig": "I",
+"cdcta": "220.05",
+"nombre": "Impuesto sobre determinados medios de transporte"
+},
+{
+"tipreig": "I",
+"cdcta": "220.06",
+"nombre": "Impuesto sobre productos intermedios"
+},
+{
+"tipreig": "I",
+"cdcta": "220.07",
+"nombre": "Impuesto sobre la energía"
+},
+{
+"tipreig": "I",
+"cdcta": "220.08",
+"nombre": "Impuesto sobre ventas minoristas de hidrocarburos"
+},
+{
+"tipreig": "I",
+"cdcta": "220.09",
+"nombre": "Exacción sobre la gasolina"
+},
+{
+"tipreig": "I",
+"cdcta": "26",
+"nombre": "Recargos sobre impuestos indirectos del Estado y de la Comunidad Autónoma"
+},
+{
+"tipreig": "I",
+"cdcta": "260",
+"nombre": "Sobre impuestos del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "261",
+"nombre": "Sobre impuestos de la Comunidad Autónoma"
+},
+{
+"tipreig": "I",
+"cdcta": "27",
+"nombre": "Recargos sobre impuestos indirectos de otros entes locales"
+},
+{
+"tipreig": "I",
+"cdcta": "270",
+"nombre": "Sobre impuestos de otros entes locales"
+},
+{
+"tipreig": "I",
+"cdcta": "28",
+"nombre": "Impuestos indirectos extinguidos"
+},
+{
+"tipreig": "I",
+"cdcta": "29",
+"nombre": "Otros impuestos indirectos"
+},
+{
+"tipreig": "I",
+"cdcta": "290",
+"nombre": "Impuesto sobre construcciones, instalaciones y obras"
+},
+{
+"tipreig": "I",
+"cdcta": "291",
+"nombre": "Impuesto sobre gastos suntuarios (Cotos de caza y pesca)"
+},
+{
+"tipreig": "I",
+"cdcta": "292",
+"nombre": "Arbitrio sobre importaciones y entregas de mercancías en Canarias (AIEM)"
+},
+{
+"tipreig": "I",
+"cdcta": "293",
+"nombre": "Impuesto general indirecto canario (IGIC)"
+},
+{
+"tipreig": "I",
+"cdcta": "294",
+"nombre": "Impuesto sobre la producción, los servicios y la importación (IPSI) de Ceuta y Melilla"
+},
+{
+"tipreig": "I",
+"cdcta": "295",
+"nombre": "Impuesto sobre primas de seguros"
+},
+{
+"tipreig": "I",
+"cdcta": "296",
+"nombre": "Impuesto sobre transmisiones patrimoniales y actos jurídicos documentados"
+},
+{
+"tipreig": "I",
+"cdcta": "299",
+"nombre": "Otros Impuestos indirectos"
+},
+{
+"tipreig": "I",
+"cdcta": "3",
+"nombre": "CAP. III TASAS Y OTROS INGRESOS"
+},
+{
+"tipreig": "I",
+"cdcta": "30",
+"nombre": "Tasas por la prestación de servicios públicos básicos"
+},
+{
+"tipreig": "I",
+"cdcta": "300",
+"nombre": "Servicio de abastecimiento de agua"
+},
+{
+"tipreig": "I",
+"cdcta": "301",
+"nombre": "Servicio de alcantarillado"
+},
+{
+"tipreig": "I",
+"cdcta": "302",
+"nombre": "Servicio de recogida de basuras"
+},
+{
+"tipreig": "I",
+"cdcta": "303",
+"nombre": "Servicio de tratamiento de residuos"
+},
+{
+"tipreig": "I",
+"cdcta": "304",
+"nombre": "Canon de saneamiento"
+},
+{
+"tipreig": "I",
+"cdcta": "309",
+"nombre": "Otras tasas por prestación de servicios básicos"
+},
+{
+"tipreig": "I",
+"cdcta": "31",
+"nombre": "Tasas por la prestación de servicios públicos de carácter social y preferente"
+},
+{
+"tipreig": "I",
+"cdcta": "310",
+"nombre": "Servicios hospitalarios"
+},
+{
+"tipreig": "I",
+"cdcta": "311",
+"nombre": "Servicios asistenciales"
+},
+{
+"tipreig": "I",
+"cdcta": "312",
+"nombre": "Servicios educativos"
+},
+{
+"tipreig": "I",
+"cdcta": "313",
+"nombre": "Servicios deportivos"
+},
+{
+"tipreig": "I",
+"cdcta": "319",
+"nombre": "Otras tasas por prestación de servicios de carácter preferente"
+},
+{
+"tipreig": "I",
+"cdcta": "32",
+"nombre": "Tasas por la realización de actividades de competencia local"
+},
+{
+"tipreig": "I",
+"cdcta": "320",
+"nombre": "Licencias de caza y pesca"
+},
+{
+"tipreig": "I",
+"cdcta": "321",
+"nombre": "Licencias urbanísticas"
+},
+{
+"tipreig": "I",
+"cdcta": "322",
+"nombre": "Cedulas de habitabilidad y licencias de primera ocupación"
+},
+{
+"tipreig": "I",
+"cdcta": "323",
+"nombre": "Tasas por otros servicios urbanísticos"
+},
+{
+"tipreig": "I",
+"cdcta": "324",
+"nombre": "Tasas sobre el juego"
+},
+{
+"tipreig": "I",
+"cdcta": "325",
+"nombre": "Tasa por expedición de documentos"
+},
+{
+"tipreig": "I",
+"cdcta": "326",
+"nombre": "Tasa por retirada de vehículos"
+},
+{
+"tipreig": "I",
+"cdcta": "329",
+"nombre": "Otras tasas por la realización de actividades de competencia local"
+},
+{
+"tipreig": "I",
+"cdcta": "33",
+"nombre": "Tasas por la utilización privativa o el aprovechamiento especial del dominio público local"
+},
+{
+"tipreig": "I",
+"cdcta": "330",
+"nombre": "Tasa de estacionamiento de vehículos"
+},
+{
+"tipreig": "I",
+"cdcta": "331",
+"nombre": "Tasa por entrada de vehículos"
+},
+{
+"tipreig": "I",
+"cdcta": "332",
+"nombre": "Tasa por utilización privativa o aprovechamiento especial por empresas explotadoras de servicios de suministros"
+},
+{
+"tipreig": "I",
+"cdcta": "333",
+"nombre": "Tasa por utilización privativa o aprovechamiento especial por empresas explotadoras de servicios de telecomunicaciones"
+},
+{
+"tipreig": "I",
+"cdcta": "334",
+"nombre": "Tasa por apertura de calas y zanjas"
+},
+{
+"tipreig": "I",
+"cdcta": "335",
+"nombre": "Tasa por ocupación de la vía pública con terrazas"
+},
+{
+"tipreig": "I",
+"cdcta": "336",
+"nombre": "Tasa por ocupación de la vía pública con suspensión temporal del tráfico rodado"
+},
+{
+"tipreig": "I",
+"cdcta": "337",
+"nombre": "Tasas por aprovechamiento del vuelo"
+},
+{
+"tipreig": "I",
+"cdcta": "338",
+"nombre": "Compensación de Telefónica de España S.A."
+},
+{
+"tipreig": "I",
+"cdcta": "339",
+"nombre": "Otras tasas por utilización privativa del dominio público"
+},
+{
+"tipreig": "I",
+"cdcta": "34",
+"nombre": "Precios públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "340",
+"nombre": "Servicios hospitalarios"
+},
+{
+"tipreig": "I",
+"cdcta": "341",
+"nombre": "Servicios asistenciales"
+},
+{
+"tipreig": "I",
+"cdcta": "342",
+"nombre": "Servicios educativos"
+},
+{
+"tipreig": "I",
+"cdcta": "343",
+"nombre": "Servicios deportivos"
+},
+{
+"tipreig": "I",
+"cdcta": "344",
+"nombre": "Entradas a museos, exposiciones, espectáculos"
+},
+{
+"tipreig": "I",
+"cdcta": "345",
+"nombre": "Servicio de transporte público urbano"
+},
+{
+"tipreig": "I",
+"cdcta": "349",
+"nombre": "Otros precios públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "35",
+"nombre": "Contribuciones especiales"
+},
+{
+"tipreig": "I",
+"cdcta": "350",
+"nombre": "Para la ejecución de obras"
+},
+{
+"tipreig": "I",
+"cdcta": "351",
+"nombre": "Para el establecimiento o ampliación de servicios"
+},
+{
+"tipreig": "I",
+"cdcta": "36",
+"nombre": "Ventas"
+},
+{
+"tipreig": "I",
+"cdcta": "38",
+"nombre": "Reintegros de operaciones corrientes"
+},
+{
+"tipreig": "I",
+"cdcta": "380",
+"nombre": "Reintegro de avales"
+},
+{
+"tipreig": "I",
+"cdcta": "389",
+"nombre": "Otros reintegros de operaciones corrientes"
+},
+{
+"tipreig": "I",
+"cdcta": "39",
+"nombre": "Otros ingresos"
+},
+{
+"tipreig": "I",
+"cdcta": "391",
+"nombre": "Multas"
+},
+{
+"tipreig": "I",
+"cdcta": "391.00",
+"nombre": "Multas por infracciones urbanísticas"
+},
+{
+"tipreig": "I",
+"cdcta": "391.10",
+"nombre": "Multas por infracciones tributarias y análogas"
+},
+{
+"tipreig": "I",
+"cdcta": "391.20",
+"nombre": "Multas por infracciones de la Ordenanza de circulación"
+},
+{
+"tipreig": "I",
+"cdcta": "391.90",
+"nombre": "Otras multas y sanciones"
+},
+{
+"tipreig": "I",
+"cdcta": "392",
+"nombre": "Recargos del periodo ejecutivo y por declaración extemporánea sin requerimiento previo"
+},
+{
+"tipreig": "I",
+"cdcta": "392.00",
+"nombre": "Recargos por declaración extemporánea sin requerimiento previo"
+},
+{
+"tipreig": "I",
+"cdcta": "392.10",
+"nombre": "Recargo ejecutivo"
+},
+{
+"tipreig": "I",
+"cdcta": "392.11",
+"nombre": "Recargo de apremio"
+},
+{
+"tipreig": "I",
+"cdcta": "393",
+"nombre": "Intereses de demora"
+},
+{
+"tipreig": "I",
+"cdcta": "394",
+"nombre": "Prestación personal"
+},
+{
+"tipreig": "I",
+"cdcta": "395",
+"nombre": "Prestación de transporte"
+},
+{
+"tipreig": "I",
+"cdcta": "396",
+"nombre": "Ingresos por actuaciones de urbanización"
+},
+{
+"tipreig": "I",
+"cdcta": "396.00",
+"nombre": "Canon de urbanización"
+},
+{
+"tipreig": "I",
+"cdcta": "396.10",
+"nombre": "Cuotas de urbanización"
+},
+{
+"tipreig": "I",
+"cdcta": "397",
+"nombre": "Aprovechamientos urbanísticos"
+},
+{
+"tipreig": "I",
+"cdcta": "397.00",
+"nombre": "Canon por aprovechamientos urbanísticos"
+},
+{
+"tipreig": "I",
+"cdcta": "397.10",
+"nombre": "Otros ingresos por aprovechamientos urbanísticos"
+},
+{
+"tipreig": "I",
+"cdcta": "398",
+"nombre": "Indemnizaciones de seguros de no vida"
+},
+{
+"tipreig": "I",
+"cdcta": "399",
+"nombre": "Otros ingresos diversos"
+},
+{
+"tipreig": "I",
+"cdcta": "4",
+"nombre": "CAP. IV  TRANSFERENCIAS CORRIENTES"
+},
+{
+"tipreig": "I",
+"cdcta": "40",
+"nombre": "De la Administración General de la Entidad Local"
+},
+{
+"tipreig": "I",
+"cdcta": "41",
+"nombre": "De Organismos Autónomos de la Entidad Local"
+},
+{
+"tipreig": "I",
+"cdcta": "42",
+"nombre": "De la Administración del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "420",
+"nombre": "De la Administración General del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "420.00",
+"nombre": "Participación en los Tributos del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "420.10",
+"nombre": "Fondo Complementario de Financiación"
+},
+{
+"tipreig": "I",
+"cdcta": "420.20",
+"nombre": "Compensación por beneficios fiscales"
+},
+{
+"tipreig": "I",
+"cdcta": "420.90",
+"nombre": "Otras transferencias corrientes de la Administración General del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "421",
+"nombre": "De Organismos Autónomos y agencias estatales"
+},
+{
+"tipreig": "I",
+"cdcta": "421.00",
+"nombre": "Del Servicio Público de Empleo Estatal"
+},
+{
+"tipreig": "I",
+"cdcta": "421.90",
+"nombre": "De otros Organismos Autónomos y Agencias"
+},
+{
+"tipreig": "I",
+"cdcta": "422",
+"nombre": "De fundaciones estatales"
+},
+{
+"tipreig": "I",
+"cdcta": "423",
+"nombre": "De sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "423.00",
+"nombre": "De Loterías y Apuestas del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "423.90",
+"nombre": "De otras sociedades mercantiles estatales, entidades públicas empresariales y organismos públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "43",
+"nombre": "De la Seguridad Social"
+},
+{
+"tipreig": "I",
+"cdcta": "44",
+"nombre": "De entes públicos y sociedades mercantiles de la Entidad local"
+},
+{
+"tipreig": "I",
+"cdcta": "440",
+"nombre": "De entes públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "441",
+"nombre": "De sociedades mercantiles"
+},
+{
+"tipreig": "I",
+"cdcta": "45",
+"nombre": "De Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "450",
+"nombre": "De la Administración General de las Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "450.00",
+"nombre": "Participación en tributos de la Comunidad Autónoma"
+},
+{
+"tipreig": "I",
+"cdcta": "450.01",
+"nombre": "Otras transferencias incondicionadas"
+},
+{
+"tipreig": "I",
+"cdcta": "450.02",
+"nombre": "Transferencias corrientes en cumplimiento de convenios suscritos con la Comunidad Autónoma en materia de Servicios Sociales y"
+},
+{
+"tipreig": "I",
+"cdcta": "450.30",
+"nombre": "Transferencias corrientes en cumplimiento de convenios suscritos con la Comunidad Autónoma en materia de Educación"
+},
+{
+"tipreig": "I",
+"cdcta": "450.50",
+"nombre": "Transferencias corrientes en cumplimiento de convenios suscritos con la Comunidad Autónoma en materia de Empleo y Desarrollo"
+},
+{
+"tipreig": "I",
+"cdcta": "450.60",
+"nombre": "Otras transferencias corrientes en cumplimiento de convenios suscritos con la Comunidad Autónoma"
+},
+{
+"tipreig": "I",
+"cdcta": "450.80",
+"nombre": "Otras subvenciones corrientes de la Administración General de la Comunidad Autónoma"
+},
+{
+"tipreig": "I",
+"cdcta": "451",
+"nombre": "De Organismos Autónomos y agencias de las Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "452",
+"nombre": "De fundaciones de las Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "453",
+"nombre": "De sociedades mercantiles, entidades públicas empresariales y otros organismos públicos dependientes de las Comunidades Autón"
+},
+{
+"tipreig": "I",
+"cdcta": "46",
+"nombre": "De Entidades Locales"
+},
+{
+"tipreig": "I",
+"cdcta": "461",
+"nombre": "De Diputaciones, Consejos o Cabildos"
+},
+{
+"tipreig": "I",
+"cdcta": "462",
+"nombre": "De Ayuntamientos"
+},
+{
+"tipreig": "I",
+"cdcta": "463",
+"nombre": "De Mancomunidades"
+},
+{
+"tipreig": "I",
+"cdcta": "464",
+"nombre": "De Áreas Metropolitanas"
+},
+{
+"tipreig": "I",
+"cdcta": "465",
+"nombre": "De Comarcas"
+},
+{
+"tipreig": "I",
+"cdcta": "466",
+"nombre": "De Entidades que agrupen Municipios"
+},
+{
+"tipreig": "I",
+"cdcta": "467",
+"nombre": "De Consorcios"
+},
+{
+"tipreig": "I",
+"cdcta": "468",
+"nombre": "De Entidades Locales Menores"
+},
+{
+"tipreig": "I",
+"cdcta": "47",
+"nombre": "De Empresas Privadas"
+},
+{
+"tipreig": "I",
+"cdcta": "48",
+"nombre": "De Familias e Instituciones sin fines de lucro"
+},
+{
+"tipreig": "I",
+"cdcta": "49",
+"nombre": "Del Exterior"
+},
+{
+"tipreig": "I",
+"cdcta": "490",
+"nombre": "Del Fondo Social Europeo"
+},
+{
+"tipreig": "I",
+"cdcta": "491",
+"nombre": "Del Fondo de Desarrollo Regional"
+},
+{
+"tipreig": "I",
+"cdcta": "492",
+"nombre": "Del Fondo de Cohesión"
+},
+{
+"tipreig": "I",
+"cdcta": "493",
+"nombre": "Del Fondo Europeo Agrícola de Garantía (FEAGA)"
+},
+{
+"tipreig": "I",
+"cdcta": "494",
+"nombre": "Del Fondo Europeo Agrícola de Desarrollo Rural (FEADER)"
+},
+{
+"tipreig": "I",
+"cdcta": "495",
+"nombre": "Del FEOGA-Orientación"
+},
+{
+"tipreig": "I",
+"cdcta": "496",
+"nombre": "Del Fondo Europeo de la Pesca (FEP)"
+},
+{
+"tipreig": "I",
+"cdcta": "497",
+"nombre": "Otras transferencias de la Unión Europea"
+},
+{
+"tipreig": "I",
+"cdcta": "499",
+"nombre": "Otras tansferencias del exterior, excluyendo la Unión Europea"
+},
+{
+"tipreig": "I",
+"cdcta": "4t",
+"nombre": "Ajustes de Consolidacion"
+},
+{
+"tipreig": "I",
+"cdcta": "5",
+"nombre": "CAP. V INGRESOS PATRIMONIALES"
+},
+{
+"tipreig": "I",
+"cdcta": "50",
+"nombre": "Intereses de títulos y valores"
+},
+{
+"tipreig": "I",
+"cdcta": "500",
+"nombre": "Del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "501",
+"nombre": "De Organismos Autónomos y agencias"
+},
+{
+"tipreig": "I",
+"cdcta": "504",
+"nombre": "De sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "505",
+"nombre": "De Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "506",
+"nombre": "De Entidades locales"
+},
+{
+"tipreig": "I",
+"cdcta": "507",
+"nombre": "De empresas privadas"
+},
+{
+"tipreig": "I",
+"cdcta": "51",
+"nombre": "Intereses de anticipos y préstamos concedidos"
+},
+{
+"tipreig": "I",
+"cdcta": "511",
+"nombre": "A Organismos Autónomos y agencias"
+},
+{
+"tipreig": "I",
+"cdcta": "514",
+"nombre": "A sociedades mercantiles, entidades públicas empresariales y otros organismos públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "518",
+"nombre": "A familias e instituciones sin ánimo de lucro"
+},
+{
+"tipreig": "I",
+"cdcta": "52",
+"nombre": "Intereses de depósitos"
+},
+{
+"tipreig": "I",
+"cdcta": "53",
+"nombre": "Dividendos y participación beneficios"
+},
+{
+"tipreig": "I",
+"cdcta": "531",
+"nombre": "De Organismos Autónomos y agencias"
+},
+{
+"tipreig": "I",
+"cdcta": "534",
+"nombre": "De Sociedades mercantiles, entidades públicas empresariales y otros organismos públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "534.00",
+"nombre": "De sociedades y entidades dependientes de las entidades locales"
+},
+{
+"tipreig": "I",
+"cdcta": "534.10",
+"nombre": "De sociedades y entidades no dependientes de las entidades locales"
+},
+{
+"tipreig": "I",
+"cdcta": "537",
+"nombre": "De empresas privadas"
+},
+{
+"tipreig": "I",
+"cdcta": "54",
+"nombre": "Rentas de bienes inmuebles"
+},
+{
+"tipreig": "I",
+"cdcta": "541",
+"nombre": "Arrendamientos de fincas urbanas"
+},
+{
+"tipreig": "I",
+"cdcta": "542",
+"nombre": "Arrendamientos de fincas rústicas"
+},
+{
+"tipreig": "I",
+"cdcta": "544",
+"nombre": "Censos"
+},
+{
+"tipreig": "I",
+"cdcta": "549",
+"nombre": "Otras rentas de bienes inmuebles"
+},
+{
+"tipreig": "I",
+"cdcta": "55",
+"nombre": "Productos de concesiones y aprovechamientos especiales"
+},
+{
+"tipreig": "I",
+"cdcta": "550",
+"nombre": "De concesiones administrativas con contraprestación periódica"
+},
+{
+"tipreig": "I",
+"cdcta": "551",
+"nombre": "De concesiones administrativas con contraprestación no periódica"
+},
+{
+"tipreig": "I",
+"cdcta": "552",
+"nombre": "Derecho de superficie con contraprestación periódica"
+},
+{
+"tipreig": "I",
+"cdcta": "553",
+"nombre": "Derecho de superficie con contraprestación no periódica"
+},
+{
+"tipreig": "I",
+"cdcta": "554",
+"nombre": "Aprovechamientos agrícolas y forestales"
+},
+{
+"tipreig": "I",
+"cdcta": "554.00",
+"nombre": "Producto de explotaciones forestales"
+},
+{
+"tipreig": "I",
+"cdcta": "554.10",
+"nombre": "Fondo de mejora de montes"
+},
+{
+"tipreig": "I",
+"cdcta": "555",
+"nombre": "Aprovechamientos especiales con contraprestación"
+},
+{
+"tipreig": "I",
+"cdcta": "559",
+"nombre": "Otras concesiones y aprovechamientos"
+},
+{
+"tipreig": "I",
+"cdcta": "59",
+"nombre": "Otros ingresos patrimoniales"
+},
+{
+"tipreig": "I",
+"cdcta": "591",
+"nombre": "Beneficios por realización de inversiones financieras"
+},
+{
+"tipreig": "I",
+"cdcta": "592",
+"nombre": "Ingresos por operaciones de intercambio financiero"
+},
+{
+"tipreig": "I",
+"cdcta": "599",
+"nombre": "Otros ingresos patrimoniales"
+},
+{
+"tipreig": "I",
+"cdcta": "6",
+"nombre": "CAP. VI ENAJENACIÓN DE INVERSIONES REALES"
+},
+{
+"tipreig": "I",
+"cdcta": "60",
+"nombre": "De Terrenos"
+},
+{
+"tipreig": "I",
+"cdcta": "600",
+"nombre": "Venta de solares"
+},
+{
+"tipreig": "I",
+"cdcta": "601",
+"nombre": "Venta de fincas rústicas"
+},
+{
+"tipreig": "I",
+"cdcta": "602",
+"nombre": "Parcelas sobrantes de la vía pública"
+},
+{
+"tipreig": "I",
+"cdcta": "603",
+"nombre": "Patrimonio público del suelo"
+},
+{
+"tipreig": "I",
+"cdcta": "609",
+"nombre": "Otros terrenos"
+},
+{
+"tipreig": "I",
+"cdcta": "61",
+"nombre": "De las demás Inversiones reales"
+},
+{
+"tipreig": "I",
+"cdcta": "611",
+"nombre": "De inversiones de carácter inmaterial"
+},
+{
+"tipreig": "I",
+"cdcta": "612",
+"nombre": "De objetos valiosos"
+},
+{
+"tipreig": "I",
+"cdcta": "619",
+"nombre": "De otras inversiones reales"
+},
+{
+"tipreig": "I",
+"cdcta": "68",
+"nombre": "Reintegros por operaciones de capital"
+},
+{
+"tipreig": "I",
+"cdcta": "680",
+"nombre": "De ejercicios cerrados"
+},
+{
+"tipreig": "I",
+"cdcta": "7",
+"nombre": "CAP. VII TRANSFERENCIAS DE CAPITAL"
+},
+{
+"tipreig": "I",
+"cdcta": "70",
+"nombre": "De la Administración General de la Entidad Local"
+},
+{
+"tipreig": "I",
+"cdcta": "71",
+"nombre": "De Organismos Autónomos de la Entidad Local"
+},
+{
+"tipreig": "I",
+"cdcta": "72",
+"nombre": "De la Administración del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "720",
+"nombre": "De la Administración General del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "721",
+"nombre": "De Organismos Autónomos y agencias estatales"
+},
+{
+"tipreig": "I",
+"cdcta": "721.00",
+"nombre": "Del Servicio Público de Empleo Estatal"
+},
+{
+"tipreig": "I",
+"cdcta": "721.90",
+"nombre": "De otros Organismos Autónomos y agencias"
+},
+{
+"tipreig": "I",
+"cdcta": "722",
+"nombre": "De fundaciones estatales"
+},
+{
+"tipreig": "I",
+"cdcta": "723",
+"nombre": "De sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "723.00",
+"nombre": "De Loterías y Apuestas del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "723.90",
+"nombre": "De otras sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "73",
+"nombre": "De la Seguridad Social"
+},
+{
+"tipreig": "I",
+"cdcta": "74",
+"nombre": "De entes públicos y sociedades mercantiles de la Entidad local"
+},
+{
+"tipreig": "I",
+"cdcta": "740",
+"nombre": "De entes públicos"
+},
+{
+"tipreig": "I",
+"cdcta": "741",
+"nombre": "De sociedades mercantiles"
+},
+{
+"tipreig": "I",
+"cdcta": "75",
+"nombre": "De Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "750",
+"nombre": "De la Administración General de las Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "750.00",
+"nombre": "Subvenciones afectas a la amortización de préstamos y operaciones financieras"
+},
+{
+"tipreig": "I",
+"cdcta": "750.02",
+"nombre": "Transferencias de capital en cumplimiento de convenios suscritos con la Comunidad Autónoma en materia de Servicios Sociales y"
+},
+{
+"tipreig": "I",
+"cdcta": "750.30",
+"nombre": "Transferencias de capital en cumplimiento de convenios suscritos con la Comunidad Autónoma en materia de Educación"
+},
+{
+"tipreig": "I",
+"cdcta": "750.50",
+"nombre": "Transferencias de capital en cumplimiento de convenios suscritos con la Comunidad Autónoma en materia de Empleo y Desarrollo"
+},
+{
+"tipreig": "I",
+"cdcta": "750.60",
+"nombre": "Otras transferencias de capital en cumplimiento de convenios suscritos con la Comunidad Autónoma"
+},
+{
+"tipreig": "I",
+"cdcta": "750.80",
+"nombre": "Otras transferencias de capital de la Administración General de la Comunidad Autónoma"
+},
+{
+"tipreig": "I",
+"cdcta": "751",
+"nombre": "De Organismos Autónomos y agencias de las Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "752",
+"nombre": "De fundaciones de las Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "753",
+"nombre": "De sociedades mercantiles, entidades públicas empresariales y otros organismos públicos dependientes de las Comunidades Autón"
+},
+{
+"tipreig": "I",
+"cdcta": "76",
+"nombre": "De Entidades Locales"
+},
+{
+"tipreig": "I",
+"cdcta": "761",
+"nombre": "De Diputaciones, Consejos o Cabildos"
+},
+{
+"tipreig": "I",
+"cdcta": "762",
+"nombre": "De Ayuntamientos"
+},
+{
+"tipreig": "I",
+"cdcta": "763",
+"nombre": "De Mancomunidades"
+},
+{
+"tipreig": "I",
+"cdcta": "764",
+"nombre": "De Áreas Metropolitanas"
+},
+{
+"tipreig": "I",
+"cdcta": "765",
+"nombre": "De Comarcas"
+},
+{
+"tipreig": "I",
+"cdcta": "766",
+"nombre": "De otras Entidades que agrupen Municipios"
+},
+{
+"tipreig": "I",
+"cdcta": "767",
+"nombre": "De Consorcios"
+},
+{
+"tipreig": "I",
+"cdcta": "768",
+"nombre": "De Entidades Locales Menores"
+},
+{
+"tipreig": "I",
+"cdcta": "77",
+"nombre": "De Empresas Privadas"
+},
+{
+"tipreig": "I",
+"cdcta": "78",
+"nombre": "De Familias e Instituciones sin fines de lucro"
+},
+{
+"tipreig": "I",
+"cdcta": "79",
+"nombre": "Del Exterior"
+},
+{
+"tipreig": "I",
+"cdcta": "790",
+"nombre": "Del Fondo Social Europeo"
+},
+{
+"tipreig": "I",
+"cdcta": "791",
+"nombre": "Del Fondo de Desarrollo Regional"
+},
+{
+"tipreig": "I",
+"cdcta": "792",
+"nombre": "Del Fondo de Cohesión"
+},
+{
+"tipreig": "I",
+"cdcta": "793",
+"nombre": "Del Fondo Europeo Agrícola de Garantía (FEAGA)"
+},
+{
+"tipreig": "I",
+"cdcta": "794",
+"nombre": "Del Fondo Europeo Agrícola de Desarrollo Rural (FEADER)"
+},
+{
+"tipreig": "I",
+"cdcta": "795",
+"nombre": "Del FEOGA-Orientación"
+},
+{
+"tipreig": "I",
+"cdcta": "796",
+"nombre": "Del Fondo Europeo de la Pesca (FEP)"
+},
+{
+"tipreig": "I",
+"cdcta": "797",
+"nombre": "Otras transferencias de la Unión Europea"
+},
+{
+"tipreig": "I",
+"cdcta": "799",
+"nombre": "Otras transferencias del exterior, excluyendo la Unión Europea"
+},
+{
+"tipreig": "I",
+"cdcta": "7t",
+"nombre": "Ajustes de consolidacion"
+},
+{
+"tipreig": "I",
+"cdcta": "8",
+"nombre": "CAP. VIII ACTIVOS FINANCIEROS"
+},
+{
+"tipreig": "I",
+"cdcta": "80",
+"nombre": "Enajenación de Deuda del Sector Público"
+},
+{
+"tipreig": "I",
+"cdcta": "800",
+"nombre": "Enajenación de deuda del sector público a corto plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "800.00",
+"nombre": "Del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "800.10",
+"nombre": "De Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "800.20",
+"nombre": "De Entidades locales"
+},
+{
+"tipreig": "I",
+"cdcta": "801",
+"nombre": "Enajenación de deuda del sector público a largo plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "801.00",
+"nombre": "Del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "801.10",
+"nombre": "De Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "801.20",
+"nombre": "De Entidades locales"
+},
+{
+"tipreig": "I",
+"cdcta": "81",
+"nombre": "Enajenación de obligaciones y bonos fuera del sector público"
+},
+{
+"tipreig": "I",
+"cdcta": "810",
+"nombre": "Enajenación de obligaciones y bonos fuera del sector público a corto plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "811",
+"nombre": "Enajenación de obligaciones y bonos fuera del sector público a largo plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "82",
+"nombre": "Reintegro de préstamos y anticipos concedidos al sector público"
+},
+{
+"tipreig": "I",
+"cdcta": "820",
+"nombre": "Reintegro de préstamos y anticipos concedidos al sector público a corto plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "820.00",
+"nombre": "Del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "820.10",
+"nombre": "De Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "820.20",
+"nombre": "De Entidades locales"
+},
+{
+"tipreig": "I",
+"cdcta": "821",
+"nombre": "Reintegro de préstamos y anticipos concedidos al sector público a largo plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "821.00",
+"nombre": "Del Estado"
+},
+{
+"tipreig": "I",
+"cdcta": "821.10",
+"nombre": "De Comunidades Autónomas"
+},
+{
+"tipreig": "I",
+"cdcta": "821.20",
+"nombre": "De Entidades locales"
+},
+{
+"tipreig": "I",
+"cdcta": "83",
+"nombre": "Reintegros de préstamos de fuera del sector público"
+},
+{
+"tipreig": "I",
+"cdcta": "830",
+"nombre": "Reintegros de préstamos de fuera del sector público a corto plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "831",
+"nombre": "Reintegros de préstamos de fuera del sector público a largo plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "84",
+"nombre": "Devolución de depósitos y fianzas constituidos"
+},
+{
+"tipreig": "I",
+"cdcta": "840",
+"nombre": "Devolución de depósitos"
+},
+{
+"tipreig": "I",
+"cdcta": "841",
+"nombre": "Devolución de fianzas"
+},
+{
+"tipreig": "I",
+"cdcta": "85",
+"nombre": "Enajenación de acciones y participaciones del sector público"
+},
+{
+"tipreig": "I",
+"cdcta": "86",
+"nombre": "Enajenación de acciones y participaciones fuera del sector público"
+},
+{
+"tipreig": "I",
+"cdcta": "87",
+"nombre": "Remanente de Tesorería"
+},
+{
+"tipreig": "I",
+"cdcta": "870",
+"nombre": "Remanente de tesorería"
+},
+{
+"tipreig": "I",
+"cdcta": "870.00",
+"nombre": "Para gastos generales"
+},
+{
+"tipreig": "I",
+"cdcta": "870.10",
+"nombre": "Para gastos con financiación afectada"
+},
+{
+"tipreig": "I",
+"cdcta": "9",
+"nombre": "CAP. IX PASIVOS FINANCIEROS"
+},
+{
+"tipreig": "I",
+"cdcta": "90",
+"nombre": "Emisión de Deuda Pública en euros"
+},
+{
+"tipreig": "I",
+"cdcta": "900",
+"nombre": "Emisión de Deuda Pública en euros a corto plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "901",
+"nombre": "Emisión de Deuda Pública en euros a largo plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "91",
+"nombre": "Préstamos recibidos en euros"
+},
+{
+"tipreig": "I",
+"cdcta": "910",
+"nombre": "Préstamos recibidos a corto plazo de entes del sector público"
+},
+{
+"tipreig": "I",
+"cdcta": "911",
+"nombre": "Préstamos recibidos a largo plazo de entes del sector público"
+},
+{
+"tipreig": "I",
+"cdcta": "912",
+"nombre": "Préstamos recibidos a corto plazo de entes de fuera del sector público"
+},
+{
+"tipreig": "I",
+"cdcta": "913",
+"nombre": "Préstamos recibidos a largo plazo de entes de fuera del sector público"
+},
+{
+"tipreig": "I",
+"cdcta": "92",
+"nombre": "Emisión de Deuda Pública en moneda distinta del euro"
+},
+{
+"tipreig": "I",
+"cdcta": "920",
+"nombre": "Emisión de Deuda Pública en moneda distinta del euro a corto plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "921",
+"nombre": "Emisión de Deuda Pública en moneda distinta del euro a largo plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "93",
+"nombre": "Préstamos recibidos en moneda distinta del euro"
+},
+{
+"tipreig": "I",
+"cdcta": "930",
+"nombre": "Préstamos recibidos en moneda distinta del euro a corto plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "931",
+"nombre": "Préstamos recibidos en moneda distinta del euro a largo plazo"
+},
+{
+"tipreig": "I",
+"cdcta": "94",
+"nombre": "Depósitos y fianzas recibidos"
+},
+{
+"tipreig": "I",
+"cdcta": "940",
+"nombre": "Depósitos recibidos"
+},
+{
+"tipreig": "I",
+"cdcta": "941",
+"nombre": "Fianzas recibidas"
+},
+{
+"tipreig": "G",
+"cdcta": "5",
+"nombre": "CAP. V FONDO DE CONTINGENCIA Y OTROS IMPREVISTOS"
+},
+{
+"tipreig": "G",
+"cdcta": "50",
+"nombre": "Dotación al Fondo de Contingencia del ejercicio presupuestario"
+},
+{
+"tipreig": "G",
+"cdcta": "500",
+"nombre": "Fondo de Contingencia(art. 31 LO 2/12 de Estabilidad Presupuestaria)"
+}
+],
+"tb_cuentasProgramas": [
+{
+"cdfgr": "011",
+"nombre": "Deuda Pública"
+},
+{
+"cdfgr": "2",
+"nombre": "ACTUACIONES DE PROTECCIÓN Y PROMOCIÓN SOCIAL"
+},
+{
+"cdfgr": "433",
+"nombre": "Desarrollo empresarial"
+},
+{
+"cdfgr": "44",
+"nombre": "Transporte público"
+},
+{
+"cdfgr": "450",
+"nombre": "Administración General de Infraestructuras"
+},
+{
+"cdfgr": "46",
+"nombre": "Investigación, desarrollo e innovación"
+},
+{
+"cdfgr": "491",
+"nombre": "Sociedad de la información"
+},
+{
+"cdfgr": "931",
+"nombre": "Política económica y fiscal"
+},
+{
+"cdfgr": "932",
+"nombre": "Gestión del sistema tributario"
+},
+{
+"cdfgr": "934",
+"nombre": "Gestión de la deuda y de la tesorería"
+},
+{
+"cdfgr": "150",
+"nombre": "Administración General de Vivienda y urbanismo"
+},
+{
+"cdfgr": "415",
+"nombre": "Protección y desarrollo de los recursos pesqueros."
+},
+{
+"cdfgr": "42",
+"nombre": "Industria y energía"
+},
+{
+"cdfgr": "463",
+"nombre": "Investigación científica, técnica y aplicada."
+},
+{
+"cdfgr": "492",
+"nombre": "Gestión del conocimiento"
+},
+{
+"cdfgr": "92",
+"nombre": "Servicios de carácter general"
+},
+{
+"cdfgr": "93",
+"nombre": "Administración financiera y tributaria"
+},
+{
+"cdfgr": "13",
+"nombre": "Seguridad y movilidad ciudadana"
+},
+{
+"cdfgr": "17",
+"nombre": "Medio ambiente"
+},
+{
+"cdfgr": "23",
+"nombre": "Servicios Sociales y promoción social"
+},
+{
+"cdfgr": "320",
+"nombre": "Administración general de educación"
+},
+{
+"cdfgr": "412",
+"nombre": "Mejora de las estructuras agropecuarias y de los sistemas productivos"
+},
+{
+"cdfgr": "420",
+"nombre": "Administración General de Industria y energía"
+},
+{
+"cdfgr": "43",
+"nombre": "Comercio, turismo y pequeñas y medianas empresas"
+},
+{
+"cdfgr": "439",
+"nombre": "Otras actuaciones sectoriales"
+},
+{
+"cdfgr": "45",
+"nombre": "Infraestructuras"
+},
+{
+"cdfgr": "462",
+"nombre": "Investigación y estudios relacionados con los servicios públicos"
+},
+{
+"cdfgr": "926",
+"nombre": "Comunicaciones internas."
+},
+{
+"cdfgr": "165",
+"nombre": "Alumbrado público"
+},
+{
+"cdfgr": "334",
+"nombre": "Promoción cultural"
+},
+{
+"cdfgr": "34",
+"nombre": "Deporte"
+},
+{
+"cdfgr": "410",
+"nombre": "Administración General de Agricultura, Ganadería y Pesca"
+},
+{
+"cdfgr": "440",
+"nombre": "Administración general del transporte"
+},
+{
+"cdfgr": "9",
+"nombre": "ACTUACIONES DE CARÁCTER GENERAL"
+},
+{
+"cdfgr": "924",
+"nombre": "Participación ciudadana"
+},
+{
+"cdfgr": "925",
+"nombre": "Atención a los ciudadanos."
+},
+{
+"cdfgr": "163",
+"nombre": "Limpieza viaria."
+},
+{
+"cdfgr": "211",
+"nombre": "Pensiones"
+},
+{
+"cdfgr": "33",
+"nombre": "Cultura"
+},
+{
+"cdfgr": "933",
+"nombre": "Gestión del patrimonio"
+},
+{
+"cdfgr": "16",
+"nombre": "Bienestar comunitario"
+},
+{
+"cdfgr": "172",
+"nombre": "Protección y mejora del medio ambiente"
+},
+{
+"cdfgr": "221",
+"nombre": "Otras prestaciones económicas a favor de empleados"
+},
+{
+"cdfgr": "312",
+"nombre": "Hospitales, servicios asistenciales y centros de salud."
+},
+{
+"cdfgr": "340",
+"nombre": "Administración General de Deportes."
+},
+{
+"cdfgr": "341",
+"nombre": "Promoción y fomento del deporte."
+},
+{
+"cdfgr": "342",
+"nombre": "Instalaciones deportivas."
+},
+{
+"cdfgr": "41",
+"nombre": "Agricultura, Ganadería y Pesca"
+},
+{
+"cdfgr": "91",
+"nombre": "Órganos de gobierno"
+},
+{
+"cdfgr": "920",
+"nombre": "Administración General"
+},
+{
+"cdfgr": "922",
+"nombre": "Coordinación y organización institucional de las entidades locales"
+},
+{
+"cdfgr": "94",
+"nombre": "Transferencias a otras Administraciones Públicas"
+},
+{
+"cdfgr": "941",
+"nombre": "Transferencias a Comunidades Autónomas"
+},
+{
+"cdfgr": "943",
+"nombre": "Transferencias a otras Entidades Locales"
+},
+{
+"cdfgr": "944",
+"nombre": "Transferencias a la Administración General del Estado"
+},
+{
+"cdfgr": "152",
+"nombre": "Vivienda."
+},
+{
+"cdfgr": "3",
+"nombre": "PRODUCCIÓN DE BIENES PÚBLICOS DE CARÁCTER PREFERENTE"
+},
+{
+"cdfgr": "338",
+"nombre": "Fiestas populares y festejos"
+},
+{
+"cdfgr": "419",
+"nombre": "Otras actuaciones en agricultura, ganadería y pesca"
+},
+{
+"cdfgr": "423",
+"nombre": "Minería"
+},
+{
+"cdfgr": "430",
+"nombre": "Administración General de Comercio, turismo y pequeñas y medianas empresas"
+},
+{
+"cdfgr": "459",
+"nombre": "Otras infraestructuras"
+},
+{
+"cdfgr": "0",
+"nombre": "DEUDA PÚBLICA"
+},
+{
+"cdfgr": "170",
+"nombre": "Administración general del medio ambiente"
+},
+{
+"cdfgr": "171",
+"nombre": "Parques y jardines"
+},
+{
+"cdfgr": "330",
+"nombre": "Administración General de Cultura"
+},
+{
+"cdfgr": "4",
+"nombre": "ACTUACIONES DE CARÁCTER ECONÓMICO"
+},
+{
+"cdfgr": "452",
+"nombre": "Recursos Hidráulicos"
+},
+{
+"cdfgr": "49",
+"nombre": "Otras actuaciones de carácter económico"
+},
+{
+"cdfgr": "942",
+"nombre": "Transferencias a Entidades Locales territoriales"
+},
+{
+"cdfgr": "01",
+"nombre": "Deuda Pública"
+},
+{
+"cdfgr": "1",
+"nombre": "SERVICIOS PÚBLICOS BÁSICOS"
+},
+{
+"cdfgr": "22",
+"nombre": "Otras prestaciones económicas a favor de empleados"
+},
+{
+"cdfgr": "332",
+"nombre": "Bibliotecas y Archivos"
+},
+{
+"cdfgr": "431",
+"nombre": "Comercio"
+},
+{
+"cdfgr": "130",
+"nombre": "Administración General de la Seguridad y Protección Civil"
+},
+{
+"cdfgr": "133",
+"nombre": "Ordenación del tráfico y del estacionamiento"
+},
+{
+"cdfgr": "21",
+"nombre": "Pensiones"
+},
+{
+"cdfgr": "241",
+"nombre": "Fomento del Empleo"
+},
+{
+"cdfgr": "31",
+"nombre": "Sanidad"
+},
+{
+"cdfgr": "32",
+"nombre": "Educación"
+},
+{
+"cdfgr": "414",
+"nombre": "Desarrollo rural"
+},
+{
+"cdfgr": "422",
+"nombre": "Industria"
+},
+{
+"cdfgr": "425",
+"nombre": "Energía"
+},
+{
+"cdfgr": "442",
+"nombre": "Infraestructuras del transporte"
+},
+{
+"cdfgr": "912",
+"nombre": "Órganos de gobierno"
+},
+{
+"cdfgr": "923",
+"nombre": "Información básica y estadística"
+},
+{
+"cdfgr": "132",
+"nombre": "Seguridad y Orden Público"
+},
+{
+"cdfgr": "134",
+"nombre": "Movilidad urbana"
+},
+{
+"cdfgr": "15",
+"nombre": "Vivienda y urbanismo"
+},
+{
+"cdfgr": "164",
+"nombre": "Cementerios y servicios funerarios"
+},
+{
+"cdfgr": "24",
+"nombre": "Fomento del Empleo"
+},
+{
+"cdfgr": "453",
+"nombre": "Carreteras"
+},
+{
+"cdfgr": "454",
+"nombre": "Caminos vecinales."
+},
+{
+"cdfgr": "136",
+"nombre": "Servicio de prevención y extinción de incendios"
+},
+{
+"cdfgr": "135",
+"nombre": "Protección civil"
+},
+{
+"cdfgr": "151",
+"nombre": "Urbanismo:planeamiento,gestión,ejecución y disciplina urbanística"
+},
+{
+"cdfgr": "1521",
+"nombre": "Promoción y gestión de vivienda de protección pública"
+},
+{
+"cdfgr": "1522",
+"nombre": "Conservación y rehabilitación de la edificación"
+},
+{
+"cdfgr": "153",
+"nombre": "Vías públicas"
+},
+{
+"cdfgr": "1531",
+"nombre": "Acceso a los núcleos de población"
+},
+{
+"cdfgr": "1532",
+"nombre": "Pavimentación de vías públicas"
+},
+{
+"cdfgr": "160",
+"nombre": "Alcantarillado"
+},
+{
+"cdfgr": "161",
+"nombre": "Abastecimiento domiciliario de agua potable"
+},
+{
+"cdfgr": "162",
+"nombre": "Recogida, gestión y tratamiento de residuos"
+},
+{
+"cdfgr": "1621",
+"nombre": "Recogida de residuos"
+},
+{
+"cdfgr": "1622",
+"nombre": "Gestión de residuos sólidos urbanos"
+},
+{
+"cdfgr": "1623",
+"nombre": "Tratamiento de residuos"
+},
+{
+"cdfgr": "1721",
+"nombre": "Protección contra la contaminación acústica, lumínica y atmosférica en las zonas urbanas"
+},
+{
+"cdfgr": "231",
+"nombre": "Asistencia social primaria"
+},
+{
+"cdfgr": "311",
+"nombre": "Protección de la salubridad pública"
+},
+{
+"cdfgr": "321",
+"nombre": "Creación de Centros docentes de enseñanza preescolar y primaria"
+},
+{
+"cdfgr": "322",
+"nombre": "Creación de Centros docentes de enseñanza secundaria"
+},
+{
+"cdfgr": "323",
+"nombre": "Funcionamiento de Centros docentes de enseñanza preescolar y primaria y educación especial"
+},
+{
+"cdfgr": "324",
+"nombre": "Funcionamiento de Centros docentes de enseñanza secundaria"
+},
+{
+"cdfgr": "325",
+"nombre": "Vigilancia del cumplimiento de la escolaridad obligatoria"
+},
+{
+"cdfgr": "326",
+"nombre": "Servicios complementarios de educación"
+},
+{
+"cdfgr": "327",
+"nombre": "Fomento de la convivencia ciudadana"
+},
+{
+"cdfgr": "3321",
+"nombre": "Bibliotecas Públicas"
+},
+{
+"cdfgr": "3322",
+"nombre": "Archivos"
+},
+{
+"cdfgr": "333",
+"nombre": "Equipamientos culturales y museos"
+},
+{
+"cdfgr": "336",
+"nombre": "Protección y gestión del Patrimonio Histórico-Artístico"
+},
+{
+"cdfgr": "337",
+"nombre": "Instalaciones de ocupación del tiempo libre"
+},
+{
+"cdfgr": "4311",
+"nombre": "Ferias"
+},
+{
+"cdfgr": "4312",
+"nombre": "Mercados, Abastos y Lonjas"
+},
+{
+"cdfgr": "4313",
+"nombre": "Comercio Ambulante"
+},
+{
+"cdfgr": "432",
+"nombre": "Información y promoción turística"
+},
+{
+"cdfgr": "441",
+"nombre": "Transporte de viajeros"
+},
+{
+"cdfgr": "4411",
+"nombre": "Transporte colectivo urbano de viajeros"
+},
+{
+"cdfgr": "4412",
+"nombre": "Otro transporte de viajeros"
+},
+{
+"cdfgr": "443",
+"nombre": "Transporte de mercancías"
+},
+{
+"cdfgr": "493",
+"nombre": "Protección de consumidores y usuarios"
+},
+{
+"cdfgr": "9231",
+"nombre": "Gestión del Padrón Municipal de Habitantes"
+},
+{
+"cdfgr": "929",
+"nombre": "Imprevistos, situaciones transitorias y contingencias de ejecución"
+}
+],
+"tb_cuentasRemanente": [
+{
+"cdrmte": "0",
+"nombre": "Remanente de Tesorería para gastos generales"
+},
+{
+"cdrmte": "01",
+"nombre": "Remanente de Tesorería"
+},
+{
+"cdrmte": "011",
+"nombre": "Fondos líquidos"
+},
+{
+"cdrmte": "012",
+"nombre": "Derechos pendientes del cobro"
+},
+{
+"cdrmte": "012.01",
+"nombre": "del presupuesto corriente"
+},
+{
+"cdrmte": "012.02",
+"nombre": "de presupuestos cerrados"
+},
+{
+"cdrmte": "012.03",
+"nombre": "de otras operaciones no presupuestarias"
+},
+{
+"cdrmte": "012.04",
+"nombre": "Ingresos realizados pendientes de aplicación definitiva"
+},
+{
+"cdrmte": "013",
+"nombre": "Obligaciones pendientes de pago"
+},
+{
+"cdrmte": "013.01",
+"nombre": "del presupuesto corriente"
+},
+{
+"cdrmte": "013.02",
+"nombre": "de presupuestos cerrados"
+},
+{
+"cdrmte": "013.03",
+"nombre": "de otras operaciones no presupuestarias"
+},
+{
+"cdrmte": "013.04",
+"nombre": "Pagos realizados pendientes de aplicación definitiva"
+},
+{
+"cdrmte": "02",
+"nombre": "Saldos de dudoso cobro"
+},
+{
+"cdrmte": "03",
+"nombre": "Exceso de financiación afectada"
+},
+{
+"cdrmte": "04",
+"nombre": "Saldo de obligaciones pendientes de aplicar al presupuesto a 31 de diciembre"
+},
+{
+"cdrmte": "05",
+"nombre": "Saldo de obligaciones por devolución de ingresos pendientes de aplicar al presupuesto a 31 de diciembre"
+},
+{
+"cdrmte": "1",
+"nombre": "Remanente de Tesorería para gastos generales ajustado"
+},
+{
+"cdrmte": "2",
+"nombre": "Partidas pendientes de aplicación"
+}
+],
+"tb_Provincias": [
+{
+"Provincia": "01",
+"Nombre": "Araba/Álava",
+"CCAA": "15"
+},
+{
+"Provincia": "02",
+"Nombre": "Albacete",
+"CCAA": "08"
+},
+{
+"Provincia": "03",
+"Nombre": "Alicante / Alacant",
+"CCAA": "17"
+},
+{
+"Provincia": "04",
+"Nombre": "Almería",
+"CCAA": "01"
+},
+{
+"Provincia": "05",
+"Nombre": "Avila",
+"CCAA": "07"
+},
+{
+"Provincia": "06",
+"Nombre": "Badajoz",
+"CCAA": "10"
+},
+{
+"Provincia": "07",
+"Nombre": "Illes Balears",
+"CCAA": "04"
+},
+{
+"Provincia": "08",
+"Nombre": "Barcelona",
+"CCAA": "09"
+},
+{
+"Provincia": "09",
+"Nombre": "Burgos",
+"CCAA": "07"
+},
+{
+"Provincia": "10",
+"Nombre": "Cáceres",
+"CCAA": "10"
+},
+{
+"Provincia": "11",
+"Nombre": "Cádiz",
+"CCAA": "01"
+},
+{
+"Provincia": "12",
+"Nombre": "Castellón / Castelló",
+"CCAA": "17"
+},
+{
+"Provincia": "13",
+"Nombre": "Ciudad Real",
+"CCAA": "08"
+},
+{
+"Provincia": "14",
+"Nombre": "Córdoba",
+"CCAA": "01"
+},
+{
+"Provincia": "15",
+"Nombre": "Coruña, A",
+"CCAA": "11"
+},
+{
+"Provincia": "16",
+"Nombre": "Cuenca",
+"CCAA": "08"
+},
+{
+"Provincia": "17",
+"Nombre": "Girona",
+"CCAA": "09"
+},
+{
+"Provincia": "18",
+"Nombre": "Granada",
+"CCAA": "01"
+},
+{
+"Provincia": "19",
+"Nombre": "Guadalajara",
+"CCAA": "08"
+},
+{
+"Provincia": "20",
+"Nombre": "Gipuzkoa",
+"CCAA": "15"
+},
+{
+"Provincia": "21",
+"Nombre": "Huelva",
+"CCAA": "01"
+},
+{
+"Provincia": "22",
+"Nombre": "Huesca",
+"CCAA": "02"
+},
+{
+"Provincia": "23",
+"Nombre": "Jaén",
+"CCAA": "01"
+},
+{
+"Provincia": "24",
+"Nombre": "León",
+"CCAA": "07"
+},
+{
+"Provincia": "25",
+"Nombre": "Lleida",
+"CCAA": "09"
+},
+{
+"Provincia": "26",
+"Nombre": "Rioja, La",
+"CCAA": "16"
+},
+{
+"Provincia": "27",
+"Nombre": "Lugo",
+"CCAA": "11"
+},
+{
+"Provincia": "28",
+"Nombre": "Madrid",
+"CCAA": "12"
+},
+{
+"Provincia": "29",
+"Nombre": "Málaga",
+"CCAA": "01"
+},
+{
+"Provincia": "30",
+"Nombre": "Murcia",
+"CCAA": "13"
+},
+{
+"Provincia": "31",
+"Nombre": "Navarra",
+"CCAA": "14"
+},
+{
+"Provincia": "32",
+"Nombre": "Ourense",
+"CCAA": "11"
+},
+{
+"Provincia": "33",
+"Nombre": "Asturias",
+"CCAA": "03"
+},
+{
+"Provincia": "34",
+"Nombre": "Palencia",
+"CCAA": "07"
+},
+{
+"Provincia": "35",
+"Nombre": "Palmas, Las",
+"CCAA": "05"
+},
+{
+"Provincia": "36",
+"Nombre": "Pontevedra",
+"CCAA": "11"
+},
+{
+"Provincia": "37",
+"Nombre": "Salamanca",
+"CCAA": "07"
+},
+{
+"Provincia": "38",
+"Nombre": "Santa Cruz de Tenerife",
+"CCAA": "05"
+},
+{
+"Provincia": "39",
+"Nombre": "Cantabria",
+"CCAA": "06"
+},
+{
+"Provincia": "40",
+"Nombre": "Segovia",
+"CCAA": "07"
+},
+{
+"Provincia": "41",
+"Nombre": "Sevilla",
+"CCAA": "01"
+},
+{
+"Provincia": "42",
+"Nombre": "Soria",
+"CCAA": "07"
+},
+{
+"Provincia": "43",
+"Nombre": "Tarragona",
+"CCAA": "09"
+},
+{
+"Provincia": "44",
+"Nombre": "Teruel",
+"CCAA": "02"
+},
+{
+"Provincia": "45",
+"Nombre": "Toledo",
+"CCAA": "08"
+},
+{
+"Provincia": "46",
+"Nombre": "Valencia / València",
+"CCAA": "17"
+},
+{
+"Provincia": "47",
+"Nombre": "Valladolid",
+"CCAA": "07"
+},
+{
+"Provincia": "48",
+"Nombre": "Bizkaia",
+"CCAA": "15"
+},
+{
+"Provincia": "49",
+"Nombre": "Zamora",
+"CCAA": "07"
+},
+{
+"Provincia": "50",
+"Nombre": "Zaragoza",
+"CCAA": "02"
+},
+{
+"Provincia": "51",
+"Nombre": "Ceuta",
+"CCAA": "18"
+},
+{
+"Provincia": "52",
+"Nombre": "Melilla",
+"CCAA": "19"
+}
+]
+}
+}
