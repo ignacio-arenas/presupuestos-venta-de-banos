@@ -1,0 +1,13 @@
+name: Explorar web (herramienta)
+on:
+  workflow_dispatch:
+    inputs:
+      url: {description: "URL", required: true}
+      patron: {description: "Regex de enlaces", required: false, default: '\.(xlsx?|zip|csv|pdf)\b'}
+jobs:
+  explorar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - run: python tools/explorar.py "${{ inputs.url }}" "${{ inputs.patron }}"
