@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Presupuestos de Venta de Baños</title>
+<meta name="description" content="En qué gasta y de dónde ingresa el Ayuntamiento de Venta de Baños, a partir de los PDFs oficiales de presupuestos.">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f7f6f3;--card:#fff;--ink:#1d1d1b;--muted:#6b6a65;--line:#e4e2dc;--gasto:#c4532d;--ingreso:#2f6f8f;--warn:#fff4d6;--warn-ink:#7a5200}
+@media (prefers-color-scheme:dark){:root{--bg:#161615;--card:#201f1d;--ink:#eeece6;--muted:#a3a19a;--line:#34332f;--gasto:#e07a54;--ingreso:#5fa6c7;--warn:#3a2f12;--warn-ink:#f3d58a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px;margin-bottom:20px}
+h1{font-size:clamp(24px,4vw,34px);margin:0;letter-spacing:-.01em}
+h1 small{display:block;font-size:14px;font-weight:400;color:var(--muted);letter-spacing:0}
+h2{font-size:16px;margin:0 0 12px}
+select,input{font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:12px}
+.kpi,.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.kpi span{display:block;color:var(--muted);font-size:13px}
+.kpi b{font-size:26px;font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:12px;margin-bottom:12px}
+.chart{position:relative;height:320px}
+.avisos{background:var(--warn);color:var(--warn-ink);border-radius:12px;padding:12px 16px;margin-bottom:12px;font-size:14px}
+.avisos ul{margin:6px 0 0;padding-left:18px}
+.filtros{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.filtros input{flex:1;min-width:180px}
+.tabla{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:500;cursor:pointer;white-space:nowrap}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td code{color:var(--muted);font-size:12px}
+footer{color:var(--muted);font-size:13px;margin-top:24px}
+a{color:var(--ingreso)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Presupuestos de Venta de Baños<small>De dónde sale y en qué se gasta el dinero del Ayuntamiento</small></h1>
+  <label>Ejercicio <select id="anio"></select></label>
+</header>
+
+<div id="avisos" class="avisos" hidden></div>
+
+<section class="kpis">
+  <div class="kpi"><span>Gastos previstos</span><b id="k-gastos">–</b></div>
+  <div class="kpi"><span>Ingresos previstos</span><b id="k-ingresos">–</b></div>
+  <div class="kpi"><span>Gasto por habitante*</span><b id="k-hab">–</b></div>
+</section>
+
+<section class="grid">
+  <div class="card"><h2>Gastos por área</h2><div class="chart"><canvas id="c-areas"></canvas></div></div>
+  <div class="card"><h2>Gastos por tipo (capítulo)</h2><div class="chart"><canvas id="c-gcap"></canvas></div></div>
+  <div class="card"><h2>Programas con más gasto</h2><div class="chart"><canvas id="c-prog"></canvas></div></div>
+  <div class="card"><h2>Ingresos por tipo (capítulo)</h2><div class="chart"><canvas id="c-icap"></canvas></div></div>
+</section>
+
+<section class="card">
+  <h2>Todas las partidas</h2>
+  <div class="filtros">
+    <input id="buscar" type="search" placeholder="Buscar: piscina, alumbrado, fiestas…">
+    <select id="tipo"><option value="gastos">Gastos</option><option value="ingresos">Ingresos</option></select>
+  </div>
+  <div class="tabla"><table>
+    <thead><tr><th data-k="programa">Programa</th><th data-k="economica">Económica</th><th data-k="descripcion">Descripción</th><th class="n" data-k="importe">Importe</th></tr></thead>
+    <tbody id="filas"></tbody>
+  </table></div>
+</section>
+
+<footer>
+  Datos extraídos automáticamente de los <a href="https://ventadebanos.es/ayuntamiento/presupuestos-generales/">PDFs oficiales del Ayuntamiento</a>. Pueden contener errores de lectura; ante la duda manda el PDF.
+  <br>* Población aproximada: 6.300 habitantes (ajústala en <code>POBLACION</code>).
+</footer>
+</main>
+
+<script>
+const POBLACION = 6300;
+const eur = n => n == null ? "–" : n.toLocaleString("es-ES", {style: "currency", currency: "EUR", maximumFractionDigits: 0});
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+let DATA, charts = {}, orden = {k: "importe", asc: false};
+
+function barras(id, items, color) {
+  charts[id]?.destroy();
+  charts[id] = new Chart(document.getElementById(id), {
+    type: "bar",
+    data: {labels: items.map(i => i.nombre), datasets: [{data: items.map(i => i.importe), backgroundColor: color, borderRadius: 4}]},
+    options: {
+      indexAxis: "y", maintainAspectRatio: false,
+      plugins: {legend: {display: false}, tooltip: {callbacks: {label: c => eur(c.raw)}}},
+      scales: {
+        x: {ticks: {color: css("--muted"), callback: v => (v / 1e6).toLocaleString("es-ES") + " M€"}, grid: {color: css("--line")}},
+        y: {ticks: {color: css("--ink"), callback(v) { const l = this.getLabelForValue(v); return l.length > 34 ? l.slice(0, 33) + "…" : l; }}, grid: {display: false}}
+      }
+    }
+  });
+}
+
+function tabla() {
+  const ej = DATA.ejercicios.find(e => e.anio == anio.value);
+  const tipo = document.getElementById("tipo").value;
+  const q = buscar.value.trim().toLowerCase();
+  let rows = (ej?.[tipo]?.partidas || []).filter(p => !q || p.descripcion.toLowerCase().includes(q) || p.economica.includes(q));
+  rows.sort((a, b) => { const x = a[orden.k] ?? "", y = b[orden.k] ?? ""; return (x > y ? 1 : x < y ? -1 : 0) * (orden.asc ? 1 : -1); });
+  filas.innerHTML = rows.map(p => `<tr><td><code>${p.programa ?? ""}</code></td><td><code>${p.economica}</code></td><td>${p.descripcion}</td><td class="n">${eur(p.importe)}</td></tr>`).join("")
+    || `<tr><td colspan="4">Sin resultados</td></tr>`;
+}
+
+function pintar() {
+  const ej = DATA.ejercicios.find(e => e.anio == anio.value);
+  const g = ej.gastos, i = ej.ingresos;
+  document.getElementById("k-gastos").textContent = eur(g?.total);
+  document.getElementById("k-ingresos").textContent = eur(i?.total_pdf ?? i?.total);
+  document.getElementById("k-hab").textContent = g ? eur(g.total / POBLACION) : "–";
+  const av = [...(g?.avisos || []), ...(i?.avisos || [])];
+  const box = document.getElementById("avisos");
+  box.hidden = !av.length;
+  box.innerHTML = `<b>Ojo: algunas cifras no cuadran con los totales del PDF.</b><ul>${av.map(a => `<li>${a}</li>`).join("")}</ul>`;
+  if (g) {
+    barras("c-areas", g.areas, css("--gasto"));
+    barras("c-gcap", g.capitulos, css("--gasto"));
+    barras("c-prog", g.programas.slice(0, 12), css("--gasto"));
+  }
+  if (i) barras("c-icap", i.capitulos, css("--ingreso"));
+  tabla();
+}
+
+fetch("data/presupuestos.json").then(r => r.json()).then(d => {
+  DATA = d;
+  anio.innerHTML = d.ejercicios.map(e => `<option>${e.anio}</option>`).reverse().join("");
+  pintar();
+});
+anio.onchange = pintar;
+buscar.oninput = tabla;
+tipo.onchange = tabla;
+document.querySelectorAll("th[data-k]").forEach(th => th.onclick = () => {
+  orden = {k: th.dataset.k, asc: orden.k === th.dataset.k ? !orden.asc : th.dataset.k !== "importe"};
+  tabla();
+});
+</script>
+</body>
+</html>

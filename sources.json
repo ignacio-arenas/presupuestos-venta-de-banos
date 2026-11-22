@@ -1,0 +1,9 @@
+{
+  "pagina": "https://ventadebanos.es/ayuntamiento/presupuestos-generales/",
+  "ejercicios": {
+    "2025": {
+      "gastos": "https://ventadebanos.es/wp-content/uploads/2025/08/Estado-de-gastos-Presupuesto-2025.pdf",
+      "ingresos": "https://ventadebanos.es/wp-content/uploads/2025/08/Estado-de-ingresos-Presupuesto-General-20251.pdf"
+    }
+  }
+}
