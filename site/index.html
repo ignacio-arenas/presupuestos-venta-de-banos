@@ -46,6 +46,9 @@ td code{color:var(--muted);font-size:12px}
 .cuenta td:first-child{width:1.5em;color:var(--muted);text-align:center}
 .cuenta tr.sub td{font-weight:600;border-top:2px solid var(--ink);border-bottom:none}
 .cuenta tr.fin td{font-size:16px;color:var(--ingreso)}
+table.comp tr.vdb td{font-weight:700;background:color-mix(in srgb,var(--ingreso) 12%,transparent)}
+table.comp td:first-child{white-space:nowrap}
+table.comp tr.med td{color:var(--muted);font-style:italic}
 footer{color:var(--muted);font-size:13px;margin-top:24px}
 a{color:var(--ingreso)}
 </style>
@@ -87,6 +90,24 @@ a{color:var(--ingreso)}
   <div class="card"><h2 id="rem-titulo">Cómo se calcula</h2>
     <table class="cuenta"><tbody id="rem-cuenta"></tbody></table>
     <p class="nota" id="rem-nota"></p>
+  </div>
+</section>
+
+<h2 class="seccion">Deuda</h2>
+<p class="intro">Cada año el Ayuntamiento devuelve parte de sus préstamos (<b>amortización</b>), a veces pide otros nuevos y paga <b>intereses</b>. La <b>deuda viva</b> es lo que queda por devolver al cerrar el año.</p>
+<section class="card">
+  <p id="deuda-resumen" style="margin:0 0 10px"></p>
+  <div class="chart"><canvas id="c-deuda"></canvas></div>
+  <p class="nota" id="deuda-nota"></p>
+</section>
+
+<h2 class="seccion">Comparación con municipios parecidos</h2>
+<p class="intro" id="comp-intro">Euros por habitante, para poder comparar municipios de distinto tamaño.</p>
+<section class="grid">
+  <div class="card" style="grid-column:1/-1"><h2>Gasto por habitante, por área</h2><div class="chart alto"><canvas id="c-comp"></canvas></div></div>
+  <div class="card" style="grid-column:1/-1"><h2>Municipios de la provincia de Palencia</h2>
+    <div class="tabla"><table class="comp"><thead><tr><th>Municipio</th><th class="n">Hab.</th><th class="n">Gasto</th><th class="n">Inversión</th><th class="n">Impuestos directos</th><th class="n">Remanente</th></tr></thead><tbody id="comp-filas"></tbody></table></div>
+    <p class="nota">€ por habitante. Inversión: capítulo 6; impuestos directos: capítulo 1 de ingresos (IBI, vehículos, plusvalías…); remanente para gastos generales.</p>
   </div>
 </section>
 
@@ -162,6 +183,7 @@ function pintar() {
   barras("c-prog", top, liq, css("--gasto"));
   barras("c-icap", i.capitulos.filter(x => x.inicial || x.ejecutado), liq, css("--ingreso"), "Ingresado");
   remanente();
+  comparar();
   tabla();
 }
 
@@ -203,6 +225,70 @@ function evolucion() {
   const prorr = A.filter((a, k) => k && a.gastos.total_inicial && Math.abs(a.gastos.total_inicial - (A[k - 1].gastos.total_inicial ?? 0)) < 1).map(a => a.anio);
   document.getElementById("nota-prorroga").textContent = prorr.length
     ? `En ${prorr.join(" y ")} el presupuesto inicial es idéntico al del año anterior: probablemente se prorrogó por no aprobarse uno nuevo.` : "";
+}
+
+const mil = n => n == null ? "–" : Math.round(n).toLocaleString("es-ES", {useGrouping: "always"}) + " €";
+
+function deuda() {
+  const A = HAC.anios.filter(a => a.deuda);
+  charts.deuda?.destroy();
+  charts.deuda = new Chart(document.getElementById("c-deuda"), {
+    data: {
+      labels: A.map(a => a.anio),
+      datasets: [
+        {type: "line", label: "Deuda viva a 31 dic. (Hacienda)", data: A.map(a => a.deuda.viva ?? null), borderColor: css("--ink"), backgroundColor: css("--ink"), showLine: false, pointRadius: 6, pointStyle: "rectRot"},
+        {type: "bar", label: "Préstamos recibidos", data: A.map(a => a.deuda.prestamos_recibidos ?? null), backgroundColor: css("--ingreso"), borderRadius: 4, pointStyle: "rect"},
+        {type: "bar", label: "Amortización (devuelto)", data: A.map(a => a.deuda.amortizacion ?? null), backgroundColor: css("--gasto"), borderRadius: 4, pointStyle: "rect"},
+        {type: "bar", label: "Intereses y gastos financieros", data: A.map(a => a.deuda.intereses ?? null), backgroundColor: css("--plan"), borderRadius: 4, pointStyle: "rect"}
+      ]
+    },
+    options: {
+      maintainAspectRatio: false, interaction: {mode: "index", intersect: false},
+      plugins: {legend: {labels: {color: css("--ink"), boxWidth: 10, usePointStyle: true}}, tooltip: {callbacks: {label: c => c.raw == null ? null : `${c.dataset.label}: ${eur(c.raw)}`}}},
+      scales: {
+        x: {ticks: {color: css("--muted")}, grid: {display: false}},
+        y: {beginAtZero: true, ticks: {color: css("--muted"), callback: v => (v / 1e6).toLocaleString("es-ES") + " M€"}, grid: {color: css("--line")}}
+      }
+    }
+  });
+  const conViva = A.filter(a => a.deuda.viva != null), ult = conViva[conViva.length - 1];
+  const sumAm = A.reduce((t, a) => t + (a.deuda.amortizacion || 0), 0), sumPr = A.reduce((t, a) => t + (a.deuda.prestamos_recibidos || 0), 0);
+  document.getElementById("deuda-resumen").innerHTML = (ult ? `Según Hacienda, a 31 de diciembre de ${ult.anio} la deuda viva era de <b>${eur(ult.deuda.viva)}</b>. ` : "")
+    + `Entre ${A[0].anio} y ${A[A.length - 1].anio} el Ayuntamiento devolvió <b>${eur(sumAm)}</b> y recibió <b>${eur(sumPr)}</b> en préstamos.`;
+  const a25 = A.find(a => a.deuda.viva === 0 && a.deuda.prestamos_recibidos > 0);
+  document.getElementById("deuda-nota").textContent = "La deuda viva solo se muestra en los años cuyo informe de Hacienda se ha podido consultar."
+    + (a25 ? ` Ojo: en ${a25.anio} la liquidación recoge ${eur(a25.deuda.prestamos_recibidos)} de préstamos recibidos de entes del sector público que no aparecen en la deuda viva publicada; puede deberse a cómo se clasifica esa operación.` : "");
+}
+
+function comparar() {
+  const sel = anioSel(), a = sel.comparativa ? sel : [...HAC.anios].reverse().find(x => x.comparativa);
+  if (!a) return;
+  const c = a.comparativa, yo = c.provincia.find(m => m.codigo.startsWith("34023")) || {};
+  const E = c.grupos.espana, C = c.grupos.cyl;
+  document.getElementById("comp-intro").innerHTML = `Euros por habitante en ${a.anio} (${c.base}${a === sel ? "" : `; ${sel.anio} aún no tiene datos comparables`}). Se compara con la <b>mediana</b> de los ayuntamientos de ${c.rango[0].toLocaleString("es-ES", {useGrouping: "always"})} a ${c.rango[1].toLocaleString("es-ES", {useGrouping: "always"})} habitantes: ${C.n} en Castilla y León y ${E.n} en toda España.`;
+  const areas = ["0", "1", "2", "3", "4", "9"].filter(k => yo["a" + k] != null);
+  const AREAS_CORTAS = {"0": "Deuda pública", "1": "Servicios básicos", "2": "Protección social", "3": "Cultura, deporte, educación", "4": "Actuaciones económicas", "9": "Administración general"};
+  charts.comp?.destroy();
+  charts.comp = new Chart(document.getElementById("c-comp"), {
+    type: "bar",
+    data: {
+      labels: areas.map(k => AREAS_CORTAS[k]),
+      datasets: [
+        {label: "Venta de Baños", data: areas.map(k => yo["a" + k]), backgroundColor: css("--gasto"), borderRadius: 4},
+        {label: "Mediana Castilla y León", data: areas.map(k => C.mediana["a" + k]), backgroundColor: css("--ingreso"), borderRadius: 4},
+        {label: "Mediana España", data: areas.map(k => E.mediana["a" + k]), backgroundColor: css("--plan"), borderRadius: 4}
+      ]
+    },
+    options: {
+      indexAxis: "y", maintainAspectRatio: false,
+      plugins: {legend: {labels: {color: css("--ink"), boxWidth: 12}}, tooltip: {callbacks: {label: c => `${c.dataset.label}: ${mil(c.raw)}/hab.`}}},
+      scales: {x: {ticks: {color: css("--muted"), callback: v => v + " €"}, grid: {color: css("--line")}}, y: {ticks: {color: css("--ink"), callback(v) { return corto(this.getLabelForValue(v)); }}, grid: {display: false}}}
+    }
+  });
+  const fila = (m, cls) => `<tr class="${cls}"><td>${m.nombre}</td><td class="n">${m.poblacion != null ? m.poblacion.toLocaleString("es-ES", {useGrouping: "always"}) : ""}</td><td class="n">${mil(m.g_total)}</td><td class="n">${mil(m.g6)}</td><td class="n">${mil(m.i1)}</td><td class="n">${mil(m.remanente)}</td></tr>`;
+  document.getElementById("comp-filas").innerHTML =
+    c.provincia.map(m => fila(m, m.codigo.startsWith("34023") ? "vdb" : "")).join("") +
+    fila({nombre: `Mediana CyL (${C.n})`, ...C.mediana}, "med") + fila({nombre: `Mediana España (${E.n})`, ...E.mediana}, "med");
 }
 
 function remanente() {
@@ -250,6 +336,7 @@ fetch("data/hacienda.json").then(r => r.json()).then(d => {
   anio.innerHTML = d.anios.map(a => `<option>${a.anio}</option>`).reverse().join("");
   pintar();
   evolucion();
+  deuda();
 });
 anio.onchange = pintar;
 buscar.oninput = tabla;

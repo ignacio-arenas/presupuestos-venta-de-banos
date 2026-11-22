@@ -1,0 +1,10 @@
+{
+  "descripcion": "Deuda viva del Ayuntamiento de Venta de Baños a 31 de diciembre, en euros. Copiada a mano de los informes anuales de deuda viva de las Entidades Locales del Ministerio de Hacienda (publicados en miles de euros). Los años que faltan no se han podido consultar todavía.",
+  "unidad": "euros",
+  "datos": [
+    {"anio": 2017, "deuda": 1310000, "fuente": "https://www.hacienda.gob.es/CDI/sist%20financiacion%20y%20deuda/informacioneells/2017/informe%20deuda%20viva%202017%20total_%20v%2020180717.pdf"},
+    {"anio": 2022, "deuda": 1194000, "fuente": "https://www.hacienda.gob.es/CDI/Sist%20Financiacion%20y%20Deuda/InformacionEELLs/2022/informe-deuda-viva-2022-total.pdf"},
+    {"anio": 2023, "deuda": 756000, "fuente": "https://www.hacienda.gob.es/CDI/Sist%20Financiacion%20y%20Deuda/InformacionEELLs/2023/informe-deuda-viva-2023-total.pdf"},
+    {"anio": 2025, "deuda": 0, "fuente": "https://www.hacienda.gob.es/cdi/sist%20financiacion%20y%20deuda/informacioneells/2025/informe-deuda-viva-2025-total.pdf"}
+  ]
+}

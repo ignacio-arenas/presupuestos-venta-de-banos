@@ -99,6 +99,10 @@ def resumir(anio: int, p: dict | None, l: dict | None) -> dict:
             key=lambda x: x["codigo"],
         )
     fila["tiene_presupuesto"], fila["tiene_liquidacion"] = bool(p), bool(l)
+    for datos, base in ((l, "gasto real"), (p, "presupuesto inicial")):
+        if datos and datos.get("comparativa"):
+            fila["comparativa"] = {"base": base, **datos["comparativa"]}
+            break
     if l and l["tablas"].get("tb_remanente"):
         fila["remanente"] = remanente(anio, l["tablas"]["tb_remanente"])
     return fila
@@ -154,6 +158,24 @@ def main() -> int:
         if p or l:
             salida["anios"].append(resumir(a, p, l))
             print(a, "presupuesto" if p else "-", "liquidación" if l else "-")
+    # Deuda: flujos anuales de la liquidación (capítulos 3 y 9) + deuda viva publicada por Hacienda
+    for a in salida["anios"]:
+        if a["tiene_liquidacion"]:
+            cg = {c["codigo"]: c for c in a["gastos"]["capitulos"]}
+            ci = {c["codigo"]: c for c in a["ingresos"]["capitulos"]}
+            a["deuda"] = {
+                "amortizacion": cg.get("9", {}).get("ejecutado", 0.0),
+                "prestamos_recibidos": ci.get("9", {}).get("ejecutado", 0.0),
+                "intereses": cg.get("3", {}).get("ejecutado", 0.0),
+            }
+    dv = ROOT / "data" / "deuda_viva.json"
+    if dv.exists():
+        viva = json.loads(dv.read_text(encoding="utf-8"))
+        salida["deuda_viva"] = viva["datos"]
+        for d in viva["datos"]:
+            a = next((x for x in salida["anios"] if x["anio"] == d["anio"]), None)
+            if a is not None:
+                a.setdefault("deuda", {})["viva"] = d["deuda"]
     control_pdf(salida)
     destino = ROOT / "site" / "data"
     destino.mkdir(parents=True, exist_ok=True)
