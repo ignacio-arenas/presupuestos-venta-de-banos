@@ -33,5 +33,6 @@ Añade sus URLs en `sources.json`. Ojo: el formato de los PDFs de 2022 (BOP) es 
 - [x] Presupuestos 2015–2026 y liquidaciones 2015–2025 (Hacienda)
 - [x] Presupuestado vs. gastado por capítulo, área, programa y partida
 - [x] Control cruzado con el PDF de 2025 (cuadra al céntimo)
-- [ ] Deuda viva y remanente de tesorería
+- [x] Remanente de tesorería 2015–2025
+- [ ] Deuda viva
 - [ ] Comparación con municipios similares

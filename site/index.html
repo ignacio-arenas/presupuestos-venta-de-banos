@@ -42,6 +42,10 @@ th[aria-sort=ascending]::after{content:" ↑"}
 td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td code{color:var(--muted);font-size:12px}
 .bajo{color:var(--gasto);font-weight:600}
+.cuenta td{padding:6px 4px}
+.cuenta td:first-child{width:1.5em;color:var(--muted);text-align:center}
+.cuenta tr.sub td{font-weight:600;border-top:2px solid var(--ink);border-bottom:none}
+.cuenta tr.fin td{font-size:16px;color:var(--ingreso)}
 footer{color:var(--muted);font-size:13px;margin-top:24px}
 a{color:var(--ingreso)}
 </style>
@@ -74,6 +78,16 @@ a{color:var(--ingreso)}
 <section class="card">
   <div class="chart alto"><canvas id="c-evol"></canvas></div>
   <p class="nota" id="nota-prorroga"></p>
+</section>
+
+<h2 class="seccion">Remanente de tesorería: el colchón del Ayuntamiento</h2>
+<p class="intro">Al cerrar cada año, el Ayuntamiento suma el dinero que tiene en caja y lo que le deben, y resta lo que debe pagar. Si descontamos lo que probablemente no se cobrará y el dinero reservado para proyectos concretos, queda el <b>remanente para gastos generales</b>: el ahorro que puede usar libremente (por ejemplo, para financiar modificaciones del presupuesto del año siguiente).</p>
+<section class="grid">
+  <div class="card"><h2>Evolución del remanente</h2><div class="chart"><canvas id="c-rem"></canvas></div></div>
+  <div class="card"><h2 id="rem-titulo">Cómo se calcula</h2>
+    <table class="cuenta"><tbody id="rem-cuenta"></tbody></table>
+    <p class="nota" id="rem-nota"></p>
+  </div>
 </section>
 
 <h2 class="seccion">Todas las partidas</h2>
@@ -147,6 +161,7 @@ function pintar() {
   const top = [...a.programas].sort((x, y) => (y.inicial ?? y.ejecutado ?? 0) - (x.inicial ?? x.ejecutado ?? 0)).slice(0, 12);
   barras("c-prog", top, liq, css("--gasto"));
   barras("c-icap", i.capitulos.filter(x => x.inicial || x.ejecutado), liq, css("--ingreso"), "Ingresado");
+  remanente();
   tabla();
 }
 
@@ -188,6 +203,46 @@ function evolucion() {
   const prorr = A.filter((a, k) => k && a.gastos.total_inicial && Math.abs(a.gastos.total_inicial - (A[k - 1].gastos.total_inicial ?? 0)) < 1).map(a => a.anio);
   document.getElementById("nota-prorroga").textContent = prorr.length
     ? `En ${prorr.join(" y ")} el presupuesto inicial es idéntico al del año anterior: probablemente se prorrogó por no aprobarse uno nuevo.` : "";
+}
+
+function remanente() {
+  const liqs = HAC.anios.filter(a => a.remanente);
+  if (!liqs.length) return;
+  if (!charts.rem) {
+    charts.rem = new Chart(document.getElementById("c-rem"), {
+      data: {
+        labels: liqs.map(a => a.anio),
+        datasets: [
+          {type: "bar", label: "Remanente para gastos generales", data: liqs.map(a => a.remanente.gastos_generales_ajustado), backgroundColor: css("--ingreso"), borderRadius: 4, pointStyle: "rect"},
+          {type: "line", label: "Dinero en caja y bancos", data: liqs.map(a => a.remanente.fondos_liquidos), borderColor: css("--muted"), backgroundColor: css("--muted"), borderDash: [5, 4], tension: .25, pointRadius: 3}
+        ]
+      },
+      options: {
+        maintainAspectRatio: false, interaction: {mode: "index", intersect: false},
+        plugins: {legend: {labels: {color: css("--ink"), boxWidth: 10, usePointStyle: true}}, tooltip: {callbacks: {label: c => `${c.dataset.label}: ${eur(c.raw)}`}}},
+        scales: {
+          x: {ticks: {color: css("--muted")}, grid: {display: false}},
+          y: {beginAtZero: true, ticks: {color: css("--muted"), callback: v => (v / 1e6).toLocaleString("es-ES") + " M€"}, grid: {color: css("--line")}}
+        }
+      }
+    });
+  }
+  const sel = anioSel(), a = sel.remanente ? sel : liqs[liqs.length - 1], r = a.remanente;
+  document.getElementById("rem-titulo").textContent = `Cómo se calcula (cierre de ${a.anio})`;
+  const fila = (signo, txt, v, cls = "") => `<tr class="${cls}"><td>${signo}</td><td>${txt}</td><td class="n">${eur(v)}</td></tr>`;
+  document.getElementById("rem-cuenta").innerHTML =
+    fila("", "Dinero en caja y bancos", r.fondos_liquidos) +
+    fila("+", "Pendiente de cobrar", r.pendiente_cobro) +
+    fila("−", "Pendiente de pagar", r.pendiente_pago) +
+    (r.partidas_pendientes ? fila("±", "Cobros y pagos pendientes de aplicar", r.partidas_pendientes) : "") +
+    fila("=", "Remanente total", r.total, "sub") +
+    fila("−", "Cobros dudosos (probablemente no se cobrarán)", r.dudoso_cobro) +
+    fila("−", "Reservado para proyectos concretos (financiación afectada)", r.financiacion_afectada) +
+    fila("=", "Remanente para gastos generales", r.gastos_generales, "sub") +
+    (r.obligaciones_pendientes_aplicar ? fila("−", "Facturas pendientes de aplicar al presupuesto", r.obligaciones_pendientes_aplicar) + fila("=", "Remanente ajustado", r.gastos_generales_ajustado, "sub fin") : "");
+  const meses = r.gastos_generales_ajustado / (a.gastos.total_ejecutado / 12);
+  document.getElementById("rem-nota").textContent = (sel.remanente ? "" : `${sel.anio} aún no está cerrado; se muestra el último cierre disponible. `)
+    + `Cálculo propio: el remanente ajustado equivale a unos ${meses.toLocaleString("es-ES", {maximumFractionDigits: 1})} meses del gasto real de ese año.`;
 }
 
 fetch("data/hacienda.json").then(r => r.json()).then(d => {

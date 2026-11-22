@@ -99,7 +99,34 @@ def resumir(anio: int, p: dict | None, l: dict | None) -> dict:
             key=lambda x: x["codigo"],
         )
     fila["tiene_presupuesto"], fila["tiene_liquidacion"] = bool(p), bool(l)
+    if l and l["tablas"].get("tb_remanente"):
+        fila["remanente"] = remanente(anio, l["tablas"]["tb_remanente"])
     return fila
+
+
+def remanente(anio: int, filas: list[dict]) -> dict:
+    """Remanente de tesorería al cierre del ejercicio (tb_remanente, códigos cdrmte)."""
+    v = {r["cdrmte"]: float(r["importe"]) for r in filas}
+    g = lambda c: r2(v.get(c, 0.0))  # noqa: E731
+    out = {
+        "fondos_liquidos": g("011"),
+        "pendiente_cobro": g("012"),
+        "pendiente_pago": g("013"),
+        "partidas_pendientes": g("2"),
+        "total": g("01"),
+        "dudoso_cobro": g("02"),
+        "financiacion_afectada": g("03"),
+        "gastos_generales": g("0"),
+        "obligaciones_pendientes_aplicar": r2(v.get("04", 0.0) + v.get("05", 0.0)),
+        "gastos_generales_ajustado": g("1") if "1" in v else g("0"),
+    }
+    # Comprobaciones de la propia estructura del estado de remanente
+    calc_total = out["fondos_liquidos"] + out["pendiente_cobro"] - out["pendiente_pago"] + out["partidas_pendientes"]
+    calc_gg = out["total"] - out["dudoso_cobro"] - out["financiacion_afectada"]
+    for nombre, calc, real in (("total", calc_total, out["total"]), ("gastos generales", calc_gg, out["gastos_generales"])):
+        if abs(calc - real) > 1:
+            print(f"  ⚠ Remanente {anio} {nombre}: calculado {calc:,.2f} vs Hacienda {real:,.2f}")
+    return out
 
 
 def control_pdf(salida: dict) -> None:
